@@ -1,0 +1,149 @@
+apatite 0.3 60 255
+  60 apatite
+  40 phosphor
+
+bauxite 0.4 90 255
+  60 bauxite
+  30 aluminium
+  15 ilmenite
+  3 rutile
+
+beryllium 0.3 40 35
+  50 beryllium
+  30 emerald
+  20 thorium
+
+bornite 0.4 80 50
+  30 bornite
+  30 chalcocite
+  30 enargite
+  10 copper
+
+chalcopyrite 0.4 80 40
+  30 chalcopyrite
+  30 iron
+  30 pyrite
+  10 copper
+
+coal 0.6 70 255
+  25 lignite
+  75 coal
+
+diamond 0.5 25 50
+  60 graphite
+  20 diamond
+  20 coal
+
+galena 0.5 40 60
+  50 galena
+  25 silver
+  25 lead
+
+iron 0.4 80 55
+  30 brown_limonite
+  30 yellow_limonite
+  30 banded_iron
+  10 malachite
+
+lapis 0.5 50 50
+  30 lazurite
+  20 sodalite
+  35 lapis
+  15 calcite
+
+lignitecoal 0.6 70 255
+  75 lignite
+  25 coal
+
+magnetite 0.3 100 255
+  60 magnetite
+  15 iron
+  15 vanadium_magnetite
+  10 gold
+
+manganese 0.3 25 50
+  30 grossular
+  30 spessartine
+  30 pyrolusite
+  10 tantalite
+
+molybdenum 0.5 25 50
+  40 wulfenite
+  40 molybdenite
+  20 powellite
+
+monazite 0.4 30 40
+  60 bastnasite
+  20 monazite
+  20 neodymium
+
+nickel 0.4 65 45
+  30 garnierite
+  30 nickel
+  30 cobaltite
+  10 pentlandite
+
+olivine 0.3 55 50
+  30 bentonite
+  30 magnesite
+  30 olivine
+  10 glauconite
+
+pitchblende 0.5 45 40
+  50 pitchblende
+  40 uraninite
+  10 uranium
+
+platinum 0.6 20 50
+  45 platinum
+  35 palladium
+  20 iridium
+
+quartz 0.4 70 255
+  45 quartzite
+  25 barite
+  30 certus_quartz
+  30 tennanite
+
+redstone 0.4 70 50
+  60 redstone
+  20 ruby
+  20 cinnabar
+  5 chromite
+
+salts 0.7 60 255
+  40 salt
+  35 rock_salt
+  15 lepidolite
+  10 spodumene
+
+sapphire 0.3 60 40
+  30 almandine
+  30 pyrope
+  30 sapphire
+  10 green sapphire
+
+soapstone 0.5 40 40
+  25 soapstone
+  25 talc
+  25 glauconite
+  25 pentlandite
+
+tenorite 0.3 80 30
+  60 tenorite
+  20 copper
+  20 cuprite
+
+tetrahedrite 0.3 70 255
+  60 tetrahedrite
+  20 copper
+  20 stibnite
+
+tin 0.5 95 255
+  75 tin
+  25 cassiterite
+
+tungstate 0.4 25 50
+  60 scheelite
+  20 tungstate
+  20 lithium

@@ -1,0 +1,29 @@
+Raw Materials
+  Blaze Rod
+  Coal
+  Diamond
+  Quartzite
+  Redstone
+  Rubber
+  String
+  Sulfur
+
+Refined Materials
+  Black Dye
+  Glass
+  Paper
+  Wool
+
+Metals
+  Copper
+  Gold
+  Iron
+  Lead
+  Tin
+  Zinc
+
+Refined Metals / Alloys
+  Bronze
+  Red Alloy
+  Steel
+  Wrought Iron
