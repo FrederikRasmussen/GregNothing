@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-06-23T17:26:54.9152329Z",
+  "lastPlayed": "2019-06-24T12:55:48.8866629Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -1066,21 +1066,6 @@
       "queryTimestamp": "2019-06-23T08:22:29.1976414Z",
       "fileCount": 1,
       "fileSize": 647239
-    },
-    {
-      "folderName": "BetterAdvancements-1.12.2-0.1.0.77.jar",
-      "fingerprint": 1663259258,
-      "fileDateHash": 3131670275,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1663259258
-      ],
-      "status": 1,
-      "timestamp": "2019-06-18T15:34:06.4111501Z",
-      "lastWriteTimeUtc": "2019-06-17T19:51:38.5419917Z",
-      "queryTimestamp": "2019-06-23T08:22:29.1981396Z",
-      "fileCount": 1,
-      "fileSize": 62668
     },
     {
       "folderName": "rustic-1.1.0.jar",
@@ -3257,89 +3242,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 272515,
-      "gameInstanceID": "8e64ca7b-3c81-4e68-bd53-9147ac604062",
-      "installedFile": {
-        "id": 2685984,
-        "displayName": "BetterAdvancements-1.12.2-0.1.0.77",
-        "fileName": "BetterAdvancements-1.12.2-0.1.0.77.jar",
-        "fileDate": "2019-03-11T20:53:31.367Z",
-        "fileLength": 62668,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2685/984/BetterAdvancements-1.12.2-0.1.0.77.jar",
-        "isAlternate": false,
-        "alternateFileId": 2685985,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1270984732,
-            "type": 3
-          },
-          {
-            "foldername": "betteradvancements",
-            "fingerprint": 3341295667,
-            "type": 3
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 2077765080,
-            "type": 3
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 3841018458,
-            "type": 3
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3728515777,
-            "type": 3
-          }
-        ],
-        "packageFingerprint": 1663259258,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1530096,
-        "projectId": 272515,
-        "packageFingerprintId": 299966681,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 1770504,
-        "gameVersionId": 4458,
-        "gameId": 432,
-        "FileNameOnDisk": "BetterAdvancements-1.12.2-0.1.0.77.jar"
-      },
-      "dateInstalled": "2019-06-18T15:34:10.2123429Z",
-      "dateUpdated": "2018-06-18T15:34:10.2123429Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 228513,
       "gameInstanceID": "8e64ca7b-3c81-4e68-bd53-9147ac604062",
       "installedFile": {
@@ -3653,7 +3555,7 @@
       "dateInstalled": "2019-06-22T20:10:47.7618756Z",
       "dateUpdated": "2019-06-22T20:10:47.7638733Z",
       "dateLastUpdateAttempted": "2019-06-22T20:10:47.7638733Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3728,7 +3630,7 @@
       "dateInstalled": "2019-06-22T20:09:54.3737101Z",
       "dateUpdated": "2019-06-22T20:09:54.3816845Z",
       "dateLastUpdateAttempted": "2019-06-22T20:09:54.3816845Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -3989,7 +3891,7 @@
       "dateInstalled": "2019-06-22T20:10:48.3583335Z",
       "dateUpdated": "2019-06-22T20:10:48.3613305Z",
       "dateLastUpdateAttempted": "2019-06-22T20:10:48.3613305Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -8048,7 +7950,7 @@
       "dateInstalled": "2019-06-22T19:56:19.9352879Z",
       "dateUpdated": "2019-06-22T19:56:19.951259Z",
       "dateLastUpdateAttempted": "2019-06-22T19:56:19.951259Z",
-      "status": 4,
+      "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
