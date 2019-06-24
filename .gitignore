@@ -24,6 +24,8 @@ usernamecache.json
 config/AppliedEnergistics2/Facades.cfg
 config/BNBGamingCore.cfg
 # This should be configured by the players themselves
+config/acronym/
+config/bbm/
 config/betterfps.json
 config/carryon-scripts/
 config/carryon.cfg
@@ -46,6 +48,11 @@ config/jei/
 config/journeymap_ModInfo.cfg
 config/morpheus.cfg
 config/phosphor.json
+config/surge.cfg
+config/TinkerToolLeveling.cfg
+config/unloader.cfg
+config/vanillafix/
+config/vanillafix.cfg
 
 # .gitignore files with parent mods that should be removed
 config/loadingprofiler.cfg
