@@ -7,10 +7,46 @@
 **/*.jar.meta
 
 # Optional: Generic Modpack Ignores
-**/*.log
-/.mixin.out
-/saves
-/downloads
-/resourcepacks
-.curseclient
+*.log
+.mixin.out/
+crash-reports/
+downloads/
+journeyMap/
+logs/
+mods/
 options.txt
+resourcepacks/
+saves/
+usercache.json
+usernamecache.json
+
+# Config: Specific config files with no intention of change
+config/AppliedEnergistics2/Facades.cfg
+config/BNBGamingCore.cfg
+# This should be configured by the players themselves
+config/betterfps.json
+config/carryon-scripts/
+config/carryon.cfg
+config/chesttransporter.cfg
+config/codechicken/
+config/codechickenlib.cfg
+config/CookingForBlockheadsCompat
+config/ctm.cfg
+config/customlavagenerator.cfg
+config/fastbench.cfg
+config/fastfurnace.cfg
+config/foamfix.cfg
+config/forge.cfg
+config/forgeChunkLOading.cfg
+config/fpsreducer/
+config/InvTweaks.cfg
+config/InvTweaksRules.txt
+config/InvTweaksTree.txt
+config/jei/
+config/journeymap_ModInfo.cfg
+config/morpheus.cfg
+config/phosphor.json
+
+# .gitignore files with parent mods that should be removed
+config/loadingprofiler.cfg
+config/nbttooltip.cfg
