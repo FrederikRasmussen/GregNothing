@@ -516,133 +516,133 @@
   ],
   "minecraft:gravel": [
     {
-      "drop": "exnihilocreatio:item_ore_chalcopyrite:1",
+      "drop": "contenttweaker:chalcopyrite",
       "chance": 0.18,
       "meshLevel": 1
     },
     {
-      "drop": "exnihilocreatio:item_ore_iron:1",
+      "drop": "contenttweaker:iron",
       "chance": 0.18,
       "meshLevel": 1
     },
     {
-      "drop": "exnihilocreatio:item_ore_pyrite:1",
+      "drop": "contenttweaker:pyrite",
       "chance": 0.18,
       "meshLevel": 1
     },
     {
-      "drop": "exnihilocreatio:item_ore_copper:1",
+      "drop": "contenttweaker:copper",
       "chance": 0.06,
       "meshLevel": 1
     },
     {
-      "drop": "exnihilocreatio:item_ore_tenorite:1",
+      "drop": "contenttweaker:tenorite",
       "chance": 0.27,
       "meshLevel": 1
     },
     {
-      "drop": "exnihilocreatio:item_ore_copper:1",
+      "drop": "contenttweaker:copper",
       "chance": 0.09,
       "meshLevel": 1
     },
     {
-      "drop": "exnihilocreatio:item_ore_cuprite:1",
+      "drop": "contenttweaker:cuprite",
       "chance": 0.09,
       "meshLevel": 1
     }
   ],
   "exnihilocreatio:block_granite_crushed": [
     {
-      "drop": "exnihilocreatio:item_ore_bornite:1",
+      "drop": "contenttweaker:bornite",
       "chance": 0.36,
       "meshLevel": 1
     },
     {
-      "drop": "exnihilocreatio:item_ore_chalcocite:1",
+      "drop": "contenttweaker:chalcocite",
       "chance": 0.36,
       "meshLevel": 1
     },
     {
-      "drop": "exnihilocreatio:item_ore_enargite:1",
+      "drop": "contenttweaker:enargite",
       "chance": 0.36,
       "meshLevel": 1
     },
     {
-      "drop": "exnihilocreatio:item_ore_copper:1",
+      "drop": "contenttweaker:copper",
       "chance": 0.08,
       "meshLevel": 1
     }
   ],
   "exnihilocreatio:block_diorite_crushed": [
     {
-      "drop": "exnihilocreatio:item_ore_brownLimonite:1",
+      "drop": "contenttweaker:brown_limonite",
       "chance": 0.36,
       "meshLevel": 1
     },
     {
-      "drop": "exnihilocreatio:item_ore_yellowLimonite:1",
+      "drop": "contenttweaker:yellow_limonite",
       "chance": 0.36,
       "meshLevel": 1
     },
     {
-      "drop": "exnihilocreatio:item_ore_bandedIron:1",
+      "drop": "contenttweaker:banded_iron",
       "chance": 0.36,
       "meshLevel": 1
     },
     {
-      "drop": "exnihilocreatio:item_ore_malachite:1",
+      "drop": "contenttweaker:malachite",
       "chance": 0.08,
       "meshLevel": 1
     }
   ],
   "exnihilocreatio:block_andesite_crushed": [
     {
-      "drop": "exnihilocreatio:item_ore_bauxite:1",
+      "drop": "contenttweaker:bauxite",
       "chance": 0.02112,
       "meshLevel": 1
     },
     {
-      "drop": "exnihilocreatio:item_ore_aluminium:1",
+      "drop": "contenttweaker:aluminium",
       "chance": 0.10752,
       "meshLevel": 1
     },
     {
-      "drop": "exnihilocreatio:item_ore_ilmenite:1",
+      "drop": "contenttweaker:ilmenite",
       "chance": 0.05376,
       "meshLevel": 1
     },
     {
-      "drop": "exnihilocreatio:item_ore_rutile:1",
+      "drop": "contenttweaker:rutile",
       "chance": 0.01152,
       "meshLevel": 1
     },
     {
-      "drop": "exnihilocreatio:item_ore_tin:1",
+      "drop": "contenttweaker:tin",
       "chance": 0.37125,
       "meshLevel": 1
     },
     {
-      "drop": "exnihilocreatio:item_ore_cassiterite:1",
+      "drop": "contenttweaker:cassiterite",
       "chance": 0.12375,
       "meshLevel": 1
     },
     {
-      "drop": "exnihilocreatio:item_ore_magnetite:1",
+      "drop": "contenttweaker:magnetite",
       "chance": 0.189,
       "meshLevel": 1
     },
     {
-      "drop": "exnihilocreatio:item_ore_iron:1",
+      "drop": "contenttweaker:iron",
       "chance": 0.04725,
       "meshLevel": 1
     },
     {
-      "drop": "exnihilocreatio:item_ore_vanadiumMagnetite:1",
+      "drop": "contenttweaker:vanadium_magnetite",
       "chance": 0.04725,
       "meshLevel": 1
     },
     {
-      "drop": "exnihilocreatio:item_ore_gold:1",
+      "drop": "contenttweaker:gold",
       "chance": 0.0315,
       "meshLevel": 1
     }
