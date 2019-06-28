@@ -549,6 +549,111 @@
       "drop": "contenttweaker:cuprite",
       "chance": 0.09,
       "meshLevel": 1
+    },
+    {
+      "drop": "contenttweaker:almandine",
+      "chance": 0.1296,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:pyrope",
+      "chance": 0.1296,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:sapphire",
+      "chance": 0.1296,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:green_sapphire",
+      "chance": 0.0432,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:garnierite",
+      "chance": 0.1404,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:nickel",
+      "chance": 0.1404,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:cobaltite",
+      "chance": 0.1404,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:pentlandite",
+      "chance": 0.0468,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:bastnasite",
+      "chance": 0.139354839,
+      "meshLevel": 4
+    },
+    {
+      "drop": "contenttweaker:monazite",
+      "chance": 0.046451613,
+      "meshLevel": 4
+    },
+    {
+      "drop": "contenttweaker:neodymium",
+      "chance": 0.046451613,
+      "meshLevel": 4
+    },
+    {
+      "drop": "contenttweaker:beryllium",
+      "chance": 0.116129032,
+      "meshLevel": 4
+    },
+    {
+      "drop": "contenttweaker:emerald",
+      "chance": 0.069677419,
+      "meshLevel": 4
+    },
+    {
+      "drop": "contenttweaker:thorium",
+      "chance": 0.046451613,
+      "meshLevel": 4
+    },
+    {
+      "drop": "contenttweaker:soapstone",
+      "chance": 0.096774194,
+      "meshLevel": 4
+    },
+    {
+      "drop": "contenttweaker:talc",
+      "chance": 0.096774194,
+      "meshLevel": 4
+    },
+    {
+      "drop": "contenttweaker:glauconite",
+      "chance": 0.096774194,
+      "meshLevel": 4
+    },
+    {
+      "drop": "contenttweaker:pentlandite",
+      "chance": 0.096774194,
+      "meshLevel": 4
+    },
+    {
+      "drop": "contenttweaker:pitchblende",
+      "chance": 0.217741935,
+      "meshLevel": 4
+    },
+    {
+      "drop": "contenttweaker:uraninite",
+      "chance": 0.174193548,
+      "meshLevel": 4
+    },
+    {
+      "drop": "contenttweaker:uranium",
+      "chance": 0.043548387,
+      "meshLevel": 4
     }
   ],
   "exnihilocreatio:block_granite_crushed": [
@@ -571,7 +676,147 @@
       "drop": "contenttweaker:copper",
       "chance": 0.08,
       "meshLevel": 1
-    }
+    },
+    {
+      "drop": "contenttweaker:redstone",
+      "chance": 0.685714286,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:ruby",
+      "chance": 0.228571429,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:cinnabar",
+      "chance": 0.228571429,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:chromite",
+      "chance": 0.057142857,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:platinum",
+      "chance": 0.135,
+      "meshLevel": 2
+    },
+    {
+      "drop": "contenttweaker:palladium",
+      "chance": 0.105,
+      "meshLevel": 2
+    },
+    {
+      "drop": "contenttweaker:iridium",
+      "chance": 0.06,
+      "meshLevel": 2
+    },
+    {
+      "drop": "contenttweaker:graphite",
+      "chance": 0.1875,
+      "meshLevel": 2
+    },
+    {
+      "drop": "contenttweaker:diamond",
+      "chance": 0.0625,
+      "meshLevel": 2
+    },
+    {
+      "drop": "contenttweaker:coal",
+      "chance": 0.0625,
+      "meshLevel": 2
+    },
+    {
+      "drop": "contenttweaker:grossular",
+      "chance": 0.05625,
+      "meshLevel": 2
+    },
+    {
+      "drop": "contenttweaker:spessartine",
+      "chance": 0.05625,
+      "meshLevel": 2
+    },
+    {
+      "drop": "contenttweaker:pyrolusite",
+      "chance": 0.05625,
+      "meshLevel": 2
+    },
+    {
+      "drop": "contenttweaker:tantalite",
+      "chance": 0.01875,
+      "meshLevel": 2
+    },
+    {
+      "drop": "contenttweaker:wulfenite",
+      "chance": 0.125,
+      "meshLevel": 2
+    },
+    {
+      "drop": "contenttweaker:molybdenite",
+      "chance": 0.125,
+      "meshLevel": 2
+    },
+    {
+      "drop": "contenttweaker:powellite",
+      "chance": 0.0625,
+      "meshLevel": 2
+    },
+    {
+      "drop": "contenttweaker:scheelite",
+      "chance": 0.15,
+      "meshLevel": 2
+    },
+    {
+      "drop": "contenttweaker:tungstate",
+      "chance": 0.05,
+      "meshLevel": 2
+    },
+    {
+      "drop": "contenttweaker:lithium",
+      "chance": 0.05,
+      "meshLevel": 2
+    },
+    {
+      "drop": "contenttweaker:lazurite",
+      "chance": 0.214285714,
+      "meshLevel": 4
+    },
+    {
+      "drop": "contenttweaker:sodalite",
+      "chance": 0.142857143,
+      "meshLevel": 4
+    },
+    {
+      "drop": "contenttweaker:lapis",
+      "chance": 0.25,
+      "meshLevel": 4
+    },
+    {
+      "drop": "contenttweaker:calcite",
+      "chance": 0.107142857,
+      "meshLevel": 4
+    },
+    {
+      "drop": "contenttweaker:bentonite",
+      "chance": 0.141428571,
+      "meshLevel": 4
+    },
+    {
+      "drop": "contenttweaker:magnesite",
+      "chance": 0.141428571,
+      "meshLevel": 4
+    },
+    {
+      "drop": "contenttweaker:olivine",
+      "chance": 0.141428571,
+      "meshLevel": 4
+    },
+    {
+      "drop": "contenttweaker:glauconite",
+      "chance": 0.047142857,
+      "meshLevel": 4
+    }    
   ],
   "exnihilocreatio:block_diorite_crushed": [
     {
@@ -593,7 +838,22 @@
       "drop": "contenttweaker:malachite",
       "chance": 0.08,
       "meshLevel": 1
-    }
+    },
+    {
+      "drop": "contenttweaker:galena",
+      "chance": 0.75,
+      "meshLevel": 4
+    },
+    {
+      "drop": "contenttweaker:silver",
+      "chance": 0.45,
+      "meshLevel": 4
+    },
+    {
+      "drop": "contenttweaker:lead",
+      "chance": 0.45,
+      "meshLevel": 4
+    }    
   ],
   "exnihilocreatio:block_andesite_crushed": [
     {
@@ -645,7 +905,92 @@
       "drop": "contenttweaker:gold",
       "chance": 0.0315,
       "meshLevel": 1
-    }
+    },
+    {
+      "drop": "contenttweaker:apatite",
+      "chance": 0.081,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:phosphor",
+      "chance": 0.054,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:salt",
+      "chance": 0.126,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:rock_salt",
+      "chance": 0.11025,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:lepidolite",
+      "chance": 0.04725,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:spodumene",
+      "chance": 0.0315,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:lignite",
+      "chance": 0.07875,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:coal",
+      "chance": 0.23625,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:lignite",
+      "chance": 0.23625,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:coal",
+      "chance": 0.07875,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:quartzite",
+      "chance": 0.072692308,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:barite",
+      "chance": 0.040384615,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:certus_quartz",
+      "chance": 0.048461538,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:tennantite",
+      "chance": 0.048461538,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:tetrahedrite",
+      "chance": 0.0945,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:copper",
+      "chance": 0.0315,
+      "meshLevel": 3
+    },
+    {
+      "drop": "contenttweaker:stibnite",
+      "chance": 0.0315,
+      "meshLevel": 3
+    }    
   ],
   "minecraft:soul_sand:0": [
     {
