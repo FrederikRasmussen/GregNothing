@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/ore_chunk",
-    "layer1": "contenttweaker:items/ore_chunk_colour"
+    "layer0": "contenttweaker:items/ore_octagonal_gem",
+    "layer1": "contenttweaker:items/ore_octagonal_gem_colour"
   }
 }

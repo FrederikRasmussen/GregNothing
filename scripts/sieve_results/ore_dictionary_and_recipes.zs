@@ -1,4 +1,5 @@
 #modloaded minecraft gregtech
+#priority 1
 
 import mods.gregtech.material.MaterialRegistry;
 import crafttweaker.item.IItemStack;
