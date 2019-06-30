@@ -4,7 +4,7 @@
 import mods.jei.JEI;
 
 print("Removing gravel, netherrack, endstone, sand, blackgranite, redgranite, marble, and basalt ore smelting");
-/*
+
 for item in loadedMods["gregtech"].items {
   for ore in item.ores {
     val name = ore.name;
@@ -42,6 +42,6 @@ for recipe in furnace.all {
     break;
   }
 }
-*/
+
 
 print("Removed extra GregTech smelting recipes");

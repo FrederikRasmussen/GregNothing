@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "contenttweaker:items/ore_grit",
-    "layer1": "contenttweaker:items/ore_grit_colour"
+    "layer0": "contenttweaker:items/ore_grit_sand",
+    "layer1": "contenttweaker:items/ore_grit_sand_colour"
   }
 }
