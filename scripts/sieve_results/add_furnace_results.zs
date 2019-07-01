@@ -74,7 +74,7 @@ furnace.addRecipe(<ore:gemCoal>.firstItem, <contenttweaker:coal>);
 furnace.addRecipe(<ore:gemDiamond>.firstItem, <contenttweaker:diamond>);
 furnace.addRecipe(<ore:gemEmerald>.firstItem, <contenttweaker:emerald>);
 furnace.addRecipe(<ore:gemGreenSapphire>.firstItem, <contenttweaker:green_sapphire>);
-furnace.addRecipe(<ore:gemLapis>.firstItem * 6, <contenttweaker:lapis_lazuli>);
+furnace.addRecipe(<ore:gemLapis>.firstItem * 6, <contenttweaker:lapis>);
 furnace.addRecipe(<ore:gemLazurite>.firstItem * 6, <contenttweaker:lazurite>);
 furnace.addRecipe(<ore:gemLignite>.firstItem, <contenttweaker:lignite>);
 furnace.addRecipe(<ore:gemMonazite>.firstItem * 8, <contenttweaker:monazite>);
