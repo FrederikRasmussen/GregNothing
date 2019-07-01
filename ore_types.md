@@ -8,7 +8,6 @@
 
 • Things that smelt into gemstones (Various?)
 
-
 • Things that smelt into special items (coal)
 
 • Things that smelt into quartz
