@@ -57,3 +57,6 @@ config/vanillafix.cfg
 # .gitignore files with parent mods that should be removed
 config/loadingprofiler.cfg
 config/nbttooltip.cfg
+
+# Microsoft Excel
+~$*.xlsx
