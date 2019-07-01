@@ -6,8 +6,6 @@ import mods.contenttweaker.VanillaFactory;
 import mods.contenttweaker.Color;
 import mods.gregtech.material.MaterialRegistry;
 
-print("Adding GregTech ore chunks");
-
 val smeltableOreChunks as string[] = [
   "tenorite",
   "copper",
@@ -121,5 +119,3 @@ function addChunk(materialName as string) {
 for material in smeltableOreChunks {
   addChunk(material);
 }
-
-print("Added chunks for GregTech ores");
