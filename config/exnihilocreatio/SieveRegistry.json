@@ -244,7 +244,7 @@
   "forestry:bog_earth": [
     {
       "drop": "exnihilocreatio:item_seed_oak:-1",
-      "chance": 0.05,
+      "chance": 0.25,
       "meshLevel": 1
     },
     {
@@ -271,6 +271,68 @@
       "drop": "exnihilocreatio:item_seed_darkoak:-1",
       "chance": 0.25,
       "meshLevel": 1
+    }
+  ],
+  "inspirations:mulch": [
+    {
+      "drop": "minecraft:wheat_seeds",
+      "chance": 0.1667,
+      "meshLevel": 1
+    },
+    {
+      "drop": "minecraft:pumpkin_seeds",
+      "chance": 0.1667,
+      "meshLevel": 1
+    },
+    {
+      "drop": "minecraft:melon_seeds",
+      "chance": 0.1667,
+      "meshLevel": 1
+    },
+    {
+      "drop": "minecraft:beetroot_seeds",
+      "chance": 0.1667,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_material:4",
+      "chance": 0.1667,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_seed_cactus",
+      "chance": 0.1667,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_seed_sugarcane",
+      "chance": 0.1667,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_seed_carrot",
+      "chance": 0.1667,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_seed_potato",
+      "chance": 0.1667,
+      "meshLevel": 1
+    },
+    {
+      "drop": "rustic:wildberry_bush",
+      "chance": 0.5,
+      "meshLevel": 3
+    },
+    {
+      "drop": "rustic:sapling:0",
+      "chance": 0.5,
+      "meshLevel": 3
+    },
+    {
+      "drop": "rustic:sapling:1",
+      "chance": 0.5,
+      "meshLevel": 3
     }
   ],
   "minecraft:gravel": [
@@ -749,6 +811,80 @@
       "drop": "contenttweaker:stibnite",
       "chance": 0.0315,
       "meshLevel": 3
-    }    
+    }
+  ],
+  "ore:sand": [
+    {
+      "comment": "dustKaolinite",
+      "drop": "gregtech:meta_item_1:2293",
+      "chance": 0.125,
+      "meshLevel": 1
+    },
+    {
+      "comment": "dustGypsum",
+      "drop": "gregtech:meta_item_1:2287",
+      "chance": 0.125,
+      "meshLevel": 1
+    },
+    {
+      "comment": "dustPotassiumFeldspar",
+      "drop": "gregtech:meta_item_1:2249",
+      "chance": 0.125,
+      "meshLevel": 1
+    },
+    {
+      "comment": "dustSilicon",
+      "drop": "gregtech:meta_item_1:2061",
+      "chance": 0.125,
+      "meshLevel": 1
+    },
+    {
+      "comment": "dustSiliconDioxide",
+      "drop": "gregtech:meta_item_1:2159",
+      "chance": 0.125,
+      "meshLevel": 1
+    },
+    {
+      "comment": "dustImpureCassiteriteSand",
+      "drop": "gregtech:meta_item_1:3099",
+      "chance": 0.125,
+      "meshLevel": 1
+    },
+    {
+      "comment": "dustBasalticMineralSand",
+      "drop": "gregtech:meta_item_1:2266",
+      "chance": 0.125,
+      "meshLevel": 1
+    },
+    {
+      "comment": "dustGraniticMineralSand",
+      "drop": "gregtech:meta_item_1:2267",
+      "chance": 0.125,
+      "meshLevel": 1
+    },
+    {
+      "comment": "dustGarnetSand",
+      "drop": "gregtech:meta_item_1:2268",
+      "chance": 0.125,
+      "meshLevel": 1
+    },
+    {
+      "comment": "dustQuartzSand",
+      "drop": "gregtech:meta_item_1:2269",
+      "chance": 0.125,
+      "meshLevel": 1
+    },
+    {
+      "comment": "dustGlauconiteSand",
+      "drop": "gregtech:meta_item_1:2276",
+      "chance": 0.125,
+      "meshLevel": 1
+    },
+    {
+      "comment": "dustImpureOilsands",
+      "drop": "gregtech:meta_item_1:2324",
+      "chance": 0.125,
+      "meshLevel": 1
+    }
   ]
 }
