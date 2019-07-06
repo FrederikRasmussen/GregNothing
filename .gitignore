@@ -23,15 +23,24 @@ usernamecache.json
 # Config: Specific config files with no intention of change
 config/AppliedEnergistics2/Facades.cfg
 config/BNBGamingCore.cfg
+config/craftingtweaks.cfg
+config/forestry/apiculture.cfg
+config/forestry/crates.cfg
+config/forestry/lepidopterology.cfg
+
 # This should be configured by the players themselves
 config/acronym/
 config/bbm/
 config/betterfps.json
+config/BlockDrops/
 config/carryon-scripts/
 config/carryon.cfg
 config/chesttransporter.cfg
 config/codechicken/
 config/codechickenlib.cfg
+config/cofh/core/
+config/cofh/thermaldynamics/client.cfg
+config/cofh/thermalfoundation/client.cfg
 config/CookingForBlockheadsCompat
 config/ctm.cfg
 config/customlavagenerator.cfg
@@ -65,3 +74,4 @@ config/nbttooltip.cfg
 
 # VSCode: ZenScript Extension
 scripts/.zsrc
+
