@@ -1,8 +1,3 @@
-// <ore:plateIron>
-// <ore:pipeMediumBronze>
-// <ore:wireCopper>
-// <ore:dustredstone>
-
 recipes.remove(<immersiveengineering:metal_device0:5>, true);
 
 recipes.addShaped(
@@ -10,7 +5,7 @@ recipes.addShaped(
     <immersiveengineering:metal_device0:5>,
     [
       [null, <ore:wireCopper>, null],
-      [<ore:dustredstone>, <ore:rotorTin>, <ore:dustredstone>],
+      [<ore:dustRedstone>, <ore:rotorTin>, <ore:dustRedstone>],
       [<ore:plateIron>, <ore:frameGtIron>, <ore:plateIron>]
     ]
 );
