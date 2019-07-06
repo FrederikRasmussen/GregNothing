@@ -3,6 +3,7 @@
 for porcelainClay in <ore:clayPorcelain>.items {
   recipes.remove(porcelainClay, false);
 }
+recipes.remove(<ceramics:unfired_clay:4>, false);
 
 recipes.addShapeless(
     "crafttweaker_ceramics_unfired_clay_with_porcelain_ingredients",
