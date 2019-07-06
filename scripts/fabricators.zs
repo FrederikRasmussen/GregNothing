@@ -1,7 +1,5 @@
 import crafttweaker.item.IIngredient;
 
-<customblockfabricator:fabricator>.addTooltip("Should not be craftable. Ignore in JEI.");
-
 function addFabricatorToJEI(
     ticks_required as int,    // Ticks per fabrication packet
     colour as int,            // Colour mask of the block (use 0xHEX_VALUE such as 0xDEDE00)
