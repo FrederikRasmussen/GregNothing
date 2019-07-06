@@ -5,15 +5,15 @@ import crafttweaker.oredict.IOreDictEntry;
 print("Initialising custom redstone recipes");
 
 mods.tconstruct.Casting.addTableRecipe(
-  <minecraft:redstone>, <ore:dustStone>, <liquid:blood>, 30, true
+  <minecraft:redstone>, <ore:dustStone>, <liquid:blood>, 10, true
 );
 
 mods.tconstruct.Casting.addTableRecipe(
-  <minecraft:redstone>, <ore:dustStone>, <liquid:wildberryjuice>, 30, true
+  <minecraft:redstone>, <ore:dustStone>, <liquid:wildberryjuice>, 125, true
 );
 
 mods.tconstruct.Casting.addTableRecipe(
-  <minecraft:redstone>, <ore:dustStone>, <liquid:beetroot_soup>, 30, true
+  <minecraft:redstone>, <ore:dustStone>, <liquid:beetroot_soup>, 25, true
 );
 
 print("initialised custom redstone recipes");
