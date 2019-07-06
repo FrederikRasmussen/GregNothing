@@ -60,3 +60,6 @@ config/nbttooltip.cfg
 
 # Microsoft Excel
 ~$*.xlsx
+
+# VSCode: ZenScript Extension
+scripts/.zsrc
