@@ -50,6 +50,8 @@ config/morpheus.cfg
 config/phosphor.json
 config/surge.cfg
 config/TinkerToolLeveling.cfg
+config/topography/documentation/
+config/topography/examples/
 config/unloader.cfg
 config/vanillafix/
 config/vanillafix.cfg
