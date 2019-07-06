@@ -67,7 +67,7 @@ furnace.addRecipe(<ore:dustWulfenite>.firstItem, <contenttweaker:wulfenite>);
 
 /* Gems and Special */
 furnace.addRecipe(<ore:gemAlmandine>.firstItem * 6, <contenttweaker:almandine>);
-furnace.addRecipe(<ore:gemApatite>.firstItem * 5, <contenttweaker:almandine>);
+furnace.addRecipe(<ore:gemApatite>.firstItem * 5, <contenttweaker:apatite>);
 furnace.addRecipe(<ore:gemCertusQuartz>.firstItem * 2, <contenttweaker:certus_quartz>);
 furnace.addRecipe(<ore:gemCinnabar>.firstItem, <contenttweaker:cinnabar>);
 furnace.addRecipe(<ore:gemCoal>.firstItem, <contenttweaker:coal>);
