@@ -1,0 +1,8 @@
+Missing "Fast Leaf Decay"
+Log to plank gives 4 not 2
+Tinkers' when?
+Bonemeal is unobtainable without enemies
+Add "gregtech:meta_item_2:32422" to dyeLightGray
+
+No charcoal?
+- Adjust recipes to favour IE coke oven
