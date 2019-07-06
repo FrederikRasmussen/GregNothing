@@ -1,19 +1,21 @@
 #modloaded gregtech
 
-recipes.addShaped(
+val mortar = <gregtech:meta_tool:12>;
+recipes.addShapeless(
     "crafttweaker_gregtech_wood_pulp",
     <ore:dustWood>.firstItem,
     [
-      [<ore:buttonWood>, null],
-      [<ore:craftingToolMortar>, null]
+      mortar,
+      <ore:buttonWood>
     ]
 );
 
+val hammer = <gregtech:meta_tool:6>;
 recipes.addShaped(
     "crafttweaker_gregtech_wood_plank",
     <ore:plateWood>.firstItem,
     [
-      [null, <ore:craftingToolHardHammer>, null],
+      [null, hammer, null],
       [null, <ore:dustWood>, null],
       [null, <ore:dustWood>, null]
     ]

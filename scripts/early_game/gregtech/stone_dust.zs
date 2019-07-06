@@ -1,10 +1,11 @@
 #modloaded gregtech
 
-recipes.addShaped(
+val mortar = <gregtech:meta_tool:12>;
+recipes.addShapeless(
     "crafttweaker_gregtech_stone_dust",
-    <minecraft:stone_button>,
+    <ore:dustStone>.firstItem,
     [
-      [<ore:buttonWood>, null],
-      [<ore:craftingToolMortar>, null]
+      mortar,
+      <minecraft:stone_button>
     ]
 );
