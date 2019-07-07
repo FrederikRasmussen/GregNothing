@@ -27,6 +27,7 @@ config/craftingtweaks.cfg
 config/forestry/apiculture.cfg
 config/forestry/crates.cfg
 config/forestry/lepidopterology.cfg
+config/laser_drill_ores/
 
 # This should be configured by the players themselves
 config/acronym/
