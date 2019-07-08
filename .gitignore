@@ -54,7 +54,10 @@ config/fpsreducer/
 config/InvTweaks.cfg
 config/InvTweaksRules.txt
 config/InvTweaksTree.txt
-config/jei/
+config/jei/bookmarks.ini
+config/jei/jei.cfg
+config/jei/searchColors.cfg
+conifg/jei/worldSettings.cfg
 config/journeymap_ModInfo.cfg
 config/morpheus.cfg
 config/phosphor.json
