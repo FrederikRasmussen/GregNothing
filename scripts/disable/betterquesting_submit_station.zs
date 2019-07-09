@@ -1,0 +1,1 @@
+recipes.remove(<betterquesting:submit_station>);
