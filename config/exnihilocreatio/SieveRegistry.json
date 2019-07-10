@@ -276,47 +276,52 @@
   "inspirations:mulch": [
     {
       "drop": "minecraft:wheat_seeds",
-      "chance": 0.1667,
+      "chance": 0.15,
       "meshLevel": 1
     },
     {
       "drop": "minecraft:pumpkin_seeds",
-      "chance": 0.1667,
+      "chance": 0.15,
       "meshLevel": 1
     },
     {
       "drop": "minecraft:melon_seeds",
-      "chance": 0.1667,
+      "chance": 0.15,
       "meshLevel": 1
     },
     {
       "drop": "minecraft:beetroot_seeds",
-      "chance": 0.1667,
+      "chance": 0.15,
+      "meshLevel": 1
+    },
+    {
+      "drop": "exnihilocreatio:item_material:3",
+      "chance": 0.15,
       "meshLevel": 1
     },
     {
       "drop": "exnihilocreatio:item_material:4",
-      "chance": 0.1667,
+      "chance": 0.15,
       "meshLevel": 1
     },
     {
       "drop": "exnihilocreatio:item_seed_cactus",
-      "chance": 0.1667,
+      "chance": 0.15,
       "meshLevel": 1
     },
     {
       "drop": "exnihilocreatio:item_seed_sugarcane",
-      "chance": 0.1667,
+      "chance": 0.15,
       "meshLevel": 1
     },
     {
       "drop": "exnihilocreatio:item_seed_carrot",
-      "chance": 0.1667,
+      "chance": 0.15,
       "meshLevel": 1
     },
     {
       "drop": "exnihilocreatio:item_seed_potato",
-      "chance": 0.1667,
+      "chance": 0.15,
       "meshLevel": 1
     },
     {
