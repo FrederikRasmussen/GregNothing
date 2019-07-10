@@ -1,6 +1,9 @@
+#modloaded minecraft gregtech
+import mods.gregtech.material.MaterialRegistry;
+
 import crafttweaker.item.IIngredient;
 
-function addFabricatorToJEI(
+function addFabricator(
     ticks_required as int,    // Ticks per fabrication packet
     colour as int,            // Colour mask of the block (use 0xHEX_VALUE such as 0xDEDE00)
     block_count as int,       // Size of fabrication packet
@@ -28,46 +31,99 @@ function addFabricatorToJEI(
   recipes.addShaped(recipeName, blockItem, inputs);
 }
 
-addFabricatorToJEI(
-  40, 0xDEDE00, 1, "minecraft:cobblestone",
-  "Gold Plated Cobblestone Generator",
-  "gold_cobble_fabricator",
-  [
-    [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
-    [<minecraft:water_bucket>, <minecraft:cobblestone>, <minecraft:lava_bucket>],
-    [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]
-  ]
+function addFabricatorSet(
+  material as string,
+  plate as IIngredient,
+  ticks_required as int,
+  block_count as string
+) {
+  addFabricator(
+    ticks_required, MaterialRegistry.get(material).getColor(), block_count, "minecraft:cobblestone",
+    MaterialRegistry.get(material).localizedName + " Plated Cobblestone Generator",
+    "crafttweaker_customblockfabricator_" + material + "_cobblestone_generator",
+    [
+      [plate, plate, plate],
+      [<minecraft:water_bucket>, <minecraft:cobblestone>, <minecraft:lava_bucket>],
+      [plate, plate, plate]
+    ]
+  );
+  addFabricator(
+    ticks_required, MaterialRegistry.get(material).getColor(), block_count, "minecraft:stone:5",
+    MaterialRegistry.get(material).localizedName + " Andesite Generator",
+    "crafttweaker_customblockfabricator_" + material + "_andesite_generator",
+    [
+      [plate, plate, plate],
+      [<minecraft:water_bucket>, <minecraft:stone:5>, <minecraft:lava_bucket>],
+      [plate, plate, plate]
+    ]
+  );
+  addFabricator(
+    ticks_required, MaterialRegistry.get(material).getColor(), block_count, "minecraft:stone:3",
+    MaterialRegistry.get(material).localizedName + " Diorite Generator",
+    "crafttweaker_customblockfabricator_" + material + "_diorite_generator",
+    [
+      [plate, plate, plate],
+      [<minecraft:water_bucket>, <minecraft:stone:3>, <minecraft:lava_bucket>],
+      [plate, plate, plate]
+    ]
+  );
+  addFabricator(
+    ticks_required, MaterialRegistry.get(material).getColor(), block_count, "minecraft:stone:1",
+    MaterialRegistry.get(material).localizedName + " Granite Generator",
+    "crafttweaker_customblockfabricator_" + material + "_granite_generator",
+    [
+      [plate, plate, plate],
+      [<minecraft:water_bucket>, <minecraft:stone:1>, <minecraft:lava_bucket>],
+      [plate, plate, plate]
+    ]
+  );
+}
+
+addFabricatorSet(
+  "wrought_iron",
+  <ore:plateWroughtIron>,
+  40,
+  1
 );
 
-addFabricatorToJEI(
-  40, 0xDEDE00, 1, "minecraft:stone:5",
-  "Gold Plated Andesite Generator",
-  "gold_andesite_fabricator",
-  [
-    [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
-    [<minecraft:water_bucket>, <minecraft:stone:5>, <minecraft:lava_bucket>],
-    [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]
-  ]
+addFabricatorSet(
+  "bronze",
+  <ore:plateBronze>,
+  40,
+  2
 );
 
-addFabricatorToJEI(
-  40, 0xDEDE00, 1, "minecraft:stone:1",
-  "Gold Plated Granite Generator",
-  "gold_granite_fabricator",
-  [
-    [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
-    [<minecraft:water_bucket>, <minecraft:stone:1>, <minecraft:lava_bucket>],
-    [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]
-  ]
+addFabricatorSet(
+  "steel",
+  <ore:plateSteel>,
+  40,
+  4
 );
 
-addFabricatorToJEI(
-  40, 0xDEDE00, 1, "minecraft:stone:3",
-  "Gold Plated Diorite Generator",
-  "gold_diorite_fabricator",
-  [
-    [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>],
-    [<minecraft:water_bucket>, <minecraft:stone:3>, <minecraft:lava_bucket>],
-    [<ore:ingotGold>, <ore:ingotGold>, <ore:ingotGold>]
-  ]
+addFabricatorSet(
+  "aluminium",
+  <ore:plateAluminium>,
+  40,
+  8
+);
+
+addFabricatorSet(
+  "stainless_steel",
+  <ore:plateStainlessSteel>,
+  40,
+  16
+);
+
+addFabricatorSet(
+  "titanium",
+  <ore:plateTitanium>,
+  40,
+  32
+);
+
+addFabricatorSet(
+  "tungsten_steel",
+  <ore:plateTungstenSteel>,
+  40,
+  64
 );
