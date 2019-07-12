@@ -1,0 +1,17 @@
+mods.jei.JEI.removeAndHide(<tconstruct:slimesling:0>, true);
+mods.jei.JEI.removeAndHide(<tconstruct:slimesling:1>, true);
+mods.jei.JEI.removeAndHide(<tconstruct:slimesling:2>, true);
+mods.jei.JEI.removeAndHide(<tconstruct:slimesling:3>, true);
+mods.jei.JEI.removeAndHide(<tconstruct:slimesling:4>, true);
+mods.jei.JEI.removeAndHide(<tconstruct:piggybackpack>, true);
+mods.jei.JEI.removeAndHide(<tconstruct:throwball:0>, true);
+mods.jei.JEI.removeAndHide(<tconstruct:throwball:1>, true);
+mods.jei.JEI.removeAndHide(<tconstruct:stone_stick>, true);
+mods.jei.JEI.removeAndHide(<tconstruct:stone_torch>, true);
+mods.jei.JEI.removeAndHide(<tconstruct:stone_ladder>, true);
+mods.jei.JEI.removeAndHide(<tconstruct:wood_rail>, true);
+mods.jei.JEI.removeAndHide(<tconstruct:wood_rail_trapdoor>, true);
+mods.jei.JEI.removeAndHide(<tconstruct:spaghetti>, true);
+mods.jei.JEI.removeAndHide(<tconstruct:moms_spaghetti>, true);
+mods.jei.JEI.removeAndHide(<tconstruct:rack:1>, true);
+mods.jei.JEI.hideCategory("tconstruct.dryingrack");
