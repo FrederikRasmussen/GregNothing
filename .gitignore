@@ -22,6 +22,7 @@ usernamecache.json
 
 # Config: Specific config files with no intention of change
 config/AppliedEnergistics2/Facades.cfg
+config/blockcraftery.cfg
 config/BNBGamingCore.cfg
 config/craftingtweaks.cfg
 config/forestry/apiculture.cfg
