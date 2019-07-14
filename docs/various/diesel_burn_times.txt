@@ -1,0 +1,62 @@
+Naphtha
+  256EU per 1mB
+  256.000 per 1000mB
+
+  burnTime = 62
+  powerPerBucket = 256.000
+
+Oil
+  32EU per 2mB
+  16.000 per 1000mB
+
+  burnTime = 4
+  powerPerBucket = 16.384
+
+Sulfuric Light Fuel
+  160EU per 4mB
+  40.000 per 1000mB
+
+  burnTime = 10
+  powerPerBucket = 40.960
+
+Methanol
+  672EU per 8mB
+  84.000 per 1000mB
+
+  burnTime = 21
+  powerPerBucket = 87.148
+
+Ethanol
+  192EU per 1mB
+  192.0000 per 1000mB
+
+  burnTime = 46
+  powerPerBucket ~ 195.047
+
+Bio Diesel
+  256EU per 1mB
+  256.0000 per 1000mB
+
+  burnTime = 62
+  powerPerBucket = 256.000
+
+Light Fuel
+  320EU per 1mB
+  320.000 per 1000mB
+
+  burnTime = 78
+  powerPerBucket = 322.848
+
+Diesel
+  480EU per 1mB
+  480.000 per 1000mB
+
+  burnTime = 125
+  powerPerBucket = 512.000
+
+Nitro-Diesel
+  1440EU per 2mB
+  720.000 per 1000mB
+
+  burnTime = 200
+  powerPerBucket = 819.200
