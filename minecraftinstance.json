@@ -29,7 +29,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2019-07-20T14:52:04.3051076Z",
+  "lastPlayed": "2019-07-25T16:05:01.3559122Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -984,6 +984,21 @@
       "fileSize": 30002
     },
     {
+      "folderName": "Pam's HarvestCraft 1.12.2zd Surprise for Yogcast.jar",
+      "fingerprint": 139040743,
+      "fileDateHash": 2518313167,
+      "sectionID": 8,
+      "individualFingerprints": [
+        139040743
+      ],
+      "status": 1,
+      "timestamp": "2019-07-13T10:24:44.6442436Z",
+      "lastWriteTimeUtc": "2019-06-22T20:09:54.3737101Z",
+      "queryTimestamp": "2019-07-16T09:16:40.2790305Z",
+      "fileCount": 1,
+      "fileSize": 4888911
+    },
+    {
       "folderName": "Journey",
       "fingerprint": 2493736906,
       "fileDateHash": 1611232985,
@@ -1034,21 +1049,6 @@
       "queryTimestamp": "2019-07-16T09:16:40.2740351Z",
       "fileCount": 17,
       "fileSize": 0
-    },
-    {
-      "folderName": "Pam's HarvestCraft 1.12.2zd Surprise for Yogcast.jar",
-      "fingerprint": 139040743,
-      "fileDateHash": 2518313167,
-      "sectionID": 8,
-      "individualFingerprints": [
-        139040743
-      ],
-      "status": 1,
-      "timestamp": "2019-07-13T10:24:44.6442436Z",
-      "lastWriteTimeUtc": "2019-06-22T20:09:54.3737101Z",
-      "queryTimestamp": "2019-07-16T09:16:40.2790305Z",
-      "fileCount": 1,
-      "fileSize": 4888911
     },
     {
       "folderName": "Bookshelf-1.12.2-2.3.585.jar",
@@ -1111,21 +1111,6 @@
       "fileSize": 714254
     },
     {
-      "folderName": "bdlib-1.14.3.12-mc1.12.2.jar",
-      "fingerprint": 3424319008,
-      "fileDateHash": 4058662317,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3424319008
-      ],
-      "status": 1,
-      "timestamp": "2019-07-13T10:24:44.3330516Z",
-      "lastWriteTimeUtc": "2019-06-17T19:51:37.0650512Z",
-      "queryTimestamp": "2019-07-16T09:16:40.2740351Z",
-      "fileCount": 1,
-      "fileSize": 1962731
-    },
-    {
       "folderName": "jehc-1.12.2-1.6.4.jar",
       "fingerprint": 3036705109,
       "fileDateHash": 2858625464,
@@ -1141,19 +1126,19 @@
       "fileSize": 35964
     },
     {
-      "folderName": "theoneprobe-1.12-1.4.28.jar",
-      "fingerprint": 2094495496,
-      "fileDateHash": 4289844604,
+      "folderName": "bdlib-1.14.3.12-mc1.12.2.jar",
+      "fingerprint": 3424319008,
+      "fileDateHash": 4058662317,
       "sectionID": 8,
       "individualFingerprints": [
-        2094495496
+        3424319008
       ],
       "status": 1,
-      "timestamp": "2019-07-13T10:24:44.7451301Z",
-      "lastWriteTimeUtc": "2019-06-17T19:51:35.7395433Z",
-      "queryTimestamp": "2019-07-16T09:16:40.2680413Z",
+      "timestamp": "2019-07-13T10:24:44.3330516Z",
+      "lastWriteTimeUtc": "2019-06-17T19:51:37.0650512Z",
+      "queryTimestamp": "2019-07-16T09:16:40.2740351Z",
       "fileCount": 1,
-      "fileSize": 301893
+      "fileSize": 1962731
     },
     {
       "folderName": "topaddons-1.12.2-1.11.0.jar",
@@ -1171,6 +1156,21 @@
       "fileSize": 244342
     },
     {
+      "folderName": "theoneprobe-1.12-1.4.28.jar",
+      "fingerprint": 2094495496,
+      "fileDateHash": 4289844604,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2094495496
+      ],
+      "status": 1,
+      "timestamp": "2019-07-13T10:24:44.7451301Z",
+      "lastWriteTimeUtc": "2019-06-17T19:51:35.7395433Z",
+      "queryTimestamp": "2019-07-16T09:16:40.2680413Z",
+      "fileCount": 1,
+      "fileSize": 301893
+    },
+    {
       "folderName": "BNBGamingLib-1.12.2-2.17.6.jar",
       "fingerprint": 1245112832,
       "fileDateHash": 365349174,
@@ -1186,21 +1186,6 @@
       "fileSize": 132644
     },
     {
-      "folderName": "questionablyimmersive-1.12.2-0.1.0.jar",
-      "fingerprint": 3284805387,
-      "fileDateHash": 1583089976,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3284805387
-      ],
-      "status": 1,
-      "timestamp": "2019-07-13T10:24:44.693693Z",
-      "lastWriteTimeUtc": "2019-06-17T19:51:36.9210878Z",
-      "queryTimestamp": "2019-07-16T09:16:40.2720375Z",
-      "fileCount": 1,
-      "fileSize": 466577
-    },
-    {
       "folderName": "foamfix-0.10.5-1.12.2.jar",
       "fingerprint": 3180889627,
       "fileDateHash": 1565983496,
@@ -1214,6 +1199,21 @@
       "queryTimestamp": "2019-07-16T09:16:40.2710377Z",
       "fileCount": 1,
       "fileSize": 211210
+    },
+    {
+      "folderName": "questionablyimmersive-1.12.2-0.1.0.jar",
+      "fingerprint": 3284805387,
+      "fileDateHash": 1583089976,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3284805387
+      ],
+      "status": 1,
+      "timestamp": "2019-07-13T10:24:44.693693Z",
+      "lastWriteTimeUtc": "2019-06-17T19:51:36.9210878Z",
+      "queryTimestamp": "2019-07-16T09:16:40.2720375Z",
+      "fileCount": 1,
+      "fileSize": 466577
     },
     {
       "folderName": "Mantle-1.12-1.3.3.55.jar",
@@ -1276,21 +1276,6 @@
       "fileSize": 606068
     },
     {
-      "folderName": "GarbageBins-1.1.1.jar",
-      "fingerprint": 275459354,
-      "fileDateHash": 2017107973,
-      "sectionID": 8,
-      "individualFingerprints": [
-        275459354
-      ],
-      "status": 1,
-      "timestamp": "2019-07-13T10:24:44.4923895Z",
-      "lastWriteTimeUtc": "2019-07-01T21:06:16.9868364Z",
-      "queryTimestamp": "2019-07-16T09:16:40.269041Z",
-      "fileCount": 1,
-      "fileSize": 28109
-    },
-    {
       "folderName": "1.14_default_for_pre.zip",
       "fingerprint": 2113146821,
       "fileDateHash": 973796340,
@@ -1306,19 +1291,19 @@
       "fileSize": 932715
     },
     {
-      "folderName": "JustEnoughEnergistics-1.12.2-1.0.7.jar",
-      "fingerprint": 1431953988,
-      "fileDateHash": 1491528075,
+      "folderName": "GarbageBins-1.1.1.jar",
+      "fingerprint": 275459354,
+      "fileDateHash": 2017107973,
       "sectionID": 8,
       "individualFingerprints": [
-        1431953988
+        275459354
       ],
       "status": 1,
-      "timestamp": "2019-07-13T10:24:44.5832955Z",
-      "lastWriteTimeUtc": "2019-06-22T09:10:04.4099704Z",
-      "queryTimestamp": "2019-07-16T09:16:40.2680413Z",
+      "timestamp": "2019-07-13T10:24:44.4923895Z",
+      "lastWriteTimeUtc": "2019-07-01T21:06:16.9868364Z",
+      "queryTimestamp": "2019-07-16T09:16:40.269041Z",
       "fileCount": 1,
-      "fileSize": 22712
+      "fileSize": 28109
     },
     {
       "folderName": "modtweaker-4.0.17.jar",
@@ -1334,6 +1319,21 @@
       "queryTimestamp": "2019-07-16T09:16:40.2800293Z",
       "fileCount": 1,
       "fileSize": 447874
+    },
+    {
+      "folderName": "JustEnoughEnergistics-1.12.2-1.0.7.jar",
+      "fingerprint": 1431953988,
+      "fileDateHash": 1491528075,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1431953988
+      ],
+      "status": 1,
+      "timestamp": "2019-07-13T10:24:44.5832955Z",
+      "lastWriteTimeUtc": "2019-06-22T09:10:04.4099704Z",
+      "queryTimestamp": "2019-07-16T09:16:40.2680413Z",
+      "fileCount": 1,
+      "fileSize": 22712
     },
     {
       "folderName": "jei_1.12.2-4.15.0.268.jar",
@@ -1486,21 +1486,6 @@
       "fileSize": 71069
     },
     {
-      "folderName": "exnihilocreatio-1.12.2-0.4.jar",
-      "fingerprint": 1764733707,
-      "fileDateHash": 510445615,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1764733707
-      ],
-      "status": 1,
-      "timestamp": "2019-07-13T10:24:44.4289534Z",
-      "lastWriteTimeUtc": "2019-06-17T19:51:38.6698611Z",
-      "queryTimestamp": "2019-07-16T09:16:40.2670423Z",
-      "fileCount": 1,
-      "fileSize": 931257
-    },
-    {
       "folderName": "TinkerToolLeveling-1.12.2-1.1.0.jar",
       "fingerprint": 1563429384,
       "fileDateHash": 4007513633,
@@ -1514,6 +1499,21 @@
       "queryTimestamp": "2019-07-16T09:16:40.269041Z",
       "fileCount": 1,
       "fileSize": 95850
+    },
+    {
+      "folderName": "exnihilocreatio-1.12.2-0.4.jar",
+      "fingerprint": 1764733707,
+      "fileDateHash": 510445615,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1764733707
+      ],
+      "status": 1,
+      "timestamp": "2019-07-13T10:24:44.4289534Z",
+      "lastWriteTimeUtc": "2019-06-17T19:51:38.6698611Z",
+      "queryTimestamp": "2019-07-16T09:16:40.2670423Z",
+      "fileCount": 1,
+      "fileSize": 931257
     },
     {
       "folderName": "CookingForBlockheads_1.12.2-6.4.70.jar",
@@ -1561,21 +1561,6 @@
       "fileSize": 7266
     },
     {
-      "folderName": "jeiintegration_1.12.2-1.5.1.36.jar",
-      "fingerprint": 445926529,
-      "fileDateHash": 1837310857,
-      "sectionID": 8,
-      "individualFingerprints": [
-        445926529
-      ],
-      "status": 1,
-      "timestamp": "2019-07-13T10:24:44.5703093Z",
-      "lastWriteTimeUtc": "2019-06-30T19:30:56.1406363Z",
-      "queryTimestamp": "2019-07-16T09:16:40.2640449Z",
-      "fileCount": 1,
-      "fileSize": 54046
-    },
-    {
       "folderName": "ImmersiveEngineering-0.12-89.jar",
       "fingerprint": 2437036758,
       "fileDateHash": 948609514,
@@ -1589,6 +1574,21 @@
       "queryTimestamp": "2019-07-16T09:16:40.2720375Z",
       "fileCount": 1,
       "fileSize": 6542920
+    },
+    {
+      "folderName": "jeiintegration_1.12.2-1.5.1.36.jar",
+      "fingerprint": 445926529,
+      "fileDateHash": 1837310857,
+      "sectionID": 8,
+      "individualFingerprints": [
+        445926529
+      ],
+      "status": 1,
+      "timestamp": "2019-07-13T10:24:44.5703093Z",
+      "lastWriteTimeUtc": "2019-06-30T19:30:56.1406363Z",
+      "queryTimestamp": "2019-07-16T09:16:40.2640449Z",
+      "fileCount": 1,
+      "fileSize": 54046
     },
     {
       "folderName": "Born In A Barn V1.8-1.12-1.1.jar",
@@ -2481,7 +2481,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 222880,
@@ -2656,7 +2656,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 221214,
@@ -2911,7 +2911,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 69162,
@@ -3381,7 +3381,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 280294,
@@ -3603,7 +3603,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 245211,
@@ -3872,7 +3872,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 59751,
@@ -4251,7 +4251,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 227443,
@@ -5010,6 +5010,91 @@
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
       "isModified": true,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 282623,
+      "gameInstanceID": "548181e5-cbb5-4abd-aa95-7c434e129cd5",
+      "installedFile": {
+        "id": 2727329,
+        "displayName": "tweakersconstruct-1.12.2-1.5.1.jar",
+        "fileName": "tweakersconstruct-1.12.2-1.5.1.jar",
+        "fileDate": "2019-06-20T19:04:58.373Z",
+        "fileLength": 37453,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2727/329/tweakersconstruct-1.12.2-1.5.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 0,
+            "addonId": 74072,
+            "type": 3,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 226910,
+            "type": 2,
+            "fileId": 0
+          },
+          {
+            "id": 0,
+            "addonId": 287683,
+            "type": 2,
+            "fileId": 0
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3005404425,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 99144403,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3230753203,
+            "type": 0
+          },
+          {
+            "foldername": "tweacon_logo.png",
+            "fingerprint": 2082158031,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 1443204025,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "FileNameOnDisk": "tweakersconstruct-1.12.2-1.5.1.jar"
+      },
+      "dateInstalled": "2019-07-23T21:18:50.8343021Z",
+      "dateUpdated": "2019-07-23T21:18:50.9312163Z",
+      "dateLastUpdateAttempted": "2019-07-23T21:18:50.9312163Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -6731,67 +6816,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 271009,
-      "gameInstanceID": "548181e5-cbb5-4abd-aa95-7c434e129cd5",
-      "installedFile": {
-        "id": 2722263,
-        "displayName": "ForgivingVoid_1.12.2-1.0.23.jar",
-        "fileName": "ForgivingVoid_1.12.2-1.0.23.jar",
-        "fileDate": "2019-06-09T09:13:13.117Z",
-        "fileLength": 10522,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2722/263/ForgivingVoid_1.12.2-1.0.23.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1766996148,
-            "type": 0
-          },
-          {
-            "foldername": "net",
-            "fingerprint": 3008556707,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 22015044,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 2513132396,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameId": 0,
-        "FileNameOnDisk": "ForgivingVoid_1.12.2-1.0.23.jar"
-      },
-      "dateInstalled": "2019-07-23T21:08:40.7266339Z",
-      "dateUpdated": "2019-07-23T21:08:40.7286311Z",
-      "dateLastUpdateAttempted": "2019-07-23T21:08:40.7286311Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
-    },
-    {
       "addonID": 250957,
       "gameInstanceID": "548181e5-cbb5-4abd-aa95-7c434e129cd5",
       "installedFile": {
@@ -6877,6 +6901,67 @@
       "dateUpdated": "2018-06-18T15:34:10.2143408Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 271009,
+      "gameInstanceID": "548181e5-cbb5-4abd-aa95-7c434e129cd5",
+      "installedFile": {
+        "id": 2722263,
+        "displayName": "ForgivingVoid_1.12.2-1.0.23.jar",
+        "fileName": "ForgivingVoid_1.12.2-1.0.23.jar",
+        "fileDate": "2019-06-09T09:13:13.117Z",
+        "fileLength": 10522,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2722/263/ForgivingVoid_1.12.2-1.0.23.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1766996148,
+            "type": 0
+          },
+          {
+            "foldername": "net",
+            "fingerprint": 3008556707,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 22015044,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 2513132396,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameId": 0,
+        "FileNameOnDisk": "ForgivingVoid_1.12.2-1.0.23.jar"
+      },
+      "dateInstalled": "2019-07-23T21:08:40.7266339Z",
+      "dateUpdated": "2019-07-23T21:08:40.7286311Z",
+      "dateLastUpdateAttempted": "2019-07-23T21:08:40.7286311Z",
+      "status": 4,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
@@ -7253,74 +7338,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 264353,
-      "gameInstanceID": "548181e5-cbb5-4abd-aa95-7c434e129cd5",
-      "installedFile": {
-        "id": 2508268,
-        "displayName": "stg-1.12.2-1.2.3.jar",
-        "fileName": "stg-1.12.2-1.2.3.jar",
-        "fileDate": "2017-12-10T10:00:24.76Z",
-        "fileLength": 24024,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2508/268/stg-1.12.2-1.2.3.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2464251221,
-            "type": 0
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 4195894647,
-            "type": 0
-          },
-          {
-            "foldername": "logo.png",
-            "fingerprint": 3796077447,
-            "type": 0
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 3348617104,
-            "type": 0
-          }
-        ],
-        "packageFingerprint": 201836877,
-        "gameVersion": [
-          "1.12",
-          "1.12.1",
-          "1.12.2"
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 0,
-        "restrictProjectFileAccess": 0,
-        "projectStatus": 0,
-        "projectId": 0,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameId": 0,
-        "FileNameOnDisk": "stg-1.12.2-1.2.3.jar"
-      },
-      "dateInstalled": "2019-07-23T21:03:46.0510749Z",
-      "dateUpdated": "2019-07-23T21:03:46.0920322Z",
-      "dateLastUpdateAttempted": "2019-07-23T21:03:46.0920322Z",
-      "status": 4,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
-    },
-    {
       "addonID": 280506,
       "gameInstanceID": "548181e5-cbb5-4abd-aa95-7c434e129cd5",
       "installedFile": {
@@ -7452,7 +7469,75 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
+    },
+    {
+      "addonID": 264353,
+      "gameInstanceID": "548181e5-cbb5-4abd-aa95-7c434e129cd5",
+      "installedFile": {
+        "id": 2508268,
+        "displayName": "stg-1.12.2-1.2.3.jar",
+        "fileName": "stg-1.12.2-1.2.3.jar",
+        "fileDate": "2017-12-10T10:00:24.76Z",
+        "fileLength": 24024,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2508/268/stg-1.12.2-1.2.3.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2464251221,
+            "type": 0
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 4195894647,
+            "type": 0
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 3796077447,
+            "type": 0
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3348617104,
+            "type": 0
+          }
+        ],
+        "packageFingerprint": 201836877,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 0,
+        "restrictProjectFileAccess": 0,
+        "projectStatus": 0,
+        "projectId": 0,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameId": 0,
+        "FileNameOnDisk": "stg-1.12.2-1.2.3.jar"
+      },
+      "dateInstalled": "2019-07-23T21:03:46.0510749Z",
+      "dateUpdated": "2019-07-23T21:03:46.0920322Z",
+      "dateLastUpdateAttempted": "2019-07-23T21:03:46.0920322Z",
+      "status": 4,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
     },
     {
       "addonID": 237065,
@@ -7735,7 +7820,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 252676,
@@ -7815,7 +7900,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 288885,
@@ -8276,7 +8361,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 309516,
@@ -8360,7 +8445,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 278882,
@@ -9180,7 +9265,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 233255,
@@ -9819,7 +9904,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 291786,
@@ -10141,7 +10226,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 271740,
@@ -10219,7 +10304,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 257818,
@@ -10292,7 +10377,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 286230,
@@ -10669,79 +10754,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 256717,
-      "gameInstanceID": "548181e5-cbb5-4abd-aa95-7c434e129cd5",
-      "installedFile": {
-        "id": 2666198,
-        "displayName": "Clumps-3.1.2",
-        "fileName": "Clumps-3.1.2.jar",
-        "fileDate": "2019-01-28T22:56:57.45Z",
-        "fileLength": 13792,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2666/198/Clumps-3.1.2.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1241217930,
-            "type": 3
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 1263363311,
-            "type": 3
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 2536839976,
-            "type": 3
-          }
-        ],
-        "packageFingerprint": 1290884162,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1505816,
-        "projectId": 256717,
-        "packageFingerprintId": 289935575,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 1742943,
-        "gameVersionId": 4458,
-        "gameId": 432,
-        "FileNameOnDisk": "Clumps-3.1.2.jar"
-      },
-      "dateInstalled": "2019-06-18T15:34:10.2013541Z",
-      "dateUpdated": "2018-06-18T15:34:10.2013541Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
-    },
-    {
       "addonID": 314645,
       "gameInstanceID": "548181e5-cbb5-4abd-aa95-7c434e129cd5",
       "installedFile": {
@@ -10819,6 +10831,79 @@
       },
       "dateInstalled": "2019-06-18T15:34:10.2003546Z",
       "dateUpdated": "2018-06-18T15:34:10.2003546Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 256717,
+      "gameInstanceID": "548181e5-cbb5-4abd-aa95-7c434e129cd5",
+      "installedFile": {
+        "id": 2666198,
+        "displayName": "Clumps-3.1.2",
+        "fileName": "Clumps-3.1.2.jar",
+        "fileDate": "2019-01-28T22:56:57.45Z",
+        "fileLength": 13792,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2666/198/Clumps-3.1.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1241217930,
+            "type": 3
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1263363311,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2536839976,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 1290884162,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1505816,
+        "projectId": 256717,
+        "packageFingerprintId": 289935575,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1742943,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "FileNameOnDisk": "Clumps-3.1.2.jar"
+      },
+      "dateInstalled": "2019-06-18T15:34:10.2013541Z",
+      "dateUpdated": "2018-06-18T15:34:10.2013541Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -11237,7 +11322,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 238372,
@@ -11303,7 +11388,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 74072,
