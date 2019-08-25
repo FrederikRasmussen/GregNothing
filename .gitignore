@@ -28,7 +28,9 @@ config/craftingtweaks.cfg
 config/forestry/apiculture.cfg
 config/forestry/crates.cfg
 config/forestry/lepidopterology.cfg
+config/jei/worldSettings.cfg
 config/laser_drill_ores/
+config/PressurePipes/readme.txt
 
 # This should be configured by the players themselves
 config/acronym/
@@ -60,6 +62,7 @@ config/jei/jei.cfg
 config/jei/searchColors.cfg
 conifg/jei/worldSettings.cfg
 config/journeymap_ModInfo.cfg
+config/MoreOverlays.cfg
 config/morpheus.cfg
 config/phosphor.json
 config/surge.cfg
