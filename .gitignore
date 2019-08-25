@@ -31,6 +31,7 @@ config/forestry/lepidopterology.cfg
 config/jei/worldSettings.cfg
 config/laser_drill_ores/
 config/PressurePipes/readme.txt
+config/stg.cfg
 
 # This should be configured by the players themselves
 config/acronym/
