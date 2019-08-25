@@ -25,6 +25,7 @@ config/AppliedEnergistics2/Facades.cfg
 config/blockcraftery.cfg
 config/BNBGamingCore.cfg
 config/craftingtweaks.cfg
+config/fastleafdecay.cfg
 config/forestry/apiculture.cfg
 config/forestry/crates.cfg
 config/forestry/lepidopterology.cfg
