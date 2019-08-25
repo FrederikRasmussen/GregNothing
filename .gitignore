@@ -31,6 +31,7 @@ config/forestry/crates.cfg
 config/forestry/lepidopterology.cfg
 config/jei/worldSettings.cfg
 config/laser_drill_ores/
+config/loottweaker.cfg
 config/PressurePipes/readme.txt
 config/stg.cfg
 
@@ -83,6 +84,11 @@ config/nbttooltip.cfg
 ~$*.xlsx
 
 # VSCode: ZenScript Extension
+config/Probe.cfg
 scripts/.zsrc
 
+# Re-Authentication mod
 .ReAuth.cfg
+
+# Loottweaker Table Dumps
+dumps/
