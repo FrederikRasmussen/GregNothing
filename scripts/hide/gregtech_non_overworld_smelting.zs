@@ -14,7 +14,6 @@ for item in loadedMods["gregtech"].items {
     ) {
       JEI.removeAndHide(item);
     }
-    break;
   }
 }
 
