@@ -8,11 +8,16 @@ import mods.gregtech.material.MaterialRegistry;
 
 val smeltableOreChunks as string[] = [
   "tenorite",
+  "bauxite",
+  "aluminium",
+  "ilmenite",
+  "rutile",
   "copper",
   "cuprite",
   "chalcopyrite",
   "iron",
   "pyrite",
+  "chalcocite",
   "bornite",
   "enargite",
   "brown_limonite",

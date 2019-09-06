@@ -4,6 +4,7 @@
 /* Ingots */
 furnace.addRecipe(<ore:ingotIron>.firstItem, <contenttweaker:banded_iron>);
 furnace.addRecipe(<ore:ingotBeryllium>.firstItem, <contenttweaker:beryllium>);
+furnace.addRecipe(<ore:ingotCopper>.firstItem, <contenttweaker:chalcocite>);
 furnace.addRecipe(<ore:ingotCopper>.firstItem, <contenttweaker:bornite>);
 furnace.addRecipe(<ore:ingotIron>.firstItem, <contenttweaker:brown_limonite>);
 furnace.addRecipe(<ore:ingotTin>.firstItem * 2, <contenttweaker:cassiterite>);
@@ -38,6 +39,7 @@ furnace.addRecipe(<ore:ingotIron>.firstItem, <contenttweaker:yellow_limonite>);
 /* Dusts */
 furnace.addRecipe(<ore:dustBarite>.firstItem, <contenttweaker:barite>);
 furnace.addRecipe(<ore:dustBastnasite>.firstItem * 2, <contenttweaker:bastnasite>);
+furnace.addRecipe(<ore:dustBauxite>.firstItem * 3, <contenttweaker:bauxite>);
 furnace.addRecipe(<ore:dustBentonite>.firstItem * 7, <contenttweaker:bentonite>);
 furnace.addRecipe(<ore:dustCalcite>.firstItem, <contenttweaker:calcite>);
 furnace.addRecipe(<ore:dustChromite>.firstItem, <contenttweaker:chromite>);
@@ -45,6 +47,7 @@ furnace.addRecipe(<ore:dustEnargite>.firstItem * 2, <contenttweaker:enargite>);
 furnace.addRecipe(<ore:dustGalena>.firstItem, <contenttweaker:galena>);
 furnace.addRecipe(<ore:dustGlauconite>.firstItem, <contenttweaker:glauconite>);
 furnace.addRecipe(<ore:dustGrossular>.firstItem * 6, <contenttweaker:grossular>);
+furnace.addRecipe(<ore:dustIlmenite>.firstItem * 3, <contenttweaker:ilmenite>);
 furnace.addRecipe(<ore:dustLepidolite>.firstItem * 5, <contenttweaker:lepidolite>);
 furnace.addRecipe(<ore:dustPhosphor>.firstItem * 3, <contenttweaker:phosphor>);
 furnace.addRecipe(<ore:dustPitchblende>.firstItem * 2, <contenttweaker:pitchblende>);
@@ -81,5 +84,6 @@ furnace.addRecipe(<ore:gemMonazite>.firstItem * 8, <contenttweaker:monazite>);
 furnace.addRecipe(<ore:gemOlivine>.firstItem * 2, <contenttweaker:olivine>);
 furnace.addRecipe(<ore:gemQuartzite>.firstItem * 2, <contenttweaker:quartzite>);
 furnace.addRecipe(<ore:gemRuby>.firstItem, <contenttweaker:ruby>);
+furnace.addRecipe(<ore:gemRutile>.firstItem, <contenttweaker:rutile>);
 furnace.addRecipe(<ore:gemSapphire>.firstItem, <contenttweaker:sapphire>);
 furnace.addRecipe(<ore:gemSodalite>.firstItem * 6, <contenttweaker:sodalite>);

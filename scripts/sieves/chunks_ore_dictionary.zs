@@ -8,11 +8,16 @@ print("Adding GregTech ore chunks to ore dictionary");
 
 val smeltableOreChunks as string[] = [
   "tenorite",
+  "bauxite",
+  "aluminium",
+  "ilmenite",
+  "rutile",
   "copper",
   "cuprite",
   "chalcopyrite",
   "iron",
   "pyrite",
+  "chalcocite",
   "bornite",
   "enargite",
   "brown_limonite",
