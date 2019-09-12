@@ -8,4 +8,5 @@ saw.setLocalizedNameSupplier(
     return "Flint Saw";
   }
 );
+saw.maxDamage = 15;
 saw.register();

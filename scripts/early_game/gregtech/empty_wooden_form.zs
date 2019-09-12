@@ -3,6 +3,6 @@ recipes.addShaped(
     <gregtech:meta_item_2:32011>,
     [
       [null, <ore:plankWood>],
-      [<contenttweaker:saw_flint>, null]
+      [<contenttweaker:saw_flint>.anyDamage().transformDamage(), null]
     ]
 );
