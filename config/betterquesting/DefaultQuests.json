@@ -31,7 +31,25 @@
           "desc:8": "The standar vanilla brick! - These are used to build GregTech steam machines, and after baking, the brick can be further processed into Fireclay, a material heat-resistant enough to allow steel production."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:unbaked_clay_brick",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "1:10": {
@@ -61,7 +79,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "Compressed Clay",
-          "desc:8": "Simple compressed clay, with this, you can build coke furnaces, special buildings for turning wood into charcoal, and ordinary coals into more energy-efficient coal cokes. The furnace will also produce an output of Creosote Oil, which can later be used as a form of fuel!"
+          "desc:8": "Simple compressed clay, with this, you can build coke furnaces, special buildings for turning wood into charcoal, and ordinary coals into more energy-efficient coal cokes.\nThe furnace will also produce an output of Creosote Oil, which can later be used as a form of fuel!\n\nTo build the oven, you will need 108 compressed clay."
         }
       },
       "tasks:9": {
@@ -75,7 +93,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "gregtech:meta_item_2",
-              "Count:3": 1,
+              "Count:3": 6,
               "OreDict:8": "",
               "Damage:3": 32013
             }
@@ -2845,7 +2863,7 @@
     "80:10": {
       "questID:3": 80,
       "preRequisites:11": [
-        3
+        132
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2970,11 +2988,29 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Grout",
-          "desc:8": "A combination of sand, gravel, and clay formed into the shape of a brick! This makes for a very heat-resistant brick when baked, that can stay solid next to most early molten metals."
+          "name:8": "Grout / Porcelain",
+          "desc:8": "A combination of sand, gravel, and clay formed into the shape of a brick!\nThis makes for a very heat-resistant brick when baked, that can stay solid next to most early molten metals.\n\nThis quest can also be completed with Porcelain, an equally useful substance!"
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "contenttweaker:unbaked_grout_brick",
+              "Count:3": 6,
+              "OreDict:8": "tconstructUnbakedBrick",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "83:10": {
@@ -3007,7 +3043,25 @@
           "desc:8": ""
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:brick",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "84:10": {
@@ -3036,11 +3090,29 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Seared Bricks",
-          "desc:8": "Your first step toward casting metal tool parts."
+          "name:8": "Heat-Resistant Bricks",
+          "desc:8": "Your first step toward casting metal tool parts.\n\nThis quest is completable with either seared bricks or porcelain bricks."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:materials",
+              "Count:3": 6,
+              "OreDict:8": "tconstructBrick",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "85:10": {
@@ -3070,7 +3142,7 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "Coke Oven Brick",
-          "desc:8": "The basic brick used to build a coke oven."
+          "desc:8": "The basic brick used to build a coke oven.\n\nA single coke oven requires 108 bricks."
         }
       },
       "tasks:9": {
@@ -3083,10 +3155,10 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:stone",
+              "id:8": "gregtech:meta_item_2",
               "Count:3": 1,
               "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:3": 32016
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3124,7 +3196,25 @@
           "desc:8": "This block is the cornerstone for GregTech\u0027s steam machines, along with bronze plates."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:brick_block",
+              "Count:3": 2,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "87:10": {
@@ -3154,10 +3244,28 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "Brick Dust",
-          "desc:8": "A baked brick, reduced to dust by a machine or patience with a mortar. This is a vital component of Fireclay, the base component of Blast Furnaces which allow primitive steel production."
+          "desc:8": "A baked brick, reduced to dust by a machine or patience with a mortar.\nThis is a vital component of Fireclay, the base component of Blast Furnaces which allow primitive steel production.\n\nA single furnace requires 72 brick dust."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 2355
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "88:10": {
@@ -3187,10 +3295,28 @@
           "autoclaim:1": 0,
           "ismain:1": 1,
           "name:8": "Compressed Fireclay",
-          "desc:8": "Compressed Fireclay, ready for baking into bricks and for use in the Blast Furnace!"
+          "desc:8": "Compressed Fireclay, ready for baking into bricks and for use in the Blast Furnace!\n\nA single furnace requires 144 bricks."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_2",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 32014
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "89:10": {
@@ -3487,8 +3613,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Seared Tank",
-          "desc:8": "Build one of various seared tanks to hold lava as a particularly hot fuel for the melter."
+          "name:8": "Lava Tank",
+          "desc:8": "Build one of various seared or porcelain tanks to hold lava as a particularly hot fuel for the melter."
         }
       },
       "tasks:9": {
@@ -3503,7 +3629,7 @@
             "0:10": {
               "id:8": "tconstruct:seared_tank",
               "Count:3": 1,
-              "OreDict:8": "",
+              "OreDict:8": "tconstructTank",
               "Damage:3": 0
             }
           },
@@ -3538,8 +3664,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "Seared Heater",
-          "desc:8": "The seared heater provides limited heat for your melter, but works on conventional fuels. It can melt copper, tin, and gold, meaning you can get started with bronze tools and bronze machinery without the need for lava."
+          "name:8": "Melter Heater",
+          "desc:8": "The seared or porcelain heater provides limited heat for your melter, but works on conventional fuels.\nIt can melt copper, tin, and gold, letting you get started with the basics, without the need for any lava."
         }
       },
       "tasks:9": {
@@ -3554,7 +3680,7 @@
             "0:10": {
               "id:8": "tcomplement:melter",
               "Count:3": 1,
-              "OreDict:8": "",
+              "OreDict:8": "tconstructHeater",
               "Damage:3": 8
             }
           },
@@ -3590,8 +3716,8 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
-          "name:8": "Seared Melter",
-          "desc:8": "A small melter for heating metals beyond their melting point. You can attach Seared Faucets or other liquid manipulators such as pumps directly to this block in order to retrieve the molten metal."
+          "name:8": "Melter",
+          "desc:8": "A small melter for heating metals beyond their melting point.\nYou can attach Faucets or other liquid manipulators such as pumps directly to this block in order to retrieve the molten metal.\n\nNote: You can only have a single liquid inside the melter at once!\nDrain your excess into a tank, or cast it into ingots."
         }
       },
       "tasks:9": {
@@ -3606,7 +3732,7 @@
             "0:10": {
               "id:8": "tcomplement:melter",
               "Count:3": 1,
-              "OreDict:8": "",
+              "OreDict:8": "tconstructMelter",
               "Damage:3": 0
             }
           },
@@ -3689,11 +3815,29 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Wood Plate / Plank",
+          "desc:8": "Compressed wood pulp in the shape of a plate. Required for simple logistics using conveyors and item routers."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 12196
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "99:10": {
@@ -3722,16 +3866,36 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Stone Plate",
+          "desc:8": "Required for advanced redstone gates."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 12328
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "100:10": {
       "questID:3": 100,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        106
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3756,16 +3920,39 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Conveyor",
+          "desc:8": "A one-directional conveyor.\n\nThis block moves items on top of it in a single direction.\nIts direction can be adjusted using an Engineer\u0027s Hammer, and can even go up or down by shift-right clicking with the hammer.\n\nThe conveyor will auto-insert into inventories such as chests if it pushes the item directly into the block."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:conveyor",
+              "Count:3": 1,
+              "tag:10": {
+                "conveyorType:8": "immersiveengineering:conveyor"
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "101:10": {
       "questID:3": 101,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        100
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3790,16 +3977,39 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Dropping Conveyor",
+          "desc:8": "A trap door on the conveyor inserts items straight down into inventories (or other conveyors).\n\nThis can be used, along with filtered inventories, to easily fill a row of Drawer blocks with the right materials from a mixed-item conveyor."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:conveyor",
+              "Count:3": 1,
+              "tag:10": {
+                "conveyorType:8": "immersiveengineering:dropper"
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "102:10": {
       "questID:3": 102,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        100
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3824,16 +4034,39 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Extracting Conveyor",
+          "desc:8": "Pulls items from inventories on the extractor side and pushes them onto a conveyor belt."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:conveyor",
+              "Count:3": 1,
+              "tag:10": {
+                "conveyorType:8": "immersiveengineering:extract"
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "103:10": {
       "questID:3": 103,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        100
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3858,16 +4091,39 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Vertical Conveyor",
+          "desc:8": "A space-efficient conveyor that pulls items straight up."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:conveyor",
+              "Count:3": 1,
+              "tag:10": {
+                "conveyorType:8": "immersiveengineering:vertical"
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "104:10": {
       "questID:3": 104,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        100
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3889,16 +4145,36 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Item Router",
+          "desc:8": "A filtered item routing system!\n\nSends items in one of six directions, based on the filters setup in the router.\n\nItems first check for a whitelisted side, and go there if possible.\nIf there is no inventory, or the inventory is full on the whitelisted side, they will go to a random side without any whitelist, assuming there is an available inventory.\n\nIf there are no available outputs (e.g. if all sides are blocked, or the inventories attached are all full) the item will not enter the item router."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:wooden_device0",
+              "Count:3": 1,
+              "OreDict:8": "",
+              "Damage:3": 3
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "105:10": {
       "questID:3": 105,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        100
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3923,16 +4199,39 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Splitting Conveyor",
+          "desc:8": "Splits incoming item stacks with a roughly 50/50 chance.\n\nIt is recommended to use an Item Router for more specific splitting."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "immersiveengineering:conveyor",
+              "Count:3": 1,
+              "tag:10": {
+                "conveyorType:8": "immersiveengineering:splitter"
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     },
     "106:10": {
       "questID:3": 106,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        98
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -3954,11 +4253,1379 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
-          "name:8": "New Quest",
-          "desc:8": "No Description"
+          "name:8": "Wood Gear",
+          "desc:8": "A simple wooden gear for early logistics. This piece can be automated with the Immersive Engineering Metal Press when you get access to Forge Energy (FE)."
         }
       },
-      "tasks:9": {},
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_2",
+              "Count:3": 2,
+              "OreDict:8": "",
+              "Damage:3": 26196
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "107:10": {
+      "questID:3": 107,
+      "preRequisites:11": [
+        99
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:writable_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Vanilla Gates",
+          "desc:8": "These are the gates available in standard Minecraft, without any mods. In this pack, however, they have been replaced with the versions from the Simple Logic Gates mod, which allows you to place the gates on walls and ceilings!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "108:10": {
+      "questID:3": 108,
+      "preRequisites:11": [
+        99
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:writable_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Formal Logic",
+          "desc:8": "Gates for logical operations. Descriptions of each type available on the individual quests, for those who are not familiar with the naming!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "109:10": {
+      "questID:3": 109,
+      "preRequisites:11": [
+        107
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "charset:logic_gate",
+            "Count:3": 1,
+            "tag:10": {
+              "logic:8": "simplelogic:repeater",
+              "li:1": 0
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Repeater",
+          "desc:8": "The repeater is a simple redstone gate that pushes the redstone signal forward and restores it to maximum strength.\nRight clicking adjusts the delay before the redstone signal is pushed forward."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "charset:logic_gate",
+              "Count:3": 1,
+              "tag:10": {
+                "logic:8": "simplelogic:repeater",
+                "li:1": 0
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "110:10": {
+      "questID:3": 110,
+      "preRequisites:11": [
+        107
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "charset:logic_gate",
+            "Count:3": 1,
+            "tag:10": {
+              "logic:8": "simplelogic:comparator",
+              "li:1": 0
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Comparator",
+          "desc:8": "The comparator is a complex gate that lets you read redstone values from containers.\n\nPlacing it with the arrow pointing away from a chest or fluid tank makes it output a redstone signal, with the strength depending on how full the container is."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "charset:logic_gate",
+              "Count:3": 1,
+              "tag:10": {
+                "logic:8": "simplelogic:comparator",
+                "li:1": 0
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "111:10": {
+      "questID:3": 111,
+      "preRequisites:11": [
+        108
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "charset:logic_gate",
+            "Count:3": 1,
+            "tag:10": {
+              "logic:8": "simplelogic:nand",
+              "li:1": 1
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "AND Gate",
+          "desc:8": "The humble AND gate takes three inputs and outputs a signal only if all three inputs are on.\n\nIf you just need two inputs, simply connect two sides of the gate with a bit of redstone!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "charset:logic_gate",
+              "Count:3": 1,
+              "tag:10": {
+                "logic:8": "simplelogic:nand",
+                "li:1": 1
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "112:10": {
+      "questID:3": 112,
+      "preRequisites:11": [
+        108
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "charset:logic_gate",
+            "Count:3": 1,
+            "tag:10": {
+              "logic:8": "simplelogic:nor",
+              "li:1": 1
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "OR Gate",
+          "desc:8": "The simple OR gate outputs if any of its three inputs are on."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "charset:logic_gate",
+              "Count:3": 1,
+              "tag:10": {
+                "logic:8": "simplelogic:nor",
+                "li:1": 1
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "113:10": {
+      "questID:3": 113,
+      "preRequisites:11": [
+        108
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "charset:logic_gate",
+            "Count:3": 1,
+            "tag:10": {
+              "logic:8": "simplelogic:nand",
+              "li:1": 0
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "NAND Gate",
+          "desc:8": "The humble AND gate, with a negation twist! - The output is always on, unless all three inputs are on.\n\nIf you just need two inputs, you can connect two of the sides with a bit of redstone!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "charset:logic_gate",
+              "Count:3": 1,
+              "tag:10": {
+                "logic:8": "simplelogic:nand",
+                "li:1": 0
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "114:10": {
+      "questID:3": 114,
+      "preRequisites:11": [
+        108
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "charset:logic_gate",
+            "Count:3": 1,
+            "tag:10": {
+              "logic:8": "simplelogic:nor",
+              "li:1": 0
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "NOR Gate",
+          "desc:8": "Simple OR gate with a negation. Output is on, unless any of the three inputs are on."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "charset:logic_gate",
+              "Count:3": 1,
+              "tag:10": {
+                "logic:8": "simplelogic:nor",
+                "li:1": 0
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "115:10": {
+      "questID:3": 115,
+      "preRequisites:11": [
+        108
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "charset:logic_gate",
+            "Count:3": 1,
+            "tag:10": {
+              "logic:8": "simplelogic:xor",
+              "li:1": 0
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "XOR Gate",
+          "desc:8": "The eXclusive OR gate sends an output if and only if a single input is on.\nThis means there will be no output if both inputs are on.\n\nOne great feature about this gate is that any change to any input will always invert the output.\nThis means you could have two levers, each hooked up to one input of the gate, to operate your system, and flipping either of them will always cause a change in the redstone signal.\n\nfalse XOR false \u003d false\nfalse XOR true \u003d true\ntrue XOR false \u003d true\ntrue XOR true \u003d false"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "charset:logic_gate",
+              "Count:3": 1,
+              "tag:10": {
+                "logic:8": "simplelogic:xor",
+                "li:1": 0
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "116:10": {
+      "questID:3": 116,
+      "preRequisites:11": [
+        108
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "charset:logic_gate",
+            "Count:3": 1,
+            "tag:10": {
+              "logic:8": "simplelogic:xor",
+              "li:1": 1
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "XNOR Gate",
+          "desc:8": "The eXclusive OR gate with a negation.\nIt will output a signal by unless only a single input is on. If both inputs are on, then the output is also on.\n\nOne great feature about this gate is that any change to any input will always invert the output.\nThis means you could have two levers, each hooked up to one input of the gate, to operate your system, and flipping either of them will always cause a change in the redstone signal.\n\nfalse XNOR false \u003d true\nfalse XNOR true \u003d false\ntrue XNOR false \u003d false\ntrue XNOR true \u003d true"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "charset:logic_gate",
+              "Count:3": 1,
+              "tag:10": {
+                "logic:8": "simplelogic:xor",
+                "li:1": 1
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "117:10": {
+      "questID:3": 117,
+      "preRequisites:11": [
+        99
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:writable_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Buffers",
+          "desc:8": "Buffers have a small delay, before spreading your redstone signal in three directions. This allows you to create compact setups with a \u0027pulse\u0027 of redstone going through it."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "118:10": {
+      "questID:3": 118,
+      "preRequisites:11": [
+        117
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "charset:logic_gate",
+            "Count:3": 1,
+            "tag:10": {
+              "logic:8": "simplelogic:buffer",
+              "li:1": 1
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Buffer Gate",
+          "desc:8": "Default buffer - simply propagates the signal from the input after a short delay."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "charset:logic_gate",
+              "Count:3": 1,
+              "tag:10": {
+                "logic:8": "simplelogic:buffer",
+                "li:1": 1
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "119:10": {
+      "questID:3": 119,
+      "preRequisites:11": [
+        117
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "charset:logic_gate",
+            "Count:3": 1,
+            "tag:10": {
+              "logic:8": "simplelogic:buffer",
+              "li:1": 0
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Inverted Buffer Gate",
+          "desc:8": "Continues the redstone signal after a short delay, and inverts it (turns off redstone that\u0027s already on, and vice versa)."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "charset:logic_gate",
+              "Count:3": 1,
+              "tag:10": {
+                "logic:8": "simplelogic:buffer",
+                "li:1": 0
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "120:10": {
+      "questID:3": 120,
+      "preRequisites:11": [
+        99
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:writable_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Advanced Gates",
+          "desc:8": "Gates with more advanced usage and logic!\nThis is where we have our first gate with some built-in memory, so you can store a pulse from your system (great for button-operated doors!) and turn it into a steady signal."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "121:10": {
+      "questID:3": 121,
+      "preRequisites:11": [
+        120
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "charset:logic_gate",
+            "Count:3": 1,
+            "tag:10": {
+              "logic:8": "simplelogic:multiplexer",
+              "li:1": 0
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Multiplexer",
+          "desc:8": "The multiplexer has a single output, one input on each side, and a selector on the back.\nWhen the selector input is off, the right-hand input is output, when the selector is on, the left-hand input is used."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "charset:logic_gate",
+              "Count:3": 1,
+              "tag:10": {
+                "logic:8": "simplelogic:multiplexer",
+                "li:1": 0
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "122:10": {
+      "questID:3": 122,
+      "preRequisites:11": [
+        120
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "charset:logic_gate",
+            "Count:3": 1,
+            "tag:10": {
+              "logic:8": "simplelogic:rs_latch",
+              "li:1": 0
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Set-Reset Latch",
+          "desc:8": "The Set-Reset Latch lets you store a redstone signal.\n\nIt has two inputs, one on either side, and two primary outputs, front and back.\n\nWhenever an input that was off, is turned on, the latch will keep that side on, acting as an active output on the side.\n\nAdditionally, the latch will output a signal to its front or back, when the right or left side of the latch is on.\n\nTurning both left and right on at the same time causes the latch to switch which side it outputs on."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "charset:logic_gate",
+              "Count:3": 1,
+              "tag:10": {
+                "logic:8": "simplelogic:rs_latch",
+                "li:1": 0
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "123:10": {
+      "questID:3": 123,
+      "preRequisites:11": [
+        120
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "charset:logic_gate",
+            "Count:3": 1,
+            "tag:10": {
+              "logic:8": "simplelogic:pulse_former",
+              "li:1": 0
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Pulse Former",
+          "desc:8": "The pulse former has one input and one output.\nWhen the input is on, it makes a quick pulse on the output.\n\nThis pulse only happens once, regardless of how long the input is on for\n- to make another pulse, the input must turn off, and then back on."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "charset:logic_gate",
+              "Count:3": 1,
+              "tag:10": {
+                "logic:8": "simplelogic:pulse_former",
+                "li:1": 0
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "124:10": {
+      "questID:3": 124,
+      "preRequisites:11": [
+        120
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "charset:logic_gate",
+            "Count:3": 1,
+            "tag:10": {
+              "logic:8": "simplelogic:timer",
+              "li:1": 0
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Timer",
+          "desc:8": "One of the most useful redstone gates.\n\nThis simple device generates a redstone pulse on an interval, by default every 1 second.\nYou can adjust the delay by shift-right clicking the gate."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "charset:logic_gate",
+              "Count:3": 1,
+              "tag:10": {
+                "logic:8": "simplelogic:timer",
+                "li:1": 0
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "125:10": {
+      "questID:3": 125,
+      "preRequisites:11": [
+        120
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "charset:logic_gate",
+            "Count:3": 1,
+            "tag:10": {
+              "logic:8": "simplelogic:randomizer",
+              "li:1": 0
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Randomizer",
+          "desc:8": "Whenever the back input of the randomiser pulses on, the three outputs are randomly turned on or off.\n\nThe outputs remain on/off until they are turned off/on randomly by a new input signal."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "charset:logic_gate",
+              "Count:3": 1,
+              "tag:10": {
+                "logic:8": "simplelogic:randomizer",
+                "li:1": 0
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "126:10": {
+      "questID:3": 126,
+      "preRequisites:11": [
+        120
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "charset:logic_gate",
+            "Count:3": 1,
+            "tag:10": {
+              "logic:8": "simplelogic:synchronizer",
+              "li:1": 0
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Synchronizer",
+          "desc:8": "The synchroniser outputs a single short pulse, whenever both its side inputs have been on at least once.\n\nTurning the back input on resets its memory, and requires a new input from both side inputs before it pulses the output again."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "charset:logic_gate",
+              "Count:3": 1,
+              "tag:10": {
+                "logic:8": "simplelogic:synchronizer",
+                "li:1": 0
+              },
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "127:10": {
+      "questID:3": 127,
+      "preRequisites:11": [
+        99
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:writable_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Redstone Cables",
+          "desc:8": "Work in progress: Check back in a later version!\n\nWill include details on redstone cables, colours, and covered cables."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "128:10": {
+      "questID:3": 128,
+      "preRequisites:11": [
+        99
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:writable_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Redstone Devices",
+          "desc:8": "Work in progress: Check back in a later version!\n\nWill include details on: The dropper, observer, dispenser, and other \"block\" style redstone devices."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "129:10": {
+      "questID:3": 129,
+      "preRequisites:11": [
+        99
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:writable_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "Bundled Redstone Cables",
+          "desc:8": "Work in progress: Check back in a later version!\n\nWill include details on bundled cables, dealing with multiple colours of cabling, and the bundled gates."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "130:10": {
+      "questID:3": 130,
+      "preRequisites:11": [
+        82
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:writable_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "name:8": "The Smeltery",
+          "desc:8": "For those of you familiar with Tinkers\u0027 Construct, you may instinctively want to make a smeltery.\n\nUnfortunately, the smeltery is disabled in this pack, and you\u0027ll have to use the melter for your metal melting, tool casting needs.\n\nDon\u0027t worry, though, most metals will be worked with in various machines from GregTech, and aren\u0027t meltable directly in the melter anyway."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "131:10": {
+      "questID:3": 131,
+      "preRequisites:11": [
+        96
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tcomplement:alloy_tank",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "OR",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "name:8": "Alloy Tank",
+          "desc:8": "A small tank for combining liquids into alloys.\nAutomatically drains tanks (including melters!) that are directly touching the alloy tank.\n\nRequires a heat source (either a melter or a tank with lava) underneath it to function."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tcomplement:alloy_tank",
+              "Count:3": 1,
+              "OreDict:8": "tconstructAlloyTank",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "132:10": {
+      "questID:3": 132,
+      "preRequisites:11": [
+        3
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:flint",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 1,
+          "name:8": "Flint",
+          "desc:8": "Acquire flint by breaking gravel.\n\nLater on, you can get flint by breaking it in a mortar."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:flint",
+              "Count:3": 2,
+              "OreDict:8": "",
+              "Damage:3": 0
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
       "rewards:9": {}
     }
   },
@@ -3988,37 +5655,44 @@
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 60,
+          "x:3": 96,
           "y:3": -12,
           "id:3": 77,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 96,
+          "x:3": 132,
           "y:3": 42,
           "id:3": 78,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 96,
+          "x:3": 132,
           "y:3": 6,
           "id:3": 79,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 24,
+          "x:3": 60,
           "y:3": 24,
           "id:3": 80,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 60,
+          "x:3": 96,
           "y:3": 24,
           "id:3": 81,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": 24,
+          "id:3": 132,
           "sizeY:3": 24
         }
       },
@@ -4028,8 +5702,8 @@
           "visibility:8": "NORMAL",
           "name:8": "Getting Started",
           "icon:10": {
-            "id:8": "minecraft:book",
-            "Count:3": 1,
+            "id:8": "minecraft:air",
+            "Count:3": 0,
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -4785,65 +6459,240 @@
         },
         "19:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": -60,
+          "x:3": -60,
+          "y:3": -12,
           "id:3": 98,
           "sizeY:3": 24
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": 12,
+          "x:3": -12,
           "y:3": -60,
           "id:3": 99,
           "sizeY:3": 24
         },
         "21:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": -108,
+          "x:3": -156,
+          "y:3": -12,
           "id:3": 100,
           "sizeY:3": 24
         },
         "22:10": {
           "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": -156,
+          "x:3": -240,
+          "y:3": 24,
           "id:3": 101,
           "sizeY:3": 24
         },
         "23:10": {
           "sizeX:3": 24,
-          "x:3": -108,
-          "y:3": -156,
+          "x:3": -204,
+          "y:3": 24,
           "id:3": 102,
           "sizeY:3": 24
         },
         "24:10": {
           "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": -156,
+          "x:3": -240,
+          "y:3": -48,
           "id:3": 103,
           "sizeY:3": 24
         },
         "25:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": -108,
+          "x:3": -264,
+          "y:3": -12,
           "id:3": 104,
           "sizeY:3": 24
         },
         "26:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": -156,
+          "x:3": -204,
+          "y:3": -48,
           "id:3": 105,
           "sizeY:3": 24
         },
         "27:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": -60,
+          "x:3": -108,
+          "y:3": -12,
           "id:3": 106,
+          "sizeY:3": 24
+        },
+        "28:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": -120,
+          "id:3": 107,
+          "sizeY:3": 24
+        },
+        "29:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -108,
+          "id:3": 108,
+          "sizeY:3": 24
+        },
+        "30:10": {
+          "sizeX:3": 24,
+          "x:3": -120,
+          "y:3": -132,
+          "id:3": 109,
+          "sizeY:3": 24
+        },
+        "31:10": {
+          "sizeX:3": 24,
+          "x:3": -96,
+          "y:3": -156,
+          "id:3": 110,
+          "sizeY:3": 24
+        },
+        "32:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": -156,
+          "id:3": 111,
+          "sizeY:3": 24
+        },
+        "33:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": -228,
+          "id:3": 112,
+          "sizeY:3": 24
+        },
+        "34:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": -192,
+          "id:3": 113,
+          "sizeY:3": 24
+        },
+        "35:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -228,
+          "id:3": 114,
+          "sizeY:3": 24
+        },
+        "36:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": -192,
+          "id:3": 115,
+          "sizeY:3": 24
+        },
+        "37:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": -156,
+          "id:3": 116,
+          "sizeY:3": 24
+        },
+        "38:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": -120,
+          "id:3": 117,
+          "sizeY:3": 24
+        },
+        "39:10": {
+          "sizeX:3": 24,
+          "x:3": 72,
+          "y:3": -156,
+          "id:3": 118,
+          "sizeY:3": 24
+        },
+        "40:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": -132,
+          "id:3": 119,
+          "sizeY:3": 24
+        },
+        "41:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": -60,
+          "id:3": 120,
+          "sizeY:3": 24
+        },
+        "42:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": -96,
+          "id:3": 121,
+          "sizeY:3": 24
+        },
+        "43:10": {
+          "sizeX:3": 24,
+          "x:3": 132,
+          "y:3": -96,
+          "id:3": 122,
+          "sizeY:3": 24
+        },
+        "44:10": {
+          "sizeX:3": 24,
+          "x:3": 168,
+          "y:3": -84,
+          "id:3": 123,
+          "sizeY:3": 24
+        },
+        "45:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": -24,
+          "id:3": 124,
+          "sizeY:3": 24
+        },
+        "46:10": {
+          "sizeX:3": 24,
+          "x:3": 132,
+          "y:3": -24,
+          "id:3": 125,
+          "sizeY:3": 24
+        },
+        "47:10": {
+          "sizeX:3": 24,
+          "x:3": 168,
+          "y:3": -36,
+          "id:3": 126,
+          "sizeY:3": 24
+        },
+        "48:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -60,
+          "id:3": 127,
+          "sizeY:3": 24
+        },
+        "49:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": -84,
+          "id:3": 128,
+          "sizeY:3": 24
+        },
+        "50:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": -36,
+          "id:3": 129,
+          "sizeY:3": 24
+        },
+        "51:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": 60,
+          "id:3": 130,
+          "sizeY:3": 24
+        },
+        "52:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": 228,
+          "id:3": 131,
           "sizeY:3": 24
         }
       },
@@ -4864,6 +6713,34 @@
         }
       },
       "order:3": 5
+    },
+    "6:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -12,
+          "id:3": 132,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 5,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "• Materials •",
+          "icon:10": {
+            "id:8": "minecraft:iron_ingot",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "\nMaterials as you unlock them! Starting from flint, moving through a heck of a lot of metals, rubbers, and plastics!\nMost of these are used for tools, but some can be used for new machines, fluid tanks, item containers, and more!"
+        }
+      },
+      "order:3": 6
     }
   },
   "questSettings:10": {
