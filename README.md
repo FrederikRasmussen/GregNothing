@@ -4,7 +4,7 @@ _A zero ore generation GregTech based modpack for Minecraft 1.12.2!_
 
 ## About
 
-This pack is all about automation and building in a vanill world, with no set end-goal.
+This pack is all about automation and building in a vanilla world, with no set end-goal.
 
 In this pack you will go through the various stages of GregTech's progression
 system, with other tech mods such as Forestry, Immersive Engineering, Industrial
