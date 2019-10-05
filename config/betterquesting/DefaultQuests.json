@@ -27,6 +27,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Clay Bricks",
           "desc:8": "The standar vanilla brick! - These are used to build GregTech steam machines, and after baking, the brick can be further processed into Fireclay, a material heat-resistant enough to allow steel production."
         }
@@ -43,8 +44,8 @@
             "0:10": {
               "id:8": "contenttweaker:unbaked_clay_brick",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -78,6 +79,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Compressed Clay",
           "desc:8": "Simple compressed clay, with this, you can build coke furnaces, special buildings for turning wood into charcoal, and ordinary coals into more energy-efficient coal cokes.\nThe furnace will also produce an output of Creosote Oil, which can later be used as a form of fuel!\n\nTo build the oven, you will need 108 compressed clay."
         }
@@ -94,8 +96,8 @@
             "0:10": {
               "id:8": "gregtech:meta_item_2",
               "Count:3": 6,
-              "OreDict:8": "",
-              "Damage:3": 32013
+              "Damage:2": 32013,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -127,6 +129,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Getting Wood",
           "desc:8": "Just punch some trees!"
         }
@@ -143,8 +146,8 @@
             "0:10": {
               "id:8": "minecraft:log",
               "Count:3": 1,
-              "OreDict:8": "logWood",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": "logWood"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -178,6 +181,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Workbench",
           "desc:8": ""
         }
@@ -194,8 +198,8 @@
             "0:10": {
               "id:8": "minecraft:crafting_table",
               "Count:3": 1,
-              "OreDict:8": "workbench",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": "workbench"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -229,6 +233,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Advanced Materials through Sieving",
           "desc:8": ""
         }
@@ -245,8 +250,8 @@
             "0:10": {
               "id:8": "exnihilocreatio:block_sieve",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -257,7 +262,8 @@
     "5:10": {
       "questID:3": 5,
       "preRequisites:11": [
-        4
+        4,
+        139
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -279,7 +285,8 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Steel Mesh",
           "desc:8": ""
         }
@@ -296,8 +303,8 @@
             "0:10": {
               "id:8": "exnihilocreatio:item_mesh",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 3
+              "Damage:2": 3,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -331,6 +338,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Stainless Steel Mesh",
           "desc:8": ""
         }
@@ -347,8 +355,8 @@
             "0:10": {
               "id:8": "exnihilocreatio:item_mesh",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 2
+              "Damage:2": 2,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -382,6 +390,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "String Mesh",
           "desc:8": ""
         }
@@ -398,8 +407,8 @@
             "0:10": {
               "id:8": "exnihilocreatio:item_mesh",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 1,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -433,6 +442,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Aluminium Mesh",
           "desc:8": ""
         }
@@ -449,8 +459,8 @@
             "0:10": {
               "id:8": "exnihilocreatio:item_mesh",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 4
+              "Damage:2": 4,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -484,6 +494,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Chalcopyrite",
           "desc:8": ""
         }
@@ -517,6 +528,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Andesite (Tin, Gold)",
           "desc:8": "Only source of Tin, Gold, and Gemstones at the String tier."
         }
@@ -550,6 +562,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Diorite (Iron)",
           "desc:8": "Highest Stone to Iron ratio at String level. Very small Copper by-product."
         }
@@ -583,8 +596,9 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Granite (Copper)",
-          "desc:8": "Highest stone to Copper ratio at String level. The Enargite dust cannot be processed until you reach MV with GregTech Machines."
+          "desc:8": "Highest stone to Copper ratio at String level.\nThe Enargite dust cannot be processed until you reach MV with GregTech Machines."
         }
       },
       "tasks:9": {},
@@ -616,6 +630,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Gravel (Copper, Iron)",
           "desc:8": "Roughly a 2:1 ratio of Copper to Iron."
         }
@@ -649,6 +664,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Pyrite",
           "desc:8": ""
         }
@@ -682,6 +698,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Copper",
           "desc:8": ""
         }
@@ -715,6 +732,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Iron",
           "desc:8": ""
         }
@@ -748,6 +766,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Cuprite",
           "desc:8": ""
         }
@@ -781,6 +800,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Tenorite",
           "desc:8": ""
         }
@@ -814,6 +834,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Copper",
           "desc:8": ""
         }
@@ -847,6 +868,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Bornite",
           "desc:8": ""
         }
@@ -880,6 +902,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Enargite",
           "desc:8": ""
         }
@@ -913,6 +936,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Chalcocite",
           "desc:8": ""
         }
@@ -946,6 +970,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Brown Limonite",
           "desc:8": ""
         }
@@ -979,6 +1004,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Yellow Limonite",
           "desc:8": ""
         }
@@ -1012,6 +1038,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Malachite",
           "desc:8": ""
         }
@@ -1045,6 +1072,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Banded Iron",
           "desc:8": ""
         }
@@ -1078,6 +1106,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Bauxite",
           "desc:8": ""
         }
@@ -1111,6 +1140,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Aluminium",
           "desc:8": ""
         }
@@ -1144,6 +1174,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Gold",
           "desc:8": ""
         }
@@ -1177,6 +1208,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Vanadium Magnetite",
           "desc:8": ""
         }
@@ -1210,6 +1242,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Ilmenite",
           "desc:8": ""
         }
@@ -1243,6 +1276,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Iron",
           "desc:8": ""
         }
@@ -1276,6 +1310,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Magnetite",
           "desc:8": ""
         }
@@ -1309,6 +1344,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Rutile",
           "desc:8": ""
         }
@@ -1342,6 +1378,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Cassiterite",
           "desc:8": ""
         }
@@ -1375,6 +1412,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Tin",
           "desc:8": ""
         }
@@ -1408,8 +1446,9 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Sand (Porcelain, Oil)",
-          "desc:8": "Source of all kinds of mixed sands, useful for Porcelain, Tofu, and more. Also includes Oilsands, Silicon and Quartz sands."
+          "desc:8": "Source of all kinds of mixed sands, useful for Porcelain, Tofu, and more.\nAlso includes Oilsands, Silicon and Quartz sands."
         }
       },
       "tasks:9": {},
@@ -1441,6 +1480,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Kaolinite",
           "desc:8": ""
         }
@@ -1474,6 +1514,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Gypsum",
           "desc:8": ""
         }
@@ -1507,6 +1548,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Potassium Feldspar",
           "desc:8": ""
         }
@@ -1540,6 +1582,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Silicon",
           "desc:8": ""
         }
@@ -1573,6 +1616,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Silicon Dioxide",
           "desc:8": ""
         }
@@ -1606,6 +1650,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Cassiterite",
           "desc:8": ""
         }
@@ -1639,6 +1684,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Basaltic Mineral Sand",
           "desc:8": ""
         }
@@ -1672,6 +1718,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Granitic Mineral Sand",
           "desc:8": ""
         }
@@ -1705,6 +1752,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Garnet Sand",
           "desc:8": ""
         }
@@ -1738,6 +1786,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Quartz Sand",
           "desc:8": ""
         }
@@ -1771,6 +1820,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Glauconite Sand",
           "desc:8": ""
         }
@@ -1804,6 +1854,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Oilsands",
           "desc:8": ""
         }
@@ -1837,6 +1888,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Dirt",
           "desc:8": "Source of pebbles - use this to get stone when there\u0027s none around, or to make decorative stones like Marble and Basalt."
         }
@@ -1870,6 +1922,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Mulch",
           "desc:8": "Source of vanilla plant seeds, this will be the start of your agriculture!"
         }
@@ -1903,6 +1956,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Bog Earth",
           "desc:8": "Source of vanilla trees - these are excellent sources of wood, and Oak tree leaves even drop apples."
         }
@@ -1936,6 +1990,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Cobblestone",
           "desc:8": ""
         }
@@ -1969,6 +2024,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Granite",
           "desc:8": ""
         }
@@ -2002,6 +2058,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Andesite",
           "desc:8": ""
         }
@@ -2035,6 +2092,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Diorite",
           "desc:8": ""
         }
@@ -2068,6 +2126,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Basalt",
           "desc:8": ""
         }
@@ -2101,6 +2160,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Marble",
           "desc:8": ""
         }
@@ -2134,6 +2194,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Black Granite",
           "desc:8": ""
         }
@@ -2167,6 +2228,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Red Granite",
           "desc:8": ""
         }
@@ -2200,6 +2262,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Acacia Seed",
           "desc:8": ""
         }
@@ -2233,6 +2296,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Oak Seed",
           "desc:8": ""
         }
@@ -2266,6 +2330,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Dark Oak Seed",
           "desc:8": ""
         }
@@ -2299,6 +2364,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Jungle Seed",
           "desc:8": ""
         }
@@ -2332,6 +2398,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Birch Seed",
           "desc:8": ""
         }
@@ -2365,6 +2432,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Spruce Seed",
           "desc:8": ""
         }
@@ -2398,6 +2466,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Wheat",
           "desc:8": ""
         }
@@ -2431,6 +2500,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Pumpkin",
           "desc:8": ""
         }
@@ -2464,6 +2534,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Melon",
           "desc:8": ""
         }
@@ -2497,6 +2568,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Beetroot",
           "desc:8": ""
         }
@@ -2530,6 +2602,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Cactus",
           "desc:8": ""
         }
@@ -2563,6 +2636,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Sugar Cane",
           "desc:8": ""
         }
@@ -2596,6 +2670,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Carrot",
           "desc:8": ""
         }
@@ -2629,6 +2704,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Potato",
           "desc:8": ""
         }
@@ -2662,6 +2738,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Grass",
           "desc:8": ""
         }
@@ -2695,6 +2772,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Mycelium",
           "desc:8": ""
         }
@@ -2728,8 +2806,9 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Crafting Tools",
-          "desc:8": "The GregTech mod introduces various tools that are used in recipes, such as saws, knives, screwdrivers, and more.\n\nThese items are always displayed in JEI as \u0027Darmstadtium \u003ctool name\u003e\u0027, e.g. \u0027Darmstadtium Knife\u0027, but by looking at recipes for the item, you can discover all the materials it can be made from.\n\nTo make patterns and forms you need a knife - at this point, it is likely that your only knife-capable material available will be Flint, which should be displayed first for the knife recipes."
+          "desc:8": "The GregTech mod introduces various tools that are used in recipes, such as saws, knives, screwdrivers, and more.\n\nThese items are always displayed in JEI as \u0027Darmstadtium \u003ctool name\u003e\u0027, e.g. \u0027Darmstadtium Knife\u0027, but by looking at recipes for the item, you can discover all the materials it can be made from.\n\nTo make patterns and forms you need a knife - at this point, it is likely that your only knife-capable material available will be Flint, which should be displayed first for the knife recipes.\n\nNote: Most \u0027info\u0027 style quests like this one will have this same icon, but just use a checkbox objective.\nMake sure you read the text of info quests if you feel stuck."
         }
       },
       "tasks:9": {
@@ -2737,7 +2816,7 @@
           "partialMatch:1": 1,
           "autoConsume:1": 0,
           "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
+          "ignoreNBT:1": 1,
           "index:3": 0,
           "consume:1": 0,
           "requiredItems:9": {
@@ -2749,8 +2828,8 @@
                   "Material:8": "darmstadtium"
                 }
               },
-              "OreDict:8": "",
-              "Damage:3": 17
+              "Damage:2": 17,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2784,6 +2863,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Part Pattern",
           "desc:8": "These patterns are required for nearly all basic tool construction."
         }
@@ -2800,8 +2880,8 @@
             "0:10": {
               "id:8": "tconstruct:pattern",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2835,6 +2915,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Brick Form",
           "desc:8": "The humble beginning to making a Coke Oven, Blast Furnace, and any other clay bricks."
         }
@@ -2851,8 +2932,8 @@
             "0:10": {
               "id:8": "gregtech:meta_item_2",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 32012
+              "Damage:2": 32012,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2886,6 +2967,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Saw",
           "desc:8": "The saw is used to get more planks from wood, or to make forms from planks."
         }
@@ -2902,8 +2984,8 @@
             "0:10": {
               "id:8": "contenttweaker:saw_flint",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2937,6 +3019,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Wooden Form",
           "desc:8": "Just a faceless wooden form. Can be carved into a form for bricks or tool parts."
         }
@@ -2953,8 +3036,8 @@
             "0:10": {
               "id:8": "gregtech:meta_item_2",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 32011
+              "Damage:2": 32011,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -2988,6 +3071,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Grout / Porcelain",
           "desc:8": "A combination of sand, gravel, and clay formed into the shape of a brick!\nThis makes for a very heat-resistant brick when baked, that can stay solid next to most early molten metals.\n\nThis quest can also be completed with Porcelain, an equally useful substance!"
         }
@@ -3004,8 +3088,8 @@
             "0:10": {
               "id:8": "contenttweaker:unbaked_grout_brick",
               "Count:3": 6,
-              "OreDict:8": "tconstructUnbakedBrick",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": "tconstructUnbakedBrick"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3039,6 +3123,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Brick",
           "desc:8": ""
         }
@@ -3055,8 +3140,8 @@
             "0:10": {
               "id:8": "minecraft:brick",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3090,6 +3175,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Heat-Resistant Bricks",
           "desc:8": "Your first step toward casting metal tool parts.\n\nThis quest is completable with either seared bricks or porcelain bricks."
         }
@@ -3106,8 +3192,8 @@
             "0:10": {
               "id:8": "tconstruct:materials",
               "Count:3": 6,
-              "OreDict:8": "tconstructBrick",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": "tconstructBrick"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3141,6 +3227,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Coke Oven Brick",
           "desc:8": "The basic brick used to build a coke oven.\n\nA single coke oven requires 108 bricks."
         }
@@ -3157,8 +3244,8 @@
             "0:10": {
               "id:8": "gregtech:meta_item_2",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 32016
+              "Damage:2": 32016,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3192,6 +3279,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Bricks",
           "desc:8": "This block is the cornerstone for GregTech\u0027s steam machines, along with bronze plates."
         }
@@ -3208,8 +3296,8 @@
             "0:10": {
               "id:8": "minecraft:brick_block",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3243,6 +3331,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Brick Dust",
           "desc:8": "A baked brick, reduced to dust by a machine or patience with a mortar.\nThis is a vital component of Fireclay, the base component of Blast Furnaces which allow primitive steel production.\n\nA single furnace requires 72 brick dust."
         }
@@ -3259,8 +3348,8 @@
             "0:10": {
               "id:8": "gregtech:meta_item_1",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 2355
+              "Damage:2": 2355,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3294,6 +3383,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Compressed Fireclay",
           "desc:8": "Compressed Fireclay, ready for baking into bricks and for use in the Blast Furnace!\n\nA single furnace requires 144 bricks."
         }
@@ -3310,8 +3400,8 @@
             "0:10": {
               "id:8": "gregtech:meta_item_2",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 32014
+              "Damage:2": 32014,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3345,6 +3435,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Blast Furnace",
           "desc:8": "Primitive furnace for steel production, requires charcoal or coke for fuel and iron to produce steel."
         }
@@ -3361,14 +3452,14 @@
             "0:10": {
               "id:8": "gregtech:machine",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 510
+              "Damage:2": 510,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "gregtech:metal_casing",
               "Count:3": 32,
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 1,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3402,6 +3493,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Coke Oven",
           "desc:8": "To build a coke oven, you need to form a 3x3x3 cube of Coke Oven bricks, and right click the middle of any of the sides with the Engineer\u0027s Hammer."
         }
@@ -3418,14 +3510,14 @@
             "0:10": {
               "id:8": "immersiveengineering:tool",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             },
             "1:10": {
               "id:8": "immersiveengineering:stone_decoration",
               "Count:3": 27,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3463,6 +3555,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Creosote Oil",
           "desc:8": "A thick flowing liquid used for impregnating wood, and as a low quality fuel source."
         }
@@ -3511,6 +3604,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Charcoal",
           "desc:8": "Place wood logs in a coke oven to convert them into charcoal."
         }
@@ -3527,8 +3621,8 @@
             "0:10": {
               "id:8": "minecraft:coal",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 1
+              "Damage:2": 1,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3562,6 +3656,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Coke",
           "desc:8": ""
         }
@@ -3578,8 +3673,8 @@
             "0:10": {
               "id:8": "gregtech:meta_item_1",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 8357
+              "Damage:2": 8357,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3613,6 +3708,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Lava Tank",
           "desc:8": "Build one of various seared or porcelain tanks to hold lava as a particularly hot fuel for the melter."
         }
@@ -3629,8 +3725,8 @@
             "0:10": {
               "id:8": "tconstruct:seared_tank",
               "Count:3": 1,
-              "OreDict:8": "tconstructTank",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": "tconstructTank"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3664,6 +3760,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Melter Heater",
           "desc:8": "The seared or porcelain heater provides limited heat for your melter, but works on conventional fuels.\nIt can melt copper, tin, and gold, letting you get started with the basics, without the need for any lava."
         }
@@ -3680,8 +3777,8 @@
             "0:10": {
               "id:8": "tcomplement:melter",
               "Count:3": 1,
-              "OreDict:8": "tconstructHeater",
-              "Damage:3": 8
+              "Damage:2": 8,
+              "OreDict:8": "tconstructHeater"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3716,6 +3813,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Melter",
           "desc:8": "A small melter for heating metals beyond their melting point.\nYou can attach Faucets or other liquid manipulators such as pumps directly to this block in order to retrieve the molten metal.\n\nNote: You can only have a single liquid inside the melter at once!\nDrain your excess into a tank, or cast it into ingots."
         }
@@ -3732,8 +3830,8 @@
             "0:10": {
               "id:8": "tcomplement:melter",
               "Count:3": 1,
-              "OreDict:8": "tconstructMelter",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": "tconstructMelter"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3767,6 +3865,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Fuel for the melter!",
           "desc:8": "You must use some type of fuel for the melter. Early on, lava is recommended as it can be made by simply melting stone in a Crucible (see the Ex Nihilo quests for more information)."
         }
@@ -3815,6 +3914,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Wood Plate / Plank",
           "desc:8": "Compressed wood pulp in the shape of a plate. Required for simple logistics using conveyors and item routers."
         }
@@ -3831,8 +3931,8 @@
             "0:10": {
               "id:8": "gregtech:meta_item_1",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 12196
+              "Damage:2": 12196,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3866,6 +3966,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Stone Plate",
           "desc:8": "Required for advanced redstone gates."
         }
@@ -3882,8 +3983,8 @@
             "0:10": {
               "id:8": "gregtech:meta_item_1",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 12328
+              "Damage:2": 12328,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3920,6 +4021,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Conveyor",
           "desc:8": "A one-directional conveyor.\n\nThis block moves items on top of it in a single direction.\nIts direction can be adjusted using an Engineer\u0027s Hammer, and can even go up or down by shift-right clicking with the hammer.\n\nThe conveyor will auto-insert into inventories such as chests if it pushes the item directly into the block."
         }
@@ -3939,8 +4041,8 @@
               "tag:10": {
                 "conveyorType:8": "immersiveengineering:conveyor"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -3977,6 +4079,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Dropping Conveyor",
           "desc:8": "A trap door on the conveyor inserts items straight down into inventories (or other conveyors).\n\nThis can be used, along with filtered inventories, to easily fill a row of Drawer blocks with the right materials from a mixed-item conveyor."
         }
@@ -3996,8 +4099,8 @@
               "tag:10": {
                 "conveyorType:8": "immersiveengineering:dropper"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4034,6 +4137,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Extracting Conveyor",
           "desc:8": "Pulls items from inventories on the extractor side and pushes them onto a conveyor belt."
         }
@@ -4053,8 +4157,8 @@
               "tag:10": {
                 "conveyorType:8": "immersiveengineering:extract"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4091,6 +4195,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Vertical Conveyor",
           "desc:8": "A space-efficient conveyor that pulls items straight up."
         }
@@ -4110,8 +4215,8 @@
               "tag:10": {
                 "conveyorType:8": "immersiveengineering:vertical"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4145,6 +4250,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Item Router",
           "desc:8": "A filtered item routing system!\n\nSends items in one of six directions, based on the filters setup in the router.\n\nItems first check for a whitelisted side, and go there if possible.\nIf there is no inventory, or the inventory is full on the whitelisted side, they will go to a random side without any whitelist, assuming there is an available inventory.\n\nIf there are no available outputs (e.g. if all sides are blocked, or the inventories attached are all full) the item will not enter the item router."
         }
@@ -4161,8 +4267,8 @@
             "0:10": {
               "id:8": "immersiveengineering:wooden_device0",
               "Count:3": 1,
-              "OreDict:8": "",
-              "Damage:3": 3
+              "Damage:2": 3,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4199,6 +4305,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Splitting Conveyor",
           "desc:8": "Splits incoming item stacks with a roughly 50/50 chance.\n\nIt is recommended to use an Item Router for more specific splitting."
         }
@@ -4218,8 +4325,8 @@
               "tag:10": {
                 "conveyorType:8": "immersiveengineering:splitter"
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4253,6 +4360,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Wood Gear",
           "desc:8": "A simple wooden gear for early logistics. This piece can be automated with the Immersive Engineering Metal Press when you get access to Forge Energy (FE)."
         }
@@ -4269,8 +4377,8 @@
             "0:10": {
               "id:8": "gregtech:meta_item_2",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 26196
+              "Damage:2": 26196,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4281,7 +4389,7 @@
     "107:10": {
       "questID:3": 107,
       "preRequisites:11": [
-        99
+        145
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -4304,6 +4412,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Vanilla Gates",
           "desc:8": "These are the gates available in standard Minecraft, without any mods. In this pack, however, they have been replaced with the versions from the Simple Logic Gates mod, which allows you to place the gates on walls and ceilings!"
         }
@@ -4319,7 +4428,7 @@
     "108:10": {
       "questID:3": 108,
       "preRequisites:11": [
-        99
+        145
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -4342,6 +4451,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Formal Logic",
           "desc:8": "Gates for logical operations. Descriptions of each type available on the individual quests, for those who are not familiar with the naming!"
         }
@@ -4384,6 +4494,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Repeater",
           "desc:8": "The repeater is a simple redstone gate that pushes the redstone signal forward and restores it to maximum strength.\nRight clicking adjusts the delay before the redstone signal is pushed forward."
         }
@@ -4404,8 +4515,8 @@
                 "logic:8": "simplelogic:repeater",
                 "li:1": 0
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4443,6 +4554,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Comparator",
           "desc:8": "The comparator is a complex gate that lets you read redstone values from containers.\n\nPlacing it with the arrow pointing away from a chest or fluid tank makes it output a redstone signal, with the strength depending on how full the container is."
         }
@@ -4463,8 +4575,8 @@
                 "logic:8": "simplelogic:comparator",
                 "li:1": 0
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4502,6 +4614,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "AND Gate",
           "desc:8": "The humble AND gate takes three inputs and outputs a signal only if all three inputs are on.\n\nIf you just need two inputs, simply connect two sides of the gate with a bit of redstone!"
         }
@@ -4522,8 +4635,8 @@
                 "logic:8": "simplelogic:nand",
                 "li:1": 1
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4561,6 +4674,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "OR Gate",
           "desc:8": "The simple OR gate outputs if any of its three inputs are on."
         }
@@ -4581,8 +4695,8 @@
                 "logic:8": "simplelogic:nor",
                 "li:1": 1
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4620,6 +4734,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "NAND Gate",
           "desc:8": "The humble AND gate, with a negation twist! - The output is always on, unless all three inputs are on.\n\nIf you just need two inputs, you can connect two of the sides with a bit of redstone!"
         }
@@ -4640,8 +4755,8 @@
                 "logic:8": "simplelogic:nand",
                 "li:1": 0
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4679,6 +4794,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "NOR Gate",
           "desc:8": "Simple OR gate with a negation. Output is on, unless any of the three inputs are on."
         }
@@ -4699,8 +4815,8 @@
                 "logic:8": "simplelogic:nor",
                 "li:1": 0
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4738,6 +4854,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "XOR Gate",
           "desc:8": "The eXclusive OR gate sends an output if and only if a single input is on.\nThis means there will be no output if both inputs are on.\n\nOne great feature about this gate is that any change to any input will always invert the output.\nThis means you could have two levers, each hooked up to one input of the gate, to operate your system, and flipping either of them will always cause a change in the redstone signal.\n\nfalse XOR false \u003d false\nfalse XOR true \u003d true\ntrue XOR false \u003d true\ntrue XOR true \u003d false"
         }
@@ -4758,8 +4875,8 @@
                 "logic:8": "simplelogic:xor",
                 "li:1": 0
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4797,6 +4914,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "XNOR Gate",
           "desc:8": "The eXclusive OR gate with a negation.\nIt will output a signal by unless only a single input is on. If both inputs are on, then the output is also on.\n\nOne great feature about this gate is that any change to any input will always invert the output.\nThis means you could have two levers, each hooked up to one input of the gate, to operate your system, and flipping either of them will always cause a change in the redstone signal.\n\nfalse XNOR false \u003d true\nfalse XNOR true \u003d false\ntrue XNOR false \u003d false\ntrue XNOR true \u003d true"
         }
@@ -4817,8 +4935,8 @@
                 "logic:8": "simplelogic:xor",
                 "li:1": 1
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4829,7 +4947,7 @@
     "117:10": {
       "questID:3": 117,
       "preRequisites:11": [
-        99
+        145
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -4852,6 +4970,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Buffers",
           "desc:8": "Buffers have a small delay, before spreading your redstone signal in three directions. This allows you to create compact setups with a \u0027pulse\u0027 of redstone going through it."
         }
@@ -4894,6 +5013,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Buffer Gate",
           "desc:8": "Default buffer - simply propagates the signal from the input after a short delay."
         }
@@ -4914,8 +5034,8 @@
                 "logic:8": "simplelogic:buffer",
                 "li:1": 1
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4953,6 +5073,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Inverted Buffer Gate",
           "desc:8": "Continues the redstone signal after a short delay, and inverts it (turns off redstone that\u0027s already on, and vice versa)."
         }
@@ -4973,8 +5094,8 @@
                 "logic:8": "simplelogic:buffer",
                 "li:1": 0
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -4985,7 +5106,7 @@
     "120:10": {
       "questID:3": 120,
       "preRequisites:11": [
-        99
+        145
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5008,6 +5129,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Advanced Gates",
           "desc:8": "Gates with more advanced usage and logic!\nThis is where we have our first gate with some built-in memory, so you can store a pulse from your system (great for button-operated doors!) and turn it into a steady signal."
         }
@@ -5050,6 +5172,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Multiplexer",
           "desc:8": "The multiplexer has a single output, one input on each side, and a selector on the back.\nWhen the selector input is off, the right-hand input is output, when the selector is on, the left-hand input is used."
         }
@@ -5070,8 +5193,8 @@
                 "logic:8": "simplelogic:multiplexer",
                 "li:1": 0
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5109,6 +5232,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Set-Reset Latch",
           "desc:8": "The Set-Reset Latch lets you store a redstone signal.\n\nIt has two inputs, one on either side, and two primary outputs, front and back.\n\nWhenever an input that was off, is turned on, the latch will keep that side on, acting as an active output on the side.\n\nAdditionally, the latch will output a signal to its front or back, when the right or left side of the latch is on.\n\nTurning both left and right on at the same time causes the latch to switch which side it outputs on."
         }
@@ -5129,8 +5253,8 @@
                 "logic:8": "simplelogic:rs_latch",
                 "li:1": 0
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5168,6 +5292,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Pulse Former",
           "desc:8": "The pulse former has one input and one output.\nWhen the input is on, it makes a quick pulse on the output.\n\nThis pulse only happens once, regardless of how long the input is on for\n- to make another pulse, the input must turn off, and then back on."
         }
@@ -5188,8 +5313,8 @@
                 "logic:8": "simplelogic:pulse_former",
                 "li:1": 0
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5227,6 +5352,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Timer",
           "desc:8": "One of the most useful redstone gates.\n\nThis simple device generates a redstone pulse on an interval, by default every 1 second.\nYou can adjust the delay by shift-right clicking the gate."
         }
@@ -5247,8 +5373,8 @@
                 "logic:8": "simplelogic:timer",
                 "li:1": 0
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5286,6 +5412,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Randomizer",
           "desc:8": "Whenever the back input of the randomiser pulses on, the three outputs are randomly turned on or off.\n\nThe outputs remain on/off until they are turned off/on randomly by a new input signal."
         }
@@ -5306,8 +5433,8 @@
                 "logic:8": "simplelogic:randomizer",
                 "li:1": 0
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5345,6 +5472,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Synchronizer",
           "desc:8": "The synchroniser outputs a single short pulse, whenever both its side inputs have been on at least once.\n\nTurning the back input on resets its memory, and requires a new input from both side inputs before it pulses the output again."
         }
@@ -5365,8 +5493,8 @@
                 "logic:8": "simplelogic:synchronizer",
                 "li:1": 0
               },
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5377,7 +5505,7 @@
     "127:10": {
       "questID:3": 127,
       "preRequisites:11": [
-        99
+        145
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5400,6 +5528,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Redstone Cables",
           "desc:8": "Work in progress: Check back in a later version!\n\nWill include details on redstone cables, colours, and covered cables."
         }
@@ -5415,7 +5544,7 @@
     "128:10": {
       "questID:3": 128,
       "preRequisites:11": [
-        99
+        145
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5438,6 +5567,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Redstone Devices",
           "desc:8": "Work in progress: Check back in a later version!\n\nWill include details on: The dropper, observer, dispenser, and other \"block\" style redstone devices."
         }
@@ -5453,7 +5583,7 @@
     "129:10": {
       "questID:3": 129,
       "preRequisites:11": [
-        99
+        145
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5476,6 +5606,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "Bundled Redstone Cables",
           "desc:8": "Work in progress: Check back in a later version!\n\nWill include details on bundled cables, dealing with multiple colours of cabling, and the bundled gates."
         }
@@ -5514,6 +5645,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 0,
+          "repeat_relative:1": 1,
           "name:8": "The Smeltery",
           "desc:8": "For those of you familiar with Tinkers\u0027 Construct, you may instinctively want to make a smeltery.\n\nUnfortunately, the smeltery is disabled in this pack, and you\u0027ll have to use the melter for your metal melting, tool casting needs.\n\nDon\u0027t worry, though, most metals will be worked with in various machines from GregTech, and aren\u0027t meltable directly in the melter anyway."
         }
@@ -5552,6 +5684,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Alloy Tank",
           "desc:8": "A small tank for combining liquids into alloys.\nAutomatically drains tanks (including melters!) that are directly touching the alloy tank.\n\nRequires a heat source (either a melter or a tank with lava) underneath it to function."
         }
@@ -5568,8 +5701,8 @@
             "0:10": {
               "id:8": "tcomplement:alloy_tank",
               "Count:3": 1,
-              "OreDict:8": "tconstructAlloyTank",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": "tconstructAlloyTank"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5603,6 +5736,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "ismain:1": 1,
+          "repeat_relative:1": 1,
           "name:8": "Flint",
           "desc:8": "Acquire flint by breaking gravel.\n\nLater on, you can get flint by breaking it in a mortar."
         }
@@ -5619,8 +5753,1095 @@
             "0:10": {
               "id:8": "minecraft:flint",
               "Count:3": 2,
-              "OreDict:8": "",
-              "Damage:3": 0
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "133:10": {
+      "questID:3": 133,
+      "preRequisites:11": [
+        7
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:iron_ingot",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Iron",
+          "desc:8": "Simple, reliable, and capable of reinforcement into Wrought Iron or Steel."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "134:10": {
+      "questID:3": 134,
+      "preRequisites:11": [
+        7
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 10018,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Copper",
+          "desc:8": "Relatively weak on its own, but it is useful for wires, and can be alloyed into bronze to improve its strength."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "135:10": {
+      "questID:3": 135,
+      "preRequisites:11": [
+        7
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 10071,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Tin",
+          "desc:8": "Rarely useful on its own, Tin is used in very few recipes, and is primarily important as a component of the Bronze alloy."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "136:10": {
+      "questID:3": 136,
+      "preRequisites:11": [
+        7
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:gold_ingot",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Gold",
+          "desc:8": "A soft, precious metal. Used for some advanced components, and for tool part casts."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "137:10": {
+      "questID:3": 137,
+      "preRequisites:11": [
+        134,
+        135
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 10095,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Bronze",
+          "desc:8": "A strong alloy formed from tin and copper.\nUsed in low pressure steam machines."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "138:10": {
+      "questID:3": 138,
+      "preRequisites:11": [
+        133
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 10197,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Wrought Iron",
+          "desc:8": "A stronger version of iron made by reheating the iron.\nThis metal is used in very few machines of the \u0027ULV\u0027 or Ultra Low Voltage variant."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "139:10": {
+      "questID:3": 139,
+      "preRequisites:11": [
+        133
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 10184,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Steel",
+          "desc:8": "A stronger version of iron made in a blast furnace.\nThis material is used for high pressure steam and low voltage machines."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "140:10": {
+      "questID:3": 140,
+      "preRequisites:11": [
+        7
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 8122,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Rutile",
+          "desc:8": "A pretty gemstone that can be used for Titanium production in HV GregTech machines."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "141:10": {
+      "questID:3": 141,
+      "preRequisites:11": [
+        135,
+        133
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 10189,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Tin Alloy",
+          "desc:8": "A 1:1 mix of iron and tin, used in Neutron Reflectors for GregTech nuclear reactors."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "142:10": {
+      "questID:3": 142,
+      "preRequisites:11": [
+        144
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:redstone",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Red Stone?",
+          "desc:8": "A very useful material used for simple logic and even some power transfer!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:redstone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "143:10": {
+      "questID:3": 143,
+      "preRequisites:11": [
+        134,
+        142
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 10237,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Red Alloy",
+          "desc:8": "A combination alloy of copper and redstone that can transport Ultra Low Voltage power without loss."
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "144:10": {
+      "questID:3": 144,
+      "preRequisites:11": [
+        132
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:writable_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "How to Quest",
+          "desc:8": "The \u0027Red Stone?\u0027 quest is intentionally cryptic.\nThe intention is to give you the tools you need to seek out knowledge on your own.\n\nIn order to complete it, you must simply acquire some redstone dust.\n\nTo do this, you can right click the Redstone in the Questbook, or search for it in JEI, this lets you see how Redstone is made.\n\n- You should note that it can be made with a GregTech mortar, some stone dust, and dried blood, beetroot, or wildberries.\n- Next step is to figure out how to make each of these things.\n- The mortar: If you read the \u0027Crafting Tools\u0027 quest in \"Getting Started\" you should know that tools can be made from a variety of materials, but always show up as Darmstadtium in JEI.\n- The stone dust: This one is available by manually using the mortar on a stone button, or...\n  If you looked around a bit, you might have noticed it is also available when you crack stone into gravel (or crushed stone) with a hammer.\n- The blood, beetroot, or wildberries: This one is tricky\n  - The wildberries are intentionally not available yet.\n  - The blood comes from the \"Heartbeet\" which is a random drop when harvesting Beetroot plants, and is then put in a Tinkers\u0027 Complement Melter, and then cast in an empty casting table to dry into a ball of coagulated blood.\n  - Finally, the beetroot is acquired by simply planting beetroot seeds from Vanilla Minecraft, waiting for them to grow, and harvesting the crop.\n\nAlthough, if you use JEI, you should find there\u0027s a technique that\u0027s more resource efficient than simply using a mortar to mix the redstone, involving a melter, casting table, and the same base ingredients."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "145:10": {
+      "questID:3": 145,
+      "preRequisites:11": [
+        99,
+        142
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:writable_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Redstone as a Concept",
+          "desc:8": "Redstone is powerful and lets you combine many different behaviours to modify how your machines automate.\n\nSometimes, it can even be used to create automated farms without any power requirements at all."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "146:10": {
+      "questID:3": 146,
+      "preRequisites:11": [
+        78
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:tooltables",
+            "Count:3": 1,
+            "tag:10": {
+              "textureBlock:10": {
+                "id:8": "minecraft:planks",
+                "Count:1": 1,
+                "Damage:2": 0
+              }
+            },
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Making Stencils",
+          "desc:8": "The Stencil Table allows you to make wooden patterns for tool parts.\nThese can then be used in the Part Builder to make individual tool parts, like rods and axe heads!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:tooltables",
+              "Count:3": 1,
+              "tag:10": {
+                "textureBlock:10": {
+                  "id:8": "minecraft:planks",
+                  "Count:1": 1,
+                  "Damage:2": 0
+                }
+              },
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "147:10": {
+      "questID:3": 147,
+      "preRequisites:11": [
+        146
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:tooltables",
+            "Count:3": 1,
+            "tag:10": {
+              "textureBlock:10": {
+                "id:8": "minecraft:log",
+                "Count:1": 1,
+                "Damage:2": 0
+              }
+            },
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Building Parts",
+          "desc:8": "Time to make some tool parts!\nHere you can make the parts required for tools, make the Tool Station to see what parts are required for what tool!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:tooltables",
+              "Count:3": 1,
+              "tag:10": {
+                "textureBlock:10": {
+                  "id:8": "minecraft:log",
+                  "Count:1": 1,
+                  "Damage:2": 0
+                }
+              },
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "148:10": {
+      "questID:3": 148,
+      "preRequisites:11": [
+        147
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:tooltables",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Tools, Finally!",
+          "desc:8": "Finally, you get to put all those parts together into a finished tool!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:tooltables",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "149:10": {
+      "questID:3": 149,
+      "preRequisites:11": [
+        146
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:tooltables",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "150:10": {
+      "questID:3": 150,
+      "preRequisites:11": [
+        148
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:writable_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Other Tools",
+          "desc:8": "The Tool Station gives you access to a host of other tools than the ones shown via quests here.\n\nExplore the block\u0027s options on your own, and keep in mind that there are sometimes multiple tools for the same general job!\nExample: A hatchet and a mattock will both cut wood, but the mattock will let you hoe farmland and also dig up dirt!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "index:3": 0,
+          "taskID:8": "bq_standard:checkbox"
+        }
+      },
+      "rewards:9": {}
+    },
+    "151:10": {
+      "questID:3": 151,
+      "preRequisites:11": [
+        148
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:writable_book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Crafting Areas",
+          "desc:8": "The Tinkers\u0027 Construct mod provides the blocks necessary for advanced tool construction.\n\nNot only do these tools never break, but their blocks have special properties if they are all connected.\n\nPlacing a pattern chest next to a part builder will let you use the patterns directly from the part builder, without needing them in your inventory.\n\nThey also have an upgraded Crafting Table, called the Crafting Station.\nThis block can view and use items from a single adjacent chest, allowing you to have a vastly expanded inventory for crafting - perfect for GregTech crafting tools and other crafting-only materials!\n\nFinally, if the following five blocks are connected, their interfaces will have buttons for quick swapping:\n- Stencil Table\n- Pattern Chest\n- Part Builder\n- Tool Station\n- Crafting Station"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:tooltables",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "152:10": {
+      "questID:3": 152,
+      "preRequisites:11": [
+        148
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "exnihilocreatio:crook_tconstruct",
+            "Count:3": 1,
+            "tag:10": {
+              "StatsOriginal:10": {
+                "AttackSpeedMultiplier:5": 1.0,
+                "MiningSpeed:5": 1.5,
+                "FreeModifiers:3": 3,
+                "Durability:3": 56,
+                "HarvestLevel:3": 0,
+                "Attack:5": 1.5
+              },
+              "Stats:10": {
+                "AttackSpeedMultiplier:5": 1.0,
+                "MiningSpeed:5": 1.5,
+                "FreeModifiers:3": 3,
+                "Durability:3": 56,
+                "HarvestLevel:3": 0,
+                "Attack:5": 1.5
+              },
+              "Special:10": {
+                "Categories:9": {
+                  "0:8": "harvest",
+                  "1:8": "aoe",
+                  "2:8": "tool"
+                }
+              },
+              "TinkerData:10": {
+                "Materials:9": {
+                  "0:8": "wood",
+                  "1:8": "wood",
+                  "2:8": "wood",
+                  "3:8": "wood"
+                },
+                "Modifiers:9": {
+                  "0:8": "toolleveling"
+                }
+              },
+              "Modifiers:9": {
+                "0:10": {
+                  "identifier:8": "ecological",
+                  "color:3": -7444965,
+                  "level:3": 1
+                },
+                "1:10": {
+                  "identifier:8": "toolleveling",
+                  "color:3": 16777215,
+                  "level:3": 1
+                }
+              },
+              "Traits:9": {
+                "0:8": "ecological",
+                "1:8": "toolleveling"
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "What a crook!",
+          "desc:8": "A crook is a tool used to get extra resources from leaves, such as apples, saplings, or silkworms.\n\nIf you get a silkworm, you can right click on a leaf block to put it back, where it will slowly conver the leaves into silk leaves!\nWhen the process is done, harvest the silk leaves with a crook to get string."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "exnihilocreatio:crook_tconstruct",
+              "Count:3": 1,
+              "tag:10": {},
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "153:10": {
+      "questID:3": 153,
+      "preRequisites:11": [
+        148
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:mattock",
+            "Count:3": 1,
+            "tag:10": {
+              "StatsOriginal:10": {
+                "AttackSpeedMultiplier:5": 1.0,
+                "HarvestLevelAxe:3": 1,
+                "MiningSpeed:5": 3.75,
+                "FreeModifiers:3": 3,
+                "HarvestLevelShovel:3": 1,
+                "Durability:3": 1,
+                "HarvestLevel:3": 1,
+                "Attack:5": 5.175
+              },
+              "Stats:10": {
+                "AttackSpeedMultiplier:5": 1.0,
+                "HarvestLevelAxe:3": 1,
+                "MiningSpeed:5": 3.75,
+                "FreeModifiers:3": 3,
+                "HarvestLevelShovel:3": 1,
+                "Durability:3": 1,
+                "HarvestLevel:3": 1,
+                "Attack:5": 5.175
+              },
+              "Special:10": {
+                "Categories:9": {
+                  "0:8": "harvest",
+                  "1:8": "aoe",
+                  "2:8": "tool"
+                }
+              },
+              "TinkerData:10": {
+                "Materials:9": {
+                  "0:8": "flint",
+                  "1:8": "flint",
+                  "2:8": "flint"
+                },
+                "Modifiers:9": {
+                  "0:8": "toolleveling"
+                }
+              },
+              "Modifiers:9": {
+                "0:10": {
+                  "identifier:8": "crude",
+                  "color:3": -9868951,
+                  "level:3": 3,
+                  "crude1:1": 1,
+                  "crude2:1": 1
+                },
+                "1:10": {
+                  "identifier:8": "toolleveling",
+                  "color:3": 16777215,
+                  "level:3": 1
+                }
+              },
+              "Traits:9": {
+                "0:8": "crude1",
+                "1:8": "crude2",
+                "2:8": "toolleveling"
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Farmhand",
+          "desc:8": "A handy tool for the budding farmer.\n\nThe mattock lets you cut down trees, dig up dirt, and till the dirt into farmland with right click!"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "154:10": {
+      "questID:3": 154,
+      "preRequisites:11": [
+        148
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "exnihilocreatio:hammer_tconstruct",
+            "Count:3": 1,
+            "tag:10": {
+              "StatsOriginal:10": {
+                "AttackSpeedMultiplier:5": 1.0,
+                "MiningSpeed:5": 3.75,
+                "FreeModifiers:3": 3,
+                "Durability:3": 1,
+                "HarvestLevel:3": 1,
+                "Attack:5": 2.175
+              },
+              "Stats:10": {
+                "AttackSpeedMultiplier:5": 1.0,
+                "MiningSpeed:5": 3.75,
+                "FreeModifiers:3": 3,
+                "Durability:3": 1,
+                "HarvestLevel:3": 1,
+                "Attack:5": 2.175
+              },
+              "Special:10": {
+                "Categories:9": {
+                  "0:8": "harvest",
+                  "1:8": "aoe",
+                  "2:8": "tool"
+                }
+              },
+              "TinkerData:10": {
+                "Materials:9": {
+                  "0:8": "flint",
+                  "1:8": "flint",
+                  "2:8": "flint"
+                },
+                "Modifiers:9": {
+                  "0:8": "toolleveling"
+                }
+              },
+              "Modifiers:9": {
+                "0:10": {
+                  "identifier:8": "crude",
+                  "color:3": -9868951,
+                  "level:3": 3,
+                  "crude1:1": 1,
+                  "crude2:1": 1
+                },
+                "1:10": {
+                  "identifier:8": "toolleveling",
+                  "color:3": 16777215,
+                  "level:3": 1
+                }
+              },
+              "Traits:9": {
+                "0:8": "crude1",
+                "1:8": "crude2",
+                "2:8": "toolleveling"
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Breaking Stuff!",
+          "desc:8": "A sledge hammer is an excellent tool for smashing rock into smaller bits of rock!\n\nThis tool is the quintessential helper for making stone into gravel, gravel into sand, and sand into dust!\n\nUsing this unlocks many new explorations of the most basic resource, stone:\n- Generation of ores by crushing (cobble-)stone, andesite, diorite, and granite, then sieving the result.\n- Making glass, by crushing gravel or crushed granite into sand\n- Making clay, by crushing sand into dust, and then soaking it in a barrel of water!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "exnihilocreatio:hammer_tconstruct",
+              "Count:3": 1,
+              "tag:10": {},
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -5631,90 +6852,6 @@
   },
   "questLines:9": {
     "0:10": {
-      "quests:9": {
-        "0:10": {
-          "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": -12,
-          "id:3": 2,
-          "sizeY:3": 24
-        },
-        "1:10": {
-          "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": 24,
-          "id:3": 3,
-          "sizeY:3": 24
-        },
-        "2:10": {
-          "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": 60,
-          "id:3": 4,
-          "sizeY:3": 24
-        },
-        "3:10": {
-          "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": -12,
-          "id:3": 77,
-          "sizeY:3": 24
-        },
-        "4:10": {
-          "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": 42,
-          "id:3": 78,
-          "sizeY:3": 24
-        },
-        "5:10": {
-          "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": 6,
-          "id:3": 79,
-          "sizeY:3": 24
-        },
-        "6:10": {
-          "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": 24,
-          "id:3": 80,
-          "sizeY:3": 24
-        },
-        "7:10": {
-          "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": 24,
-          "id:3": 81,
-          "sizeY:3": 24
-        },
-        "8:10": {
-          "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 24,
-          "id:3": 132,
-          "sizeY:3": 24
-        }
-      },
-      "lineID:3": 32,
-      "properties:10": {
-        "betterquesting:10": {
-          "visibility:8": "NORMAL",
-          "name:8": "Getting Started",
-          "icon:10": {
-            "id:8": "minecraft:air",
-            "Count:3": 0,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "bg_image:8": "",
-          "bg_size:3": 256,
-          "desc:8": "\nWelcome to Greg Nothing!\nThis mod pack was designed with the quest book as a helping hand and tutorial from start to finish.\nIf you are interested in simply getting to the next chapter, follow the quests marked with a special border!"
-        }
-      },
-      "order:3": 0
-    },
-    "1:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
@@ -5770,7 +6907,7 @@
       },
       "order:3": 1
     },
-    "2:10": {
+    "1:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
@@ -6274,8 +7411,79 @@
       },
       "order:3": 2
     },
-    "3:10": {
-      "quests:9": {},
+    "2:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -12,
+          "id:3": 78,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 24,
+          "id:3": 146,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 60,
+          "id:3": 147,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 96,
+          "id:3": 148,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": 24,
+          "id:3": 149,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": 96,
+          "id:3": 150,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": 96,
+          "id:3": 151,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": 132,
+          "id:3": 152,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": 132,
+          "id:3": 153,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 132,
+          "id:3": 154,
+          "sizeY:3": 24
+        }
+      },
       "lineID:3": 2,
       "properties:10": {
         "betterquesting:10": {
@@ -6294,7 +7502,7 @@
       },
       "order:3": 3
     },
-    "4:10": {
+    "3:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
@@ -6322,7 +7530,7 @@
       },
       "order:3": 4
     },
-    "5:10": {
+    "4:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
@@ -6466,8 +7674,8 @@
         },
         "20:10": {
           "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": -60,
+          "x:3": -24,
+          "y:3": -48,
           "id:3": 99,
           "sizeY:3": 24
         },
@@ -6522,29 +7730,29 @@
         },
         "28:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": -120,
+          "x:3": -96,
+          "y:3": -132,
           "id:3": 107,
           "sizeY:3": 24
         },
         "29:10": {
           "sizeX:3": 24,
           "x:3": -12,
-          "y:3": -108,
+          "y:3": -120,
           "id:3": 108,
           "sizeY:3": 24
         },
         "30:10": {
           "sizeX:3": 24,
-          "x:3": -120,
-          "y:3": -132,
+          "x:3": -132,
+          "y:3": -144,
           "id:3": 109,
           "sizeY:3": 24
         },
         "31:10": {
           "sizeX:3": 24,
-          "x:3": -96,
-          "y:3": -156,
+          "x:3": -108,
+          "y:3": -168,
           "id:3": 110,
           "sizeY:3": 24
         },
@@ -6592,22 +7800,22 @@
         },
         "38:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": -120,
+          "x:3": 72,
+          "y:3": -132,
           "id:3": 117,
           "sizeY:3": 24
         },
         "39:10": {
           "sizeX:3": 24,
-          "x:3": 72,
-          "y:3": -156,
+          "x:3": 84,
+          "y:3": -168,
           "id:3": 118,
           "sizeY:3": 24
         },
         "40:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": -132,
+          "x:3": 108,
+          "y:3": -144,
           "id:3": 119,
           "sizeY:3": 24
         },
@@ -6662,22 +7870,22 @@
         },
         "48:10": {
           "sizeX:3": 24,
-          "x:3": -108,
-          "y:3": -60,
+          "x:3": -84,
+          "y:3": -72,
           "id:3": 127,
           "sizeY:3": 24
         },
         "49:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": -84,
+          "x:3": -96,
+          "y:3": -96,
           "id:3": 128,
           "sizeY:3": 24
         },
         "50:10": {
           "sizeX:3": 24,
-          "x:3": -84,
-          "y:3": -36,
+          "x:3": -72,
+          "y:3": -48,
           "id:3": 129,
           "sizeY:3": 24
         },
@@ -6693,6 +7901,20 @@
           "x:3": 84,
           "y:3": 228,
           "id:3": 131,
+          "sizeY:3": 24
+        },
+        "53:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": -48,
+          "id:3": 142,
+          "sizeY:3": 24
+        },
+        "54:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -84,
+          "id:3": 145,
           "sizeY:3": 24
         }
       },
@@ -6714,13 +7936,104 @@
       },
       "order:3": 5
     },
-    "6:10": {
+    "5:10": {
       "quests:9": {
         "0:10": {
+          "sizeX:3": 24,
+          "x:3": 168,
+          "y:3": -12,
+          "id:3": 5,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": -12,
+          "id:3": 7,
+          "sizeY:3": 24
+        },
+        "2:10": {
           "sizeX:3": 24,
           "x:3": -12,
           "y:3": -12,
           "id:3": 132,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": -12,
+          "id:3": 133,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": -84,
+          "id:3": 134,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": -48,
+          "id:3": 135,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": 24,
+          "id:3": 136,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": 120,
+          "y:3": -84,
+          "id:3": 137,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 120,
+          "y:3": 24,
+          "id:3": 138,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": 120,
+          "y:3": -12,
+          "id:3": 139,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": 84,
+          "y:3": 60,
+          "id:3": 140,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": 120,
+          "y:3": -48,
+          "id:3": 141,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": -120,
+          "id:3": 142,
+          "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": 120,
+          "y:3": -120,
+          "id:3": 143,
           "sizeY:3": 24
         }
       },
@@ -6741,6 +8054,104 @@
         }
       },
       "order:3": 6
+    },
+    "6:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -12,
+          "id:3": 2,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 24,
+          "id:3": 3,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": 24,
+          "id:3": 4,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 24,
+          "id:3": 77,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": 132,
+          "y:3": 78,
+          "id:3": 78,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": 132,
+          "y:3": 42,
+          "id:3": 79,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": 60,
+          "id:3": 80,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": 96,
+          "y:3": 60,
+          "id:3": 81,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": 60,
+          "id:3": 132,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": 132,
+          "id:3": 142,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": 96,
+          "id:3": 144,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 32,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Getting Started",
+          "icon:10": {
+            "id:8": "minecraft:air",
+            "Count:3": 0,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "\nWelcome to Greg Nothing!\nThis mod pack was designed with the quest book as a helping hand and tutorial from start to finish.\nIf you are interested in simply getting to the next chapter, follow the quests marked with a special border!"
+        }
+      },
+      "order:3": 0
     }
   },
   "questSettings:10": {
@@ -6750,7 +8161,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 1,
+      "editmode:1": 0,
       "hardcore:1": 0,
       "home_image:8": "gregnothing:textures/gui/title_card.png",
       "party_enable:1": 1,
