@@ -92,3 +92,6 @@ scripts/.zsrc
 
 # Loottweaker Table Dumps
 dumps/
+
+# AutoHotkey Scripts for 2560x1440
+*.ahk
