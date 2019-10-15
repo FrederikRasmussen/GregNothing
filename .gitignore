@@ -37,6 +37,7 @@ config/stg.cfg
 
 # This should be configured by the players themselves
 config/acronym/
+config/aurora.cfg
 config/bbm/
 config/betterfps.json
 config/BlockDrops/
