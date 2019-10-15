@@ -27,7 +27,6 @@ config/BNBGamingCore.cfg
 config/craftingtweaks.cfg
 config/fastleafdecay.cfg
 config/forestry/apiculture.cfg
-config/forestry/crates.cfg
 config/forestry/lepidopterology.cfg
 config/jei/worldSettings.cfg
 config/laser_drill_ores/
@@ -44,6 +43,7 @@ config/BlockDrops/
 config/carryon-scripts/
 config/carryon.cfg
 config/chesttransporter.cfg
+config/chunkanimator.cfg
 config/codechicken/
 config/codechickenlib.cfg
 config/cofh/core/
