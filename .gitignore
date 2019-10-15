@@ -33,6 +33,7 @@ config/laser_drill_ores/
 config/loottweaker.cfg
 config/PressurePipes/readme.txt
 config/stg.cfg
+config/splash.properties
 
 # This should be configured by the players themselves
 config/acronym/
