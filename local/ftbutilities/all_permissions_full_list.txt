@@ -1,4 +1,4 @@
-7851 nodes in total
+7824 nodes in total
 Modifying this file won't have any effect, edit ranks.txt!
 
 admin_panel.ftbutilities.crash_reports.delete: OP
@@ -1841,29 +1841,15 @@ ftbutilities.claims.block.edit.tconstruct.metal: OP
 ftbutilities.claims.block.edit.tconstruct.milk: OP
 ftbutilities.claims.block.edit.tconstruct.molten_alubrass: OP
 ftbutilities.claims.block.edit.tconstruct.molten_aluminum: OP
-ftbutilities.claims.block.edit.tconstruct.molten_ardite: OP
 ftbutilities.claims.block.edit.tconstruct.molten_brass: OP
-ftbutilities.claims.block.edit.tconstruct.molten_bronze: OP
 ftbutilities.claims.block.edit.tconstruct.molten_clay: OP
-ftbutilities.claims.block.edit.tconstruct.molten_cobalt: OP
-ftbutilities.claims.block.edit.tconstruct.molten_copper: OP
 ftbutilities.claims.block.edit.tconstruct.molten_dirt: OP
-ftbutilities.claims.block.edit.tconstruct.molten_electrum: OP
 ftbutilities.claims.block.edit.tconstruct.molten_emerald: OP
 ftbutilities.claims.block.edit.tconstruct.molten_glass: OP
 ftbutilities.claims.block.edit.tconstruct.molten_gold: OP
-ftbutilities.claims.block.edit.tconstruct.molten_iron: OP
-ftbutilities.claims.block.edit.tconstruct.molten_knightslime: OP
-ftbutilities.claims.block.edit.tconstruct.molten_lead: OP
-ftbutilities.claims.block.edit.tconstruct.molten_magnesium: OP
-ftbutilities.claims.block.edit.tconstruct.molten_manyullyn: OP
 ftbutilities.claims.block.edit.tconstruct.molten_nickel: OP
 ftbutilities.claims.block.edit.tconstruct.molten_obsidian: OP
-ftbutilities.claims.block.edit.tconstruct.molten_pigiron: OP
-ftbutilities.claims.block.edit.tconstruct.molten_silver: OP
-ftbutilities.claims.block.edit.tconstruct.molten_steel: OP
 ftbutilities.claims.block.edit.tconstruct.molten_stone: OP
-ftbutilities.claims.block.edit.tconstruct.molten_thorium: OP
 ftbutilities.claims.block.edit.tconstruct.molten_tin: OP
 ftbutilities.claims.block.edit.tconstruct.molten_zinc: OP
 ftbutilities.claims.block.edit.tconstruct.mudbrick_stairs: OP
@@ -3737,29 +3723,15 @@ ftbutilities.claims.block.interact.tconstruct.metal: OP
 ftbutilities.claims.block.interact.tconstruct.milk: OP
 ftbutilities.claims.block.interact.tconstruct.molten_alubrass: OP
 ftbutilities.claims.block.interact.tconstruct.molten_aluminum: OP
-ftbutilities.claims.block.interact.tconstruct.molten_ardite: OP
 ftbutilities.claims.block.interact.tconstruct.molten_brass: OP
-ftbutilities.claims.block.interact.tconstruct.molten_bronze: OP
 ftbutilities.claims.block.interact.tconstruct.molten_clay: OP
-ftbutilities.claims.block.interact.tconstruct.molten_cobalt: OP
-ftbutilities.claims.block.interact.tconstruct.molten_copper: OP
 ftbutilities.claims.block.interact.tconstruct.molten_dirt: OP
-ftbutilities.claims.block.interact.tconstruct.molten_electrum: OP
 ftbutilities.claims.block.interact.tconstruct.molten_emerald: OP
 ftbutilities.claims.block.interact.tconstruct.molten_glass: OP
 ftbutilities.claims.block.interact.tconstruct.molten_gold: OP
-ftbutilities.claims.block.interact.tconstruct.molten_iron: OP
-ftbutilities.claims.block.interact.tconstruct.molten_knightslime: OP
-ftbutilities.claims.block.interact.tconstruct.molten_lead: OP
-ftbutilities.claims.block.interact.tconstruct.molten_magnesium: OP
-ftbutilities.claims.block.interact.tconstruct.molten_manyullyn: OP
 ftbutilities.claims.block.interact.tconstruct.molten_nickel: OP
 ftbutilities.claims.block.interact.tconstruct.molten_obsidian: OP
-ftbutilities.claims.block.interact.tconstruct.molten_pigiron: OP
-ftbutilities.claims.block.interact.tconstruct.molten_silver: OP
-ftbutilities.claims.block.interact.tconstruct.molten_steel: OP
 ftbutilities.claims.block.interact.tconstruct.molten_stone: OP
-ftbutilities.claims.block.interact.tconstruct.molten_thorium: OP
 ftbutilities.claims.block.interact.tconstruct.molten_tin: OP
 ftbutilities.claims.block.interact.tconstruct.molten_zinc: OP
 ftbutilities.claims.block.interact.tconstruct.mudbrick_stairs: OP
@@ -4332,6 +4304,7 @@ ftbutilities.claims.item.contenttweaker.pyrite: ALL
 ftbutilities.claims.item.contenttweaker.pyrolusite: ALL
 ftbutilities.claims.item.contenttweaker.pyrope: ALL
 ftbutilities.claims.item.contenttweaker.quartzite: ALL
+ftbutilities.claims.item.contenttweaker.red_alloy_grinder: ALL
 ftbutilities.claims.item.contenttweaker.redstone: ALL
 ftbutilities.claims.item.contenttweaker.rock_salt: ALL
 ftbutilities.claims.item.contenttweaker.ruby: ALL
