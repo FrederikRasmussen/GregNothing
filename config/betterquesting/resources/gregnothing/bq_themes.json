@@ -1,14 +1,14 @@
 [
   {
-    "themeID": "gregnothing:gregnothing",
-    "themeName": "Greg Nothing",
+    "themeID": "gregnothing:gn_day",
+    "themeName": "Greg Nothing - Day Mode",
     "themeParent": "none",
     "textures":
     {
       "betterquesting:panel_main":
       {
         "textureType": "betterquesting:texture_sliced",
-        "atlas": "gregnothing:textures/gui/editor_gui_gregnothing.png",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_day.png",
         "bounds": [96, 16, 28, 28],
         "padding": [6, 6, 6, 6],
         "sliceMode": 1
@@ -16,7 +16,7 @@
       "betterquesting:aux_frame_0":
       {
         "textureType": "betterquesting:texture_sliced",
-        "atlas": "gregnothing:textures/gui/editor_gui_gregnothing.png",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_day.png",
         "bounds": [24, 0, 24, 24],
         "padding": [6, 6, 6, 6],
         "sliceMode": 2
@@ -24,7 +24,7 @@
       "betterquesting:scroll_v_bg":
       {
         "textureType": "betterquesting:texture_sliced",
-        "atlas": "gregnothing:textures/gui/editor_gui_gregnothing.png",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_day.png",
         "bounds": [96, 0, 8, 8],
         "padding": [2, 2, 2, 2],
         "sliceMode": 2
@@ -32,7 +32,7 @@
       "betterquesting:scroll_v_0":
       {
         "textureType": "betterquesting:texture_sliced",
-        "atlas": "gregnothing:textures/gui/editor_gui_gregnothing.png",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_day.png",
         "bounds": [104, 0, 8, 8],
         "padding": [3, 3, 3, 3],
         "sliceMode": 2
@@ -40,7 +40,7 @@
       "betterquesting:scroll_v_1":
       {
         "textureType": "betterquesting:texture_sliced",
-        "atlas": "gregnothing:textures/gui/editor_gui_gregnothing.png",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_day.png",
         "bounds": [112, 0, 8, 8],
         "padding": [3, 3, 3, 3],
         "sliceMode": 2
@@ -48,7 +48,7 @@
       "betterquesting:scroll_v_2":
       {
         "textureType": "betterquesting:texture_sliced",
-        "atlas": "gregnothing:textures/gui/editor_gui_gregnothing.png",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_day.png",
         "bounds": [120, 0, 8, 8],
         "padding": [3, 3, 3, 3],
         "sliceMode": 2
@@ -56,7 +56,7 @@
       "betterquesting:btn_normal_0":
       {
         "textureType": "betterquesting:texture_sliced",
-        "atlas": "gregnothing:textures/gui/editor_gui_gregnothing.png",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_day.png",
         "bounds": [56, 24, 12, 12],
         "padding": [5, 5, 5, 5],
         "sliceMode": 1
@@ -64,7 +64,7 @@
       "betterquesting:btn_normal_1":
       {
         "textureType": "betterquesting:texture_sliced",
-        "atlas": "gregnothing:textures/gui/editor_gui_gregnothing.png",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_day.png",
         "bounds": [56, 36, 12, 12],
         "padding": [5, 5, 5, 5],
         "sliceMode": 1
@@ -72,7 +72,7 @@
       "betterquesting:btn_normal_2":
       {
         "textureType": "betterquesting:texture_sliced",
-        "atlas": "gregnothing:textures/gui/editor_gui_gregnothing.png",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_day.png",
         "bounds": [48, 16, 8, 8],        
         "padding": [3, 3, 3, 3],
         "sliceMode": 1
@@ -80,49 +80,49 @@
       "betterquesting:quest_main_0":
       {
         "textureType": "betterquesting:texture_simple",
-        "atlas": "gregnothing:textures/gui/editor_gui_gregnothing.png",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_day.png",
         "bounds": [68, 24, 16, 16]
       },
       "betterquesting:quest_main_1":
       {
         "textureType": "betterquesting:texture_simple",
-        "atlas": "gregnothing:textures/gui/editor_gui_gregnothing.png",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_day.png",
         "bounds": [68, 24, 16, 16]
       },
       "betterquesting:quest_main_2":
       {
         "textureType": "betterquesting:texture_simple",
-        "atlas": "gregnothing:textures/gui/editor_gui_gregnothing.png",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_day.png",
         "bounds": [68, 24, 16, 16]
       },
       "betterquesting:quest_main_3":
       {
         "textureType": "betterquesting:texture_simple",
-        "atlas": "gregnothing:textures/gui/editor_gui_gregnothing.png",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_day.png",
         "bounds": [68, 24, 16, 16]
       },
       "betterquesting:quest_norm_0":
       {
         "textureType": "betterquesting:texture_simple",
-        "atlas": "gregnothing:textures/gui/editor_gui_gregnothing.png",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_day.png",
         "bounds": [68, 40, 16, 16]
       },
       "betterquesting:quest_norm_1":
       {
         "textureType": "betterquesting:texture_simple",
-        "atlas": "gregnothing:textures/gui/editor_gui_gregnothing.png",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_day.png",
         "bounds": [68, 40, 16, 16]
       },
       "betterquesting:quest_norm_2":
       {
         "textureType": "betterquesting:texture_simple",
-        "atlas": "gregnothing:textures/gui/editor_gui_gregnothing.png",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_day.png",
         "bounds": [68, 40, 16, 16]
       },
       "betterquesting:quest_norm_3":
       {
         "textureType": "betterquesting:texture_simple",
-        "atlas": "gregnothing:textures/gui/editor_gui_gregnothing.png",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_day.png",
         "bounds": [68, 40, 16, 16]
       }
     },
@@ -218,6 +218,249 @@
       {
         "colorType": "betterquesting:color_static",
         "color": "FF00FF00"
+      },
+
+      "betterquesting:quest_icon_locked":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FF808080"
+      },
+      "betterquesting:quest_icon_unlocked":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FF800000"
+      },
+      "betterquesting:quest_icon_pending":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FF008000"
+      },
+      "betterquesting:quest_icon_complete":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FF00FF00"
+      }
+    }
+  },
+  {
+    "themeID": "gregnothing:gn_night",
+    "themeName": "Greg Nothing - Night Mode",
+    "themeParent": "none",
+    "textures":
+    {
+      "betterquesting:panel_main":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_night.png",
+        "bounds": [96, 16, 28, 28],
+        "padding": [6, 6, 6, 6],
+        "sliceMode": 1
+      },
+      "betterquesting:aux_frame_0":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_night.png",
+        "bounds": [24, 0, 24, 24],
+        "padding": [6, 6, 6, 6],
+        "sliceMode": 2
+      },
+      "betterquesting:scroll_v_bg":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_night.png",
+        "bounds": [96, 0, 8, 8],
+        "padding": [2, 2, 2, 2],
+        "sliceMode": 2
+      },
+      "betterquesting:scroll_v_0":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_night.png",
+        "bounds": [104, 0, 8, 8],
+        "padding": [3, 3, 3, 3],
+        "sliceMode": 2
+      },
+      "betterquesting:scroll_v_1":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_night.png",
+        "bounds": [112, 0, 8, 8],
+        "padding": [3, 3, 3, 3],
+        "sliceMode": 2
+      },
+      "betterquesting:scroll_v_2":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_night.png",
+        "bounds": [120, 0, 8, 8],
+        "padding": [3, 3, 3, 3],
+        "sliceMode": 2
+      },
+      "betterquesting:btn_normal_0":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_night.png",
+        "bounds": [56, 24, 12, 12],
+        "padding": [5, 5, 5, 5],
+        "sliceMode": 1
+      },
+      "betterquesting:btn_normal_1":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_night.png",
+        "bounds": [56, 36, 12, 12],
+        "padding": [5, 5, 5, 5],
+        "sliceMode": 1
+      },
+      "betterquesting:btn_normal_2":
+      {
+        "textureType": "betterquesting:texture_sliced",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_night.png",
+        "bounds": [48, 16, 8, 8],        
+        "padding": [3, 3, 3, 3],
+        "sliceMode": 1
+      },
+      "betterquesting:quest_main_0":
+      {
+        "textureType": "betterquesting:texture_simple",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_night.png",
+        "bounds": [68, 24, 16, 16]
+      },
+      "betterquesting:quest_main_1":
+      {
+        "textureType": "betterquesting:texture_simple",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_night.png",
+        "bounds": [68, 24, 16, 16]
+      },
+      "betterquesting:quest_main_2":
+      {
+        "textureType": "betterquesting:texture_simple",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_night.png",
+        "bounds": [68, 24, 16, 16]
+      },
+      "betterquesting:quest_main_3":
+      {
+        "textureType": "betterquesting:texture_simple",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_night.png",
+        "bounds": [68, 24, 16, 16]
+      },
+      "betterquesting:quest_norm_0":
+      {
+        "textureType": "betterquesting:texture_simple",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_night.png",
+        "bounds": [68, 40, 16, 16]
+      },
+      "betterquesting:quest_norm_1":
+      {
+        "textureType": "betterquesting:texture_simple",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_night.png",
+        "bounds": [68, 40, 16, 16]
+      },
+      "betterquesting:quest_norm_2":
+      {
+        "textureType": "betterquesting:texture_simple",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_night.png",
+        "bounds": [68, 40, 16, 16]
+      },
+      "betterquesting:quest_norm_3":
+      {
+        "textureType": "betterquesting:texture_simple",
+        "atlas": "gregnothing:textures/gui/gui_gregnothing_night.png",
+        "bounds": [68, 40, 16, 16]
+      }
+    },
+    "colors":
+    {
+      "betterquesting:text_header":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FFFFFFFF"
+      },
+      "betterquesting:text_main":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FFFFFFFF"
+      },
+      "betterquesting:text_aux_0":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FFFFFFFF"
+      },
+      "betterquesting:text_aux_1":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FF000000"
+      },
+      "betterquesting:text_highlight":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FF0000FF"
+      },
+      "betterquesting:text_watermark":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FF808080"
+      },
+
+      "betterquesting:item_highlight":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "80FFFFFF"
+      },
+
+      "betterquesting:gui_divider":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "00232323"
+      },
+
+
+      "betterquesting:grid_major":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FFF8A80A"
+      },
+      "betterquesting:grid_minor":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FFD07409"
+      },
+
+      "betterquesting:btn_disabled":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FF461D0D"
+      },
+      "betterquesting:btn_idle":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FFB63B09"
+      },
+      "betterquesting:btn_hover":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "FFFFFFFF"
+      },
+
+      "betterquesting:quest_line_locked":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "7FC00000"
+      },
+      "betterquesting:quest_line_unlocked":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "7F808000"
+      },
+      "betterquesting:quest_line_pending":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "7F00FF00"
+      },
+      "betterquesting:quest_line_complete":
+      {
+        "colorType": "betterquesting:color_static",
+        "color": "7F00FF00"
       },
 
       "betterquesting:quest_icon_locked":
