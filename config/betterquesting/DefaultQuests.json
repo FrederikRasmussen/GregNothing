@@ -10067,6 +10067,15 @@
               },
               "Damage:2": 0,
               "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "tconstruct:pattern",
+              "Count:3": 1,
+              "tag:10": {
+                "PartType:8": "tconstruct:tool_rod"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -12380,6 +12389,39 @@
         }
       },
       "rewards:9": {}
+    },
+    "189:10": {
+      "questID:3": 189,
+      "preRequisites:11": [
+        183
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_star",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "New Quest",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -12424,8 +12466,8 @@
       "lineID:3": 0,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
-          "name:8": "\u003dSieving\u003d",
+          "visibility:8": "UNLOCKED",
+          "name:8": "Ore Extraction",
           "icon:10": {
             "id:8": "exnihilocreatio:block_sieve",
             "Count:3": 1,
@@ -12434,10 +12476,10 @@
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "\nEverything you need to know about sieving!"
+          "desc:8": "\nEverything you need to know about sieving, excavating, and drilling!"
         }
       },
-      "order:3": 2
+      "order:3": 3
     },
     "1:10": {
       "quests:9": {
@@ -12900,8 +12942,8 @@
       "lineID:3": 1,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
-          "name:8": "String Mesh",
+          "visibility:8": "UNLOCKED",
+          "name:8": "    String Mesh",
           "icon:10": {
             "id:8": "exnihilocreatio:item_mesh",
             "Count:3": 1,
@@ -12913,7 +12955,7 @@
           "desc:8": "\nThe humble beginning of sieving!\nHere you\u0027ll find minerals, saplings, seeds, and stone!"
         }
       },
-      "order:3": 3
+      "order:3": 4
     },
     "2:10": {
       "quests:9": {
@@ -12991,8 +13033,8 @@
       "lineID:3": 2,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
-          "name:8": "\u003dTools \u0026 Weapons\u003d",
+          "visibility:8": "UNLOCKED",
+          "name:8": "Tools \u0026 Weapons",
           "icon:10": {
             "id:8": "tconstruct:tooltables",
             "Count:3": 1,
@@ -13004,7 +13046,7 @@
           "desc:8": "\nAxes, swords, drills, and more!"
         }
       },
-      "order:3": 4
+      "order:3": 2
     },
     "3:10": {
       "quests:9": {
@@ -13026,11 +13068,14 @@
       "lineID:3": 3,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
-          "name:8": "\u003dMachines and Devices\u003d",
+          "visibility:8": "UNLOCKED",
+          "name:8": "Machines and Devices",
           "icon:10": {
-            "id:8": "minecraft:furnace",
+            "id:8": "immersiveengineering:conveyor",
             "Count:3": 1,
+            "tag:10": {
+              "conveyorType:8": "immersiveengineering:conveyor"
+            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -13039,7 +13084,7 @@
           "desc:8": "\nOvens, compressors, crushers, electrolysers and more!\nThis chapter is sorted by origin mod of various machines and devices, with a special questline for early game to get the player up and running."
         }
       },
-      "order:3": 5
+      "order:3": 14
     },
     "4:10": {
       "quests:9": {
@@ -13439,8 +13484,8 @@
       "lineID:3": 4,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
-          "name:8": "Primitive Technology",
+          "visibility:8": "UNLOCKED",
+          "name:8": "    Primitive Technology",
           "icon:10": {
             "id:8": "gregtech:meta_item_2",
             "Count:3": 1,
@@ -13452,7 +13497,7 @@
           "desc:8": "\nTechnology without energy or steam requirements!"
         }
       },
-      "order:3": 6
+      "order:3": 15
     },
     "5:10": {
       "quests:9": {
@@ -13558,8 +13603,8 @@
       "lineID:3": 5,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
-          "name:8": "\u003dMaterials\u003d",
+          "visibility:8": "UNLOCKED",
+          "name:8": "Material Processing",
           "icon:10": {
             "id:8": "minecraft:iron_ingot",
             "Count:3": 1,
@@ -13754,8 +13799,8 @@
       "lineID:3": 6,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
-          "name:8": "Steam Power",
+          "visibility:8": "UNLOCKED",
+          "name:8": "    Steam Power",
           "icon:10": {
             "id:8": "forge:bucketfilled",
             "Count:3": 1,
@@ -13771,7 +13816,7 @@
           "desc:8": "Machines that generate or run on steam."
         }
       },
-      "order:3": 7
+      "order:3": 16
     },
     "7:10": {
       "quests:9": {
@@ -13891,7 +13936,7 @@
       "lineID:3": 7,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "UNLOCKED",
           "name:8": "Milestones",
           "icon:10": {
             "id:8": "minecraft:book",
@@ -13907,6 +13952,266 @@
       "order:3": 0
     },
     "8:10": {
+      "quests:9": {},
+      "lineID:3": 8,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "UNLOCKED",
+          "name:8": "    Steel Mesh",
+          "icon:10": {
+            "id:8": "exnihilocreatio:item_mesh",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 5
+    },
+    "9:10": {
+      "quests:9": {},
+      "lineID:3": 9,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "UNLOCKED",
+          "name:8": "    Aluminium Mesh",
+          "icon:10": {
+            "id:8": "exnihilocreatio:item_mesh",
+            "Count:3": 1,
+            "Damage:2": 4,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 6
+    },
+    "10:10": {
+      "quests:9": {},
+      "lineID:3": 10,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "UNLOCKED",
+          "name:8": "    Stainless Steel Mesh",
+          "icon:10": {
+            "id:8": "exnihilocreatio:item_mesh",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 7
+    },
+    "11:10": {
+      "quests:9": {},
+      "lineID:3": 11,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "UNLOCKED",
+          "name:8": "    Ore Smelting",
+          "icon:10": {
+            "id:8": "minecraft:furnace",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 9
+    },
+    "12:10": {
+      "quests:9": {},
+      "lineID:3": 12,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "UNLOCKED",
+          "name:8": "    Alloying",
+          "icon:10": {
+            "id:8": "tcomplement:alloy_tank",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": ""
+        }
+      },
+      "order:3": 10
+    },
+    "13:10": {
+      "quests:9": {},
+      "lineID:3": 13,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "UNLOCKED",
+          "name:8": "    Electric Blast Furnace",
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 511,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 12
+    },
+    "14:10": {
+      "quests:9": {},
+      "lineID:3": 14,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "UNLOCKED",
+          "name:8": "    Vacuum Freezer",
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 512,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 13
+    },
+    "15:10": {
+      "quests:9": {},
+      "lineID:3": 15,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "UNLOCKED",
+          "name:8": "    LV Machines (GT)",
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 501,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 19
+    },
+    "16:10": {
+      "quests:9": {},
+      "lineID:3": 16,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "UNLOCKED",
+          "name:8": "    FE Machines (IE)",
+          "icon:10": {
+            "id:8": "immersiveengineering:metal_multiblock",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 18
+    },
+    "17:10": {
+      "quests:9": {},
+      "lineID:3": 17,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "UNLOCKED",
+          "name:8": "    FE Machines (IF)",
+          "icon:10": {
+            "id:8": "industrialforegoing:laser_drill",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 20
+    },
+    "18:10": {
+      "quests:9": {},
+      "lineID:3": 18,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "UNLOCKED",
+          "name:8": "Primitive Blast Furnace",
+          "icon:10": {
+            "id:8": "gregtech:machine",
+            "Count:3": 1,
+            "Damage:2": 510,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": ""
+        }
+      },
+      "order:3": 11
+    },
+    "19:10": {
+      "quests:9": {},
+      "lineID:3": 19,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "UNLOCKED",
+          "name:8": "    Storage Network",
+          "icon:10": {
+            "id:8": "storagenetwork:request",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": ""
+        }
+      },
+      "order:3": 17
+    },
+    "20:10": {
+      "quests:9": {},
+      "lineID:3": 20,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "UNLOCKED",
+          "name:8": "    Applied Energistics",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": ""
+        }
+      },
+      "order:3": 21
+    },
+    "21:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
@@ -13989,7 +14294,7 @@
       "lineID:3": 32,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "UNLOCKED",
           "name:8": "Getting Started",
           "icon:10": {
             "id:8": "minecraft:crafting_table",
