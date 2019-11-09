@@ -6393,7 +6393,7 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "repeat_relative:1": 1,
           "name:8": "Wood Plate / Plank",
           "desc:8": "Compressed wood pulp in the shape of a plate. Required for simple logistics using conveyors and item routers."
@@ -9386,7 +9386,7 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "repeat_relative:1": 1,
           "name:8": "Red Alloy",
           "desc:8": "A combination alloy of copper and redstone that can transport Ultra Low Voltage power without loss."
@@ -9961,10 +9961,10 @@
               },
               "TinkerData:10": {
                 "Materials:9": {
-                  "0:8": "wood",
-                  "1:8": "wood",
-                  "2:8": "wood",
-                  "3:8": "wood"
+                  "0:8": "ct_wood",
+                  "1:8": "ct_wood",
+                  "2:8": "ct_wood",
+                  "3:8": "ct_wood"
                 },
                 "Modifiers:9": {
                   "0:8": "toolleveling"
@@ -9998,7 +9998,7 @@
           "ismain:1": 0,
           "repeat_relative:1": 1,
           "name:8": "What a crook!",
-          "desc:8": "A crook is a tool used to get extra resources from leaves, such as apples, saplings, or silkworms.\n\nIf you get a silkworm, you can right click on a leaf block to put it back, where it will slowly conver the leaves into silk leaves!\nWhen the process is done, harvest the silk leaves with a crook to get string."
+          "desc:8": "A crook is a tool used to get extra resources from leaves, such as apples, saplings, or silkworms.\n\nNote: Silkworms can only be acquired by breaking leaves with a crook!\n\nIf you get a silkworm, you can right click on a leaf block to put it back, where it will slowly convert the leaves into silk leaves!\nWhen the process is done, harvest the silk leaves with a crook to get string."
         }
       },
       "tasks:9": {
@@ -10039,10 +10039,10 @@
                 },
                 "TinkerData:10": {
                   "Materials:9": {
-                    "0:8": "wood",
-                    "1:8": "wood",
-                    "2:8": "wood",
-                    "3:8": "wood"
+                    "0:8": "ct_wood",
+                    "1:8": "ct_wood",
+                    "2:8": "ct_wood",
+                    "3:8": "ct_wood"
                   },
                   "Modifiers:9": {
                     "0:8": "toolleveling"
@@ -10143,9 +10143,9 @@
               },
               "TinkerData:10": {
                 "Materials:9": {
-                  "0:8": "wood",
-                  "1:8": "flint",
-                  "2:8": "flint"
+                  "0:8": "ct_wood",
+                  "1:8": "ct_flint",
+                  "2:8": "ct_flint"
                 },
                 "Modifiers:9": {
                   "0:8": "toolleveling"
@@ -10227,9 +10227,9 @@
                 },
                 "TinkerData:10": {
                   "Materials:9": {
-                    "0:8": "wood",
-                    "1:8": "flint",
-                    "2:8": "flint"
+                    "0:8": "ct_wood",
+                    "1:8": "ct_flint",
+                    "2:8": "ct_flint"
                   },
                   "Modifiers:9": {
                     "0:8": "toolleveling"
@@ -10320,9 +10320,9 @@
               },
               "TinkerData:10": {
                 "Materials:9": {
-                  "0:8": "wood",
-                  "1:8": "flint",
-                  "2:8": "wood"
+                  "0:8": "ct_wood",
+                  "1:8": "ct_flint",
+                  "2:8": "ct_wood"
                 },
                 "Modifiers:9": {
                   "0:8": "toolleveling"
@@ -10400,9 +10400,9 @@
                 },
                 "TinkerData:10": {
                   "Materials:9": {
-                    "0:8": "wood",
-                    "1:8": "flint",
-                    "2:8": "wood"
+                    "0:8": "ct_wood",
+                    "1:8": "ct_flint",
+                    "2:8": "ct_wood"
                   },
                   "Modifiers:9": {
                     "0:8": "toolleveling"
@@ -11027,7 +11027,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Steam Alloy Smelter",
           "desc:8": "\nAn advanced furnace that can combine two metals into a single alloy.\n\nIt is highly recommended to build one of these for easy bronze production!"
         }
@@ -11530,7 +11530,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "High Pressure Steam Alloy Smelter",
           "desc:8": ""
         }
@@ -12422,6 +12422,647 @@
       },
       "tasks:9": {},
       "rewards:9": {}
+    },
+    "190:10": {
+      "questID:3": 190,
+      "preRequisites:11": [
+        193,
+        194,
+        191,
+        192
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_2",
+            "Count:3": 1,
+            "Damage:2": 32487,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Basic Circuit",
+          "desc:8": "The entrypoint to all things Low Voltage"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "191:10": {
+      "questID:3": 191,
+      "preRequisites:11": [
+        195
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_2",
+            "Count:3": 1,
+            "Damage:2": 32443,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Coated Circuit Board",
+          "desc:8": "Non-electrically conducting circuit board ready for circuit construction."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "192:10": {
+      "questID:3": 192,
+      "preRequisites:11": [
+        198
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_2",
+            "Count:3": 1,
+            "Damage:2": 32450,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Vacuum Tube",
+          "desc:8": "Tube with electrical components acting as a switch or amplifier for a circuit."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "193:10": {
+      "questID:3": 193,
+      "preRequisites:11": [
+        143
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:cable",
+            "Count:3": 1,
+            "Damage:2": 5237,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Red Alloy Cable",
+          "desc:8": "Insulated cable with minimal resistance."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "194:10": {
+      "questID:3": 194,
+      "preRequisites:11": [
+        196
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_2",
+            "Count:3": 1,
+            "Damage:2": 32455,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Resistor",
+          "desc:8": "Simple electrical resistor used to control the voltage and amperage of electrical circuits."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "195:10": {
+      "questID:3": 195,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 32627,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Rubber",
+          "desc:8": "Dried rubber with excellent electrical insulation"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "196:10": {
+      "questID:3": 196,
+      "preRequisites:11": [
+        92
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 2012,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Low Conductivity Carbon Dust",
+          "desc:8": "Finely ground coal, lignite, charcoal, or other rich carbon dust."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "197:10": {
+      "questID:3": 197,
+      "preRequisites:11": [
+        172,
+        164
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 32307,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "OR",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Ball Mold",
+          "desc:8": "Ball shaped mold."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "198:10": {
+      "questID:3": 198,
+      "preRequisites:11": [
+        197
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_2",
+            "Count:3": 1,
+            "Damage:2": 32454,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Glass Tube",
+          "desc:8": "Empty tube for electrical circuitry."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "199:10": {
+      "questID:3": 199,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_2",
+            "Count:3": 1,
+            "Damage:2": 26196,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "partysinglereward:1": 0,
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "ismain:1": 0,
+          "repeat_relative:1": 1,
+          "name:8": "Wood Gear",
+          "desc:8": "A simple wooden gear for early logistics. This piece can be automated with the Immersive Engineering Metal Press when you get access to Forge Energy (FE)."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_2",
+              "Count:3": 2,
+              "Damage:2": 26196,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -13084,7 +13725,7 @@
           "desc:8": "\nOvens, compressors, crushers, electrolysers and more!\nThis chapter is sorted by origin mod of various machines and devices, with a special questline for early game to get the player up and running."
         }
       },
-      "order:3": 14
+      "order:3": 17
     },
     "4:10": {
       "quests:9": {
@@ -13231,7 +13872,7 @@
         "20:10": {
           "sizeX:3": 24,
           "x:3": -24,
-          "y:3": -48,
+          "y:3": -84,
           "id:3": 99,
           "sizeY:3": 24
         },
@@ -13287,161 +13928,161 @@
         "28:10": {
           "sizeX:3": 24,
           "x:3": -96,
-          "y:3": -132,
+          "y:3": -168,
           "id:3": 107,
           "sizeY:3": 24
         },
         "29:10": {
           "sizeX:3": 24,
           "x:3": -12,
-          "y:3": -120,
+          "y:3": -156,
           "id:3": 108,
           "sizeY:3": 24
         },
         "30:10": {
           "sizeX:3": 24,
           "x:3": -132,
-          "y:3": -144,
+          "y:3": -180,
           "id:3": 109,
           "sizeY:3": 24
         },
         "31:10": {
           "sizeX:3": 24,
           "x:3": -108,
-          "y:3": -168,
+          "y:3": -204,
           "id:3": 110,
           "sizeY:3": 24
         },
         "32:10": {
           "sizeX:3": 24,
           "x:3": -60,
-          "y:3": -156,
+          "y:3": -192,
           "id:3": 111,
           "sizeY:3": 24
         },
         "33:10": {
           "sizeX:3": 24,
           "x:3": -36,
-          "y:3": -228,
+          "y:3": -264,
           "id:3": 112,
           "sizeY:3": 24
         },
         "34:10": {
           "sizeX:3": 24,
           "x:3": -60,
-          "y:3": -192,
+          "y:3": -228,
           "id:3": 113,
           "sizeY:3": 24
         },
         "35:10": {
           "sizeX:3": 24,
           "x:3": 12,
-          "y:3": -228,
+          "y:3": -264,
           "id:3": 114,
           "sizeY:3": 24
         },
         "36:10": {
           "sizeX:3": 24,
           "x:3": 36,
-          "y:3": -192,
+          "y:3": -228,
           "id:3": 115,
           "sizeY:3": 24
         },
         "37:10": {
           "sizeX:3": 24,
           "x:3": 36,
-          "y:3": -156,
+          "y:3": -192,
           "id:3": 116,
           "sizeY:3": 24
         },
         "38:10": {
           "sizeX:3": 24,
           "x:3": 72,
-          "y:3": -132,
+          "y:3": -168,
           "id:3": 117,
           "sizeY:3": 24
         },
         "39:10": {
           "sizeX:3": 24,
           "x:3": 84,
-          "y:3": -168,
+          "y:3": -204,
           "id:3": 118,
           "sizeY:3": 24
         },
         "40:10": {
           "sizeX:3": 24,
           "x:3": 108,
-          "y:3": -144,
+          "y:3": -180,
           "id:3": 119,
           "sizeY:3": 24
         },
         "41:10": {
           "sizeX:3": 24,
-          "x:3": 60,
-          "y:3": -60,
+          "x:3": 48,
+          "y:3": -96,
           "id:3": 120,
           "sizeY:3": 24
         },
         "42:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": -96,
+          "x:3": 84,
+          "y:3": -132,
           "id:3": 121,
           "sizeY:3": 24
         },
         "43:10": {
           "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": -96,
+          "x:3": 120,
+          "y:3": -132,
           "id:3": 122,
           "sizeY:3": 24
         },
         "44:10": {
           "sizeX:3": 24,
-          "x:3": 168,
-          "y:3": -84,
+          "x:3": 156,
+          "y:3": -120,
           "id:3": 123,
           "sizeY:3": 24
         },
         "45:10": {
           "sizeX:3": 24,
-          "x:3": 96,
-          "y:3": -24,
+          "x:3": 84,
+          "y:3": -60,
           "id:3": 124,
           "sizeY:3": 24
         },
         "46:10": {
           "sizeX:3": 24,
-          "x:3": 132,
-          "y:3": -24,
+          "x:3": 120,
+          "y:3": -60,
           "id:3": 125,
           "sizeY:3": 24
         },
         "47:10": {
           "sizeX:3": 24,
-          "x:3": 168,
-          "y:3": -36,
+          "x:3": 156,
+          "y:3": -72,
           "id:3": 126,
           "sizeY:3": 24
         },
         "48:10": {
           "sizeX:3": 24,
           "x:3": -84,
-          "y:3": -72,
+          "y:3": -108,
           "id:3": 127,
           "sizeY:3": 24
         },
         "49:10": {
           "sizeX:3": 24,
           "x:3": -96,
-          "y:3": -96,
+          "y:3": -132,
           "id:3": 128,
           "sizeY:3": 24
         },
         "50:10": {
           "sizeX:3": 24,
           "x:3": -72,
-          "y:3": -48,
+          "y:3": -84,
           "id:3": 129,
           "sizeY:3": 24
         },
@@ -13469,15 +14110,29 @@
         "54:10": {
           "sizeX:3": 24,
           "x:3": 0,
-          "y:3": -48,
+          "y:3": -84,
           "id:3": 142,
           "sizeY:3": 24
         },
         "55:10": {
           "sizeX:3": 24,
           "x:3": -12,
-          "y:3": -84,
+          "y:3": -120,
           "id:3": 145,
+          "sizeY:3": 24
+        },
+        "56:10": {
+          "sizeX:3": 24,
+          "x:3": -180,
+          "y:3": 132,
+          "id:3": 196,
+          "sizeY:3": 24
+        },
+        "57:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": -12,
+          "id:3": 199,
           "sizeY:3": 24
         }
       },
@@ -13497,7 +14152,7 @@
           "desc:8": "\nTechnology without energy or steam requirements!"
         }
       },
-      "order:3": 15
+      "order:3": 18
     },
     "5:10": {
       "quests:9": {
@@ -13616,7 +14271,7 @@
           "desc:8": "\nMaterials as you unlock them! Starting from flint, moving through a heck of a lot of metals, rubbers, and plastics!\nMost of these are used for tools, but some can be used for new machines, fluid tanks, item containers, and more!"
         }
       },
-      "order:3": 8
+      "order:3": 10
     },
     "6:10": {
       "quests:9": {
@@ -13794,6 +14449,20 @@
           "y:3": 24,
           "id:3": 177,
           "sizeY:3": 24
+        },
+        "25:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 60,
+          "id:3": 197,
+          "sizeY:3": 24
+        },
+        "26:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 96,
+          "id:3": 198,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 6,
@@ -13816,7 +14485,7 @@
           "desc:8": "Machines that generate or run on steam."
         }
       },
-      "order:3": 16
+      "order:3": 19
     },
     "7:10": {
       "quests:9": {
@@ -13989,7 +14658,7 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 6
+      "order:3": 7
     },
     "10:10": {
       "quests:9": {},
@@ -14009,7 +14678,7 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 7
+      "order:3": 9
     },
     "11:10": {
       "quests:9": {},
@@ -14029,7 +14698,7 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 9
+      "order:3": 11
     },
     "12:10": {
       "quests:9": {},
@@ -14049,7 +14718,7 @@
           "desc:8": ""
         }
       },
-      "order:3": 10
+      "order:3": 12
     },
     "13:10": {
       "quests:9": {},
@@ -14069,7 +14738,7 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 12
+      "order:3": 15
     },
     "14:10": {
       "quests:9": {},
@@ -14089,10 +14758,74 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 13
+      "order:3": 16
     },
     "15:10": {
-      "quests:9": {},
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": -108,
+          "id:3": 143,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -12,
+          "id:3": 190,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -60,
+          "id:3": 191,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": -60,
+          "id:3": 192,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": -60,
+          "id:3": 193,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": -60,
+          "id:3": 194,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -108,
+          "id:3": 195,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": -108,
+          "id:3": 196,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": 60,
+          "y:3": -108,
+          "id:3": 198,
+          "sizeY:3": 24
+        }
+      },
       "lineID:3": 15,
       "properties:10": {
         "betterquesting:10": {
@@ -14109,7 +14842,7 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 19
+      "order:3": 22
     },
     "16:10": {
       "quests:9": {},
@@ -14129,7 +14862,7 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 18
+      "order:3": 21
     },
     "17:10": {
       "quests:9": {},
@@ -14149,7 +14882,7 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 20
+      "order:3": 23
     },
     "18:10": {
       "quests:9": {},
@@ -14157,7 +14890,7 @@
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "UNLOCKED",
-          "name:8": "Primitive Blast Furnace",
+          "name:8": "    Primitive Blast Furnace",
           "icon:10": {
             "id:8": "gregtech:machine",
             "Count:3": 1,
@@ -14169,7 +14902,7 @@
           "desc:8": ""
         }
       },
-      "order:3": 11
+      "order:3": 14
     },
     "19:10": {
       "quests:9": {},
@@ -14189,7 +14922,7 @@
           "desc:8": ""
         }
       },
-      "order:3": 17
+      "order:3": 20
     },
     "20:10": {
       "quests:9": {},
@@ -14199,7 +14932,7 @@
           "visibility:8": "UNLOCKED",
           "name:8": "    Applied Energistics",
           "icon:10": {
-            "id:8": "minecraft:book",
+            "id:8": "appliedenergistics2:controller",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -14209,9 +14942,69 @@
           "desc:8": ""
         }
       },
-      "order:3": 21
+      "order:3": 24
     },
     "21:10": {
+      "quests:9": {},
+      "lineID:3": 21,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "    Coke Oven",
+          "icon:10": {
+            "id:8": "immersiveengineering:stone_decoration",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 13
+    },
+    "22:10": {
+      "quests:9": {},
+      "lineID:3": 22,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "    Excavator",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 6
+    },
+    "23:10": {
+      "quests:9": {},
+      "lineID:3": 23,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "    Laser Drill",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "No Description"
+        }
+      },
+      "order:3": 8
+    },
+    "24:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
