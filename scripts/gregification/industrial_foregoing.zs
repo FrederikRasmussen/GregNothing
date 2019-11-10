@@ -8,14 +8,3 @@ recipes.addShaped(
       [<ore:plateIron>, <ore:plateIron>, <ore:plateIron>]
     ]
 );
-
-recipes.remove(<industrialforegoing:tree_fluid_extractor>, false);
-recipes.addShaped(
-    "crafttweaker_industrial_foregoing_extractor",
-    <industrialforegoing:tree_fluid_extractor>,
-    [
-      [<ore:gearIron>, <immersiveengineering:connector:0>, <ore:gearIron>],
-      [<ore:plateIron>, <teslacorelib:machine_case>, <ore:plateIron>],
-      [<ore:gearIron>, <minecraft:bucket>, <ore:gearIron>]
-    ]
-);
