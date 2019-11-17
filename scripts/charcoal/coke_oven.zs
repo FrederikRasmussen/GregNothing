@@ -1,1 +1,3 @@
-# Add wood pile as valid fuel, should be 1/3rd faster than normal
+import mods.immersiveengineering.CokeOven;
+
+CokeOven.addRecipe(<ore:charcoal>.firstItem * 4, 1000, <forestry:wood_pile>, 2700);
