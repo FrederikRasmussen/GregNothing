@@ -13325,6 +13325,516 @@
           }
         }
       }
+    },
+    "204:10": {
+      "questID:3": 204,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "storagenetwork:master",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Starting a New Network",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "storagenetwork:master",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "205:10": {
+      "questID:3": 205,
+      "preRequisites:11": [
+        204
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "storagenetwork:request",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Interfacing",
+          "desc:8": "Connecting this block to your Master Network Controller will let you see the items inside all connected inventories, and even craft using items from any of your connected inventories."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "storagenetwork:request",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "206:10": {
+      "questID:3": 206,
+      "preRequisites:11": [
+        205
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "storagenetwork:kabel",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Extending the Network",
+          "desc:8": "To connect your network beyond just the controller, you\u0027ll need cables. These gray cables don\u0027t do anything but extend your reach, but you can upgrade them to enable direct manipulation of inventories next to the cable."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "storagenetwork:kabel",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "207:10": {
+      "questID:3": 207,
+      "preRequisites:11": [
+        206
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "storagenetwork:ex_kabel",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Exporting Items",
+          "desc:8": "This cable lets you automatically export items when they enter your network. This can be used for simple automation tasks where you always want to do the same thing with an incoming item. For example: Sending raw ores to your ore processing."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "storagenetwork:ex_kabel",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "208:10": {
+      "questID:3": 208,
+      "preRequisites:11": [
+        206
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "storagenetwork:im_kabel",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Importing Items",
+          "desc:8": "Similar to the export cable, this cable lets you import items from an inventory, right into your storage network. This is useful when you would like to retrieve the results of a processing line you have somewhere, into your main storage system."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "storagenetwork:im_kabel",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "209:10": {
+      "questID:3": 209,
+      "preRequisites:11": [
+        206
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "storagenetwork:process_kabel",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Transaction Based Processing",
+          "desc:8": "Fancy name to describe this cable. The cable lets you determine a \u0027trade\u0027 where a certain specific input item should give a certain output.\n\nThis cable will then extract the input items from the main storage and insert into an adjacent inventory.\nWhen the adjacent inventory has the specified output item, it will insert that item into the storage network, and place a new set of input items.\n\nThis allows you to set up sometimes quite complex processing behind the scenes.\nFor example, if you know exactly how much Iron, Copper, Wood, Sand, Redstone, and other materials are required for a Basic Circuit, you could use this processing cable to extract that amount from your main inventory, and only do it again once your processing system has made at least one Basic Circuit for you in return."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "storagenetwork:process_kabel",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "210:10": {
+      "questID:3": 210,
+      "preRequisites:11": [
+        206
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "storagenetwork:storage_kabel",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Adding More Storage",
+          "desc:8": "Connect this cable to an inventory, and either the controller or a storage cable to enable the entire network to see the connected inventory."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "storagenetwork:storage_kabel",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "211:10": {
+      "questID:3": 211,
+      "preRequisites:11": [
+        209
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "storagenetwork:controller",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Starting a New Network",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "storagenetwork:master",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -15067,7 +15577,7 @@
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "UNLOCKED",
-          "name:8": "    Electric Blast Furnace",
+          "name:8": "    Electric BF",
           "icon:10": {
             "id:8": "gregtech:machine",
             "Count:3": 1,
@@ -15183,10 +15693,18 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 23
+      "order:3": 22
     },
     "16:10": {
-      "quests:9": {},
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 0,
+          "id:3": 190,
+          "sizeY:3": 24
+        }
+      },
       "lineID:3": 16,
       "properties:10": {
         "betterquesting:10": {
@@ -15203,10 +15721,18 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 22
+      "order:3": 23
     },
     "17:10": {
-      "quests:9": {},
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 0,
+          "id:3": 190,
+          "sizeY:3": 24
+        }
+      },
       "lineID:3": 17,
       "properties:10": {
         "betterquesting:10": {
@@ -15239,7 +15765,7 @@
       "properties:10": {
         "betterquesting:10": {
           "visibility:8": "UNLOCKED",
-          "name:8": "    Primitive Blast Furnace",
+          "name:8": "    Primitive BF",
           "icon:10": {
             "id:8": "gregtech:machine",
             "Count:3": 1,
@@ -15254,7 +15780,64 @@
       "order:3": 15
     },
     "19:10": {
-      "quests:9": {},
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": -12,
+          "id:3": 204,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 24,
+          "id:3": 205,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -12,
+          "y:3": 60,
+          "id:3": 206,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -30,
+          "y:3": 96,
+          "id:3": 207,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": 6,
+          "y:3": 96,
+          "id:3": 208,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": 42,
+          "y:3": 96,
+          "id:3": 209,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -66,
+          "y:3": 96,
+          "id:3": 210,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": 42,
+          "y:3": 132,
+          "id:3": 211,
+          "sizeY:3": 24
+        }
+      },
       "lineID:3": 19,
       "properties:10": {
         "betterquesting:10": {
@@ -15291,7 +15874,7 @@
           "desc:8": ""
         }
       },
-      "order:3": 25
+      "order:3": 26
     },
     "21:10": {
       "quests:9": {
@@ -15415,7 +15998,7 @@
       "lineID:3": 25,
       "properties:10": {
         "betterquesting:10": {
-          "visibility:8": "NORMAL",
+          "visibility:8": "HIDDEN",
           "name:8": "Automation",
           "icon:10": {
             "id:8": "minecraft:book",
@@ -15428,15 +16011,43 @@
           "desc:8": "Quests under this headline help you set up automation for various complex components.\nThe quests here are just suggestions, and there are often other ways to get the same end result.\n\nNote: No quests underneath this headline contain any real rewards.\nItems granted are books with guides, and bucket lists to keep you organised!"
         }
       },
-      "order:3": 26
+      "order:3": 27
     },
     "26:10": {
       "quests:9": {},
       "lineID:3": 26,
       "properties:10": {
         "betterquesting:10": {
+          "visibility:8": "HIDDEN",
+          "name:8": "  Basic Circuit",
+          "icon:10": {
+            "id:8": "minecraft:book",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": ""
+        }
+      },
+      "order:3": 28
+    },
+    "27:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 0,
+          "id:3": 190,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 27,
+      "properties:10": {
+        "betterquesting:10": {
           "visibility:8": "NORMAL",
-          "name:8": "  Logic Circuit",
+          "name:8": "    Forestry Machines",
           "icon:10": {
             "id:8": "minecraft:book",
             "Count:3": 1,
@@ -15448,9 +16059,9 @@
           "desc:8": "No Description"
         }
       },
-      "order:3": 27
+      "order:3": 25
     },
-    "27:10": {
+    "28:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
