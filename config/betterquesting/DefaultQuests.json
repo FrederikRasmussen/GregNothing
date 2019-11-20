@@ -6458,10 +6458,10 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "repeat_relative:1": 1,
           "name:8": "Stone Plate",
-          "desc:8": "Required for advanced redstone gates."
+          "desc:8": "Required for advanced redstone gates.\n\nAlso useful for creating your first Storage Network!"
         }
       },
       "tasks:9": {
@@ -9320,7 +9320,7 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "repeat_relative:1": 1,
           "name:8": "Red Stone?",
           "desc:8": "A very useful material used for simple logic and even some power transfer!"
@@ -9451,7 +9451,7 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "repeat_relative:1": 1,
           "name:8": "How to Quest",
           "desc:8": "The \u0027Red Stone?\u0027 quest is intentionally cryptic.\nThe intention is to give you the tools you need to seek out knowledge on your own.\n\nIn order to complete it, you must simply acquire some redstone dust.\n\nTo do this, you can right click the Redstone in the Questbook, or search for it in JEI, this lets you see how Redstone is made.\n\n- You should note that it can be made with a GregTech mortar, some stone dust, and dried blood, beetroot, or wildberries.\n- Next step is to figure out how to make each of these things.\n- The mortar: If you read the \u0027Crafting Tools\u0027 quest in \"Getting Started\" you should know that tools can be made from a variety of materials, but always show up as Darmstadtium in JEI.\n- The stone dust: This one is available by manually using the mortar on a stone button, or...\n  If you looked around a bit, you might have noticed it is also available when you crack stone into gravel (or crushed stone) with a hammer.\n- The blood, beetroot, or wildberries: This one is tricky\n  - The wildberries are intentionally not available yet.\n  - The blood comes from the \"Heartbeet\" which is a random drop when harvesting Beetroot plants, and is then put in a Tinkers\u0027 Complement Melter, and then cast in an empty casting table to dry into a ball of coagulated blood.\n  - Finally, the beetroot is acquired by simply planting beetroot seeds from Vanilla Minecraft, waiting for them to grow, and harvesting the crop.\n\nAlthough, if you use JEI, you should find there\u0027s a technique that\u0027s more resource efficient than simply using a mortar to mix the redstone, involving a melter, casting table, and the same base ingredients."
@@ -13328,7 +13328,9 @@
     },
     "204:10": {
       "questID:3": 204,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        206
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -13349,7 +13351,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Starting a New Network",
           "desc:8": ""
         }
@@ -13391,7 +13393,7 @@
     "205:10": {
       "questID:3": 205,
       "preRequisites:11": [
-        204
+        206
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -13413,7 +13415,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Interfacing",
           "desc:8": "Connecting this block to your Master Network Controller will let you see the items inside all connected inventories, and even craft using items from any of your connected inventories."
         }
@@ -13455,7 +13457,7 @@
     "206:10": {
       "questID:3": 206,
       "preRequisites:11": [
-        205
+        99
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -13477,7 +13479,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Extending the Network",
           "desc:8": "To connect your network beyond just the controller, you\u0027ll need cables. These gray cables don\u0027t do anything but extend your reach, but you can upgrade them to enable direct manipulation of inventories next to the cable."
         }
@@ -13733,7 +13735,7 @@
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "name:8": "Adding More Storage",
           "desc:8": "Connect this cable to an inventory, and either the controller or a storage cable to enable the entire network to see the connected inventory."
         }
@@ -13798,7 +13800,7 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Starting a New Network",
+          "name:8": "Monitoring Your Processes",
           "desc:8": ""
         }
       },
@@ -13812,9 +13814,268 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "storagenetwork:master",
+              "id:8": "storagenetwork:controller",
               "Count:3": 1,
               "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "212:10": {
+      "questID:3": 212,
+      "preRequisites:11": [
+        208,
+        207
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "storagenetwork:upgrade",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "OR",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Speed Upgrade",
+          "desc:8": "This cable upgrade increases the frequency of exports or imports, depending on the cable you install it in."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "storagenetwork:upgrade",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "213:10": {
+      "questID:3": 213,
+      "preRequisites:11": [
+        208,
+        207
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "storagenetwork:upgrade",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "OR",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Operation Upgrade",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "storagenetwork:upgrade",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "214:10": {
+      "questID:3": 214,
+      "preRequisites:11": [
+        208,
+        207
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "storagenetwork:upgrade",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "OR",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Stack Upgrade",
+          "desc:8": "Increases the number of stacks moved at once in the importer and exporter."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "storagenetwork:upgrade",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "215:10": {
+      "questID:3": 215,
+      "preRequisites:11": [
+        207
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "storagenetwork:upgrade",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Keeping Stock",
+          "desc:8": "This upgrade, when placed in an Export Cable, lets you determine the maximum amount of items you want to keep in the export inventory."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "storagenetwork:upgrade",
+              "Count:3": 1,
+              "Damage:2": 3,
               "OreDict:8": ""
             }
           },
@@ -15783,58 +16044,86 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": -12,
+          "x:3": 6,
+          "y:3": -48,
           "id:3": 204,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": -12,
-          "y:3": 24,
+          "x:3": -30,
+          "y:3": -48,
           "id:3": 205,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
           "x:3": -12,
-          "y:3": 60,
+          "y:3": -12,
           "id:3": 206,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
           "x:3": -30,
-          "y:3": 96,
+          "y:3": 24,
           "id:3": 207,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
           "x:3": 6,
-          "y:3": 96,
+          "y:3": 24,
           "id:3": 208,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
           "x:3": 42,
-          "y:3": 96,
+          "y:3": 24,
           "id:3": 209,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
           "x:3": -66,
-          "y:3": 96,
+          "y:3": 24,
           "id:3": 210,
           "sizeY:3": 24
         },
         "7:10": {
           "sizeX:3": 24,
-          "x:3": 42,
-          "y:3": 132,
+          "x:3": 78,
+          "y:3": 24,
           "id:3": 211,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -30,
+          "y:3": 60,
+          "id:3": 212,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": 6,
+          "y:3": 60,
+          "id:3": 213,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": 42,
+          "y:3": 60,
+          "id:3": 214,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": -66,
+          "y:3": 60,
+          "id:3": 215,
           "sizeY:3": 24
         }
       },
@@ -16049,7 +16338,7 @@
           "visibility:8": "NORMAL",
           "name:8": "    Forestry Machines",
           "icon:10": {
-            "id:8": "minecraft:book",
+            "id:8": "forestry:engine_biogas",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
