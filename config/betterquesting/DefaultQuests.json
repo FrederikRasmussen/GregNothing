@@ -6005,7 +6005,7 @@
           "partysinglereward:1": 0,
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
-          "ismain:1": 0,
+          "ismain:1": 1,
           "repeat_relative:1": 1,
           "name:8": "Charcoal",
           "desc:8": "Place wood logs in a coke oven to convert them into charcoal."
@@ -12685,7 +12685,9 @@
     "194:10": {
       "questID:3": 194,
       "preRequisites:11": [
-        196
+        196,
+        216,
+        217
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -12703,7 +12705,7 @@
             "OreDict:8": ""
           },
           "globalshare:1": 0,
-          "questlogic:8": "AND",
+          "questlogic:8": "OR",
           "snd_update:8": "minecraft:entity.player.levelup",
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
@@ -12812,9 +12814,7 @@
     },
     "196:10": {
       "questID:3": 196,
-      "preRequisites:11": [
-        92
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -12822,7 +12822,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "gregtech:meta_item_1",
@@ -12836,8 +12836,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 1,
-          "name:8": "Low Conductivity Carbon Dust",
-          "desc:8": "Finely ground coal, lignite, charcoal, or other rich carbon dust."
+          "name:8": "Carbon Dust",
+          "desc:8": "Finely ground and pure carbon, useful for resistors."
         }
       },
       "tasks:9": {
@@ -12850,10 +12850,10 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:stone",
+              "id:8": "gregtech:meta_item_1",
               "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
+              "Damage:2": 2012,
+              "OreDict:8": "dustCarbon"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -14096,6 +14096,134 @@
           }
         }
       }
+    },
+    "216:10": {
+      "questID:3": 216,
+      "preRequisites:11": [
+        92
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 2101,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Charcoal Dust",
+          "desc:8": "Grinding charcoal into a dust lets you make resistors - an important component for electrical circuits!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 2101,
+              "OreDict:8": "dustCharcoal"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "217:10": {
+      "questID:3": 217,
+      "preRequisites:11": [
+        92
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "gregtech:meta_item_1",
+            "Count:3": 1,
+            "Damage:2": 2106,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 1,
+          "name:8": "Coal Dust",
+          "desc:8": "Pulverized coal. Used in resistors - or to make gunpowder."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "gregtech:meta_item_1",
+              "Count:3": 1,
+              "Damage:2": 2106,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "contenttweaker:coin",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -15177,30 +15305,30 @@
         },
         "59:10": {
           "sizeX:3": 24,
-          "x:3": -180,
-          "y:3": 132,
-          "id:3": 196,
-          "sizeY:3": 24
-        },
-        "60:10": {
-          "sizeX:3": 24,
           "x:3": 96,
           "y:3": -12,
           "id:3": 199,
           "sizeY:3": 24
         },
-        "61:10": {
+        "60:10": {
           "sizeX:3": 24,
           "x:3": 144,
           "y:3": -12,
           "id:3": 200,
           "sizeY:3": 24
         },
-        "62:10": {
+        "61:10": {
           "sizeX:3": 24,
           "x:3": 192,
           "y:3": -12,
           "id:3": 201,
+          "sizeY:3": 24
+        },
+        "62:10": {
+          "sizeX:3": 24,
+          "x:3": -180,
+          "y:3": 132,
+          "id:3": 216,
           "sizeY:3": 24
         }
       },
@@ -15926,7 +16054,7 @@
         "7:10": {
           "sizeX:3": 24,
           "x:3": -36,
-          "y:3": -108,
+          "y:3": -132,
           "id:3": 196,
           "sizeY:3": 24
         },
@@ -15935,6 +16063,20 @@
           "x:3": 60,
           "y:3": -108,
           "id:3": 198,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -54,
+          "y:3": -108,
+          "id:3": 216,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": -18,
+          "y:3": -108,
+          "id:3": 217,
           "sizeY:3": 24
         }
       },
