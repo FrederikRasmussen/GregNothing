@@ -1,3 +1,5 @@
+#priority -1
+
 import crafttweaker.item.IItemStack;
 import mods.gregtech.recipe.Recipe;
 import mods.gregtech.recipe.RecipeMap;

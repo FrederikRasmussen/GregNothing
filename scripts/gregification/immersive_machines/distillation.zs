@@ -1,3 +1,5 @@
+#priority -1
+
 import crafttweaker.liquid.ILiquidStack;
 import crafttweaker.item.IItemStack;
 import mods.gregtech.recipe.Recipe;
