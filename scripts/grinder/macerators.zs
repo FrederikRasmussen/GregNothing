@@ -2,9 +2,9 @@ recipes.addShaped(
     "crafttweaker_red_alloy_grinder",
     <contenttweaker:red_alloy_grinder>,
     [
-      [<ore:dustRedAlloy>, <ore:plateBronze>, <ore:dustRedAlloy>],
+      [<ore:dustSmallRedAlloy>, <ore:plateBronze>, <ore:dustSmallRedAlloy>],
       [<ore:plateBronze>, <ore:ingotRedAlloy>, <ore:plateBronze>],
-      [<ore:dustRedAlloy>, <ore:plateBronze>, <ore:dustRedAlloy>]
+      [<ore:dustSmallRedAlloy>, <ore:plateBronze>, <ore:dustSmallRedAlloy>]
     ]
 );
 
