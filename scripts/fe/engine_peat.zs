@@ -4,7 +4,7 @@ import mods.jei.JEI;
 JEI.addDescription(
   <forestry:engine_peat>,
   "Peat-Fired Engine",
-  "Produces power when provided with peat. The FE per tick is determined by the peat type. Ticks are always 4000 per bucket.",
+  "Produces power when provided with peat. The FE per tick is determined by the peat type. One item lasts 4000 ticks.",
   "",
   "",
   "",
