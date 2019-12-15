@@ -1,4 +1,24 @@
 import mods.forestry.engine.biogas;
+import mods.jei.JEI;
+
+JEI.addDescription(
+  <forestry:engine_biogas>,
+  "Biogas Engine",
+  "Produces power when provided with select organic liquids. The FE per tick is determined by the liquid. Ticks are always 4000 per bucket.",
+  "",
+  "",
+  "",
+  "32FE/tick:",
+  "  - Milk",
+  "  - Biomass",
+  "  - Liquid Protein",
+  "  - Any Juice (not implemented)",
+  "128FE/tick:",
+  "  - Fermented Biomass",
+  "  - Any Wine, Beer, Mead, or Ale (not implemented)",
+  "512FE/tick: Fermented Biomass with Toluene (not implemented)",
+  "2048FE/tick: Fermented Biomass with Tetranitromethane (not implemented)"
+);
 
 biogas.removeAll();
 

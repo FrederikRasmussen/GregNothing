@@ -1,4 +1,18 @@
 import mods.forestry.engine.peat;
+import mods.jei.JEI;
+
+JEI.addDescription(
+  <forestry:engine_peat>,
+  "Peat-Fired Engine",
+  "Produces power when provided with peat. The FE per tick is determined by the peat type. Ticks are always 4000 per bucket.",
+  "",
+  "",
+  "",
+  "32FE/tick: Peat",
+  "128FE/tick: Bituminous Peat",
+  "512FE/tick: Diesel-Soaked Peat (not implemented)",
+  "2048FE/tick: Toluene Peat (not implemented)"
+);
 
 peat.removeAll();
 # LV
