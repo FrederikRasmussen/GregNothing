@@ -5,7 +5,7 @@ recipes.addShaped(
   [
     [<immersiveengineering:wirecoil:6>, <gregtech:meta_item_1:32600>, <immersiveengineering:wirecoil:6>],
     [<ore:circuitBasic>, <immersiveengineering:metal_decoration0:6>, <ore:circuitBasic>],
-    [<immersiveengineering:wirecoil:6>, <minecraft:furnace>, <immersiveengineering:wirecoil:6>]
+    [<immersiveengineering:wirecoil:6>, <gregtech:machine:812>, <immersiveengineering:wirecoil:6>]
   ]
 );
 
@@ -16,7 +16,7 @@ recipes.addShaped(
   [
     [<immersiveengineering:wirecoil:6>, <gregtech:meta_item_1:32600>, <immersiveengineering:wirecoil:6>],
     [<ore:circuitBasic>, <immersiveengineering:metal_decoration0:6>, <ore:circuitBasic>],
-    [<immersiveengineering:wirecoil:6>, <gregtech:machine:812>, <immersiveengineering:wirecoil:6>]
+    [<immersiveengineering:wirecoil:6>, <minecraft:furnace>, <immersiveengineering:wirecoil:6>]
   ]
 );
 
