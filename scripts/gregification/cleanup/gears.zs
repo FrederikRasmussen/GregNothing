@@ -99,8 +99,6 @@ oreDict.get("gearLead").remove(<thermalfoundation:material:259>);
 JEI.removeAndHide(<thermalfoundation:material:259>);
 oreDict.get("gearAluminum").remove(<thermalfoundation:material:260>);
 JEI.removeAndHide(<thermalfoundation:material:260>);
-oreDict.get("gearNickel").remove(<thermalfoundation:material:261>);
-JEI.removeAndHide(<thermalfoundation:material:261>);
 oreDict.get("gearPlatinum").remove(<thermalfoundation:material:262>);
 JEI.removeAndHide(<thermalfoundation:material:262>);
 oreDict.get("gearIridium").remove(<thermalfoundation:material:263>);
@@ -142,3 +140,29 @@ switchGearTypeAndHideUnused(
   <forestry:gear_tin>,
   <gregtech:meta_item_2:26071>
 );
+
+val gearDict as IOreDictEntry = oreDict.get("gearNickel");
+gearDict.remove(<thermalfoundation:material:261>);
+JEI.removeAndHide(<thermalfoundation:material:261>);
+val gearMold = <gregtech:meta_item_1:32303>;
+val gearShape = <gregtech:meta_item_1:32372>;
+val solidifier = RecipeMap.getByName("fluid_solidifier");
+val alloySmelter = RecipeMap.getByName("alloy_smelter");
+val extruder = RecipeMap.getByName("extruder");
+val ingotDict as IOreDictEntry = oreDict.get("ingotNickel");
+val liquid = <liquid:nickel>;
+solidifier.findRecipe(
+  8,
+  [gearMold],
+  [liquid * 576]
+).remove();
+alloySmelter.findRecipe(
+  16,
+  [ingotDict.firstItem * 8, gearMold],
+  null
+).remove();
+extruder.findRecipe(
+  64,
+  [ingotDict.firstItem * 4, gearShape],
+  null
+).remove();
