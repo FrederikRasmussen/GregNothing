@@ -34,6 +34,9 @@ mods.jei.JEI.removeAndHide(<gregtech:machine:910>);
 mods.jei.JEI.removeAndHide(<gregtech:machine:920>);
 mods.jei.JEI.removeAndHide(<gregtech:machine:930>);
 
+# Precision Laser Engraver (LV version cannot perform any recipe)
+mods.jei.JEI.removeAndHide(<gregtech:machine:430>);
+
 ## Remove from LV quests:
 # - Quantum Chest
 # - Quantum Tank
