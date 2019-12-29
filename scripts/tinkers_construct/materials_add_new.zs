@@ -23,27 +23,27 @@ addMaterialSimple("titanium", <liquid:titanium>, 0xDCA0F0, 1600, 7.0, 3.0);
 addMaterialSimple("tungsten", <liquid:tungsten>, 0x323232, 2560, 7.0, 3.0);
 addMaterialSimple("uranium", <liquid:uranium>, 0x32F032, 512, 6.0, 3.0);
 addMaterialSimple("uranium235", <liquid:uranium235>, 0x46FA46, 512, 6.0, 3.0);
-addMaterialSimple("blue_topaz", <liquid:blue_topaz>, 0x0000FF, 256, 7.0, 3.0);
+addMaterialSimple("blue_topaz", <liquid:blue_topaz>, 0x0000FF, 256, 7.0, 3.0); // TODO: Fix liquid
 addMaterialSimple("brass", <liquid:brass>, 0xFFB400, 152, 8.0, 3.0);
 addMaterialSimple("bronze", <liquid:bronze>, 0xFF8000, 192, 6.0, 2.5);
 addMaterialSimple("diamond", <liquid:diamond>, 0xC8FFFF, 1280, 8.0, 3.0);
 addMaterialSimple("emerald", <liquid:emerald>, 0x50FF50, 368, 10.0, 2.0);
-addMaterialSimple("green_sapphire", <liquid:green_sapphire>, 0x64C882, 368, 8.0, 3.0);
+addMaterialSimple("green_sapphire", <liquid:green_sapphire>, 0x64C882, 368, 8.0, 3.0); // TODO: Fix liquid
 addMaterialSimple("invar", <liquid:invar>, 0xB4B478, 512, 7.0, 3.0);
 addMaterialSimple("magnalium", <liquid:magnalium>, 0xC8BEFF, 256, 6.0, 2.0);
 addMaterialSimple("pig_iron", <liquid:pig_iron>, 0xC8B4B4, 384, 6.0, 4.0);
-addMaterialSimple("ruby", <liquid:ruby>, 0xBD4949, 256, 8.5, 3.0);
-addMaterialSimple("sapphire", <liquid:sapphire>, 0x6464C8, 256, 7.5, 4.0);
+addMaterialSimple("ruby", <liquid:ruby>, 0xBD4949, 256, 8.5, 3.0); // TODO: Fix liquid
+addMaterialSimple("sapphire", <liquid:sapphire>, 0x6464C8, 256, 7.5, 4.0); // TODO: Fix liquid
 addMaterialSimple("stainless_steel", <liquid:stainless_steel>, 0xC8C8DC, 480, 7.0, 4.0);
 addMaterialSimple("steel", <liquid:steel>, 0x505050, 512, 6.0, 3.0);
-addMaterialSimple("tanzanite", <liquid:tanzanite>, 0x4000C8, 256, 7.0, 2.0);
-addMaterialSimple("topaz", <liquid:topaz>, 0xFF8000, 256, 7.0, 2.0);
+addMaterialSimple("tanzanite", <liquid:tanzanite>, 0x4000C8, 256, 7.0, 2.0); // TODO: Fix liquid
+addMaterialSimple("topaz", <liquid:topaz>, 0xFF8000, 256, 7.0, 2.0); // TODO: Fix liquid
 addMaterialSimple("ultimet", <liquid:ultimet>, 0xB4B4E6, 2048, 9.0, 4.0);
 addMaterialSimple("wrought_iron", <liquid:wrought_iron>, 0xC8B4B4, 384, 6.0, 3.5);
 addMaterialSimple("osmiridium", <liquid:osmiridium>, 0x6464FF, 3152, 9.0, 3.0);
-addMaterialSimple("olivine", <liquid:olivine>, 0x66FF66, 312, 7.5, 3.0);
-addMaterialSimple("opal", <liquid:opal>, 0x0000FF, 312, 7.5, 3.0);
-addMaterialSimple("amethyst", <liquid:amethyst>, 0xD232D2, 312, 7.5, 3.0);
+addMaterialSimple("olivine", <liquid:olivine>, 0x66FF66, 312, 7.5, 3.0); // TODO: Fix liquid
+addMaterialSimple("opal", <liquid:opal>, 0x0000FF, 312, 7.5, 3.0); // TODO: Fix liquid
+addMaterialSimple("amethyst", <liquid:amethyst>, 0xD232D2, 312, 7.5, 3.0); // TODO: Fix liquid
 addMaterialSimple("sterling_silver", <liquid:sterling_silver>, 0xFADCE1, 196, 13.0, 2.0);
 addMaterialSimple("rose_gold", <liquid:rose_gold>, 0xFFE61E, 152, 14.0, 2.0);
 addMaterialSimple("black_bronze", <liquid:black_bronze>, 0x64327D, 256, 12.0, 2.0);
@@ -54,11 +54,11 @@ addMaterialSimple("blue_steel", <liquid:blue_steel>, 0x64648C, 1024, 7.5, 5.0);
 addMaterialSimple("damascus_steel", <liquid:damascus_steel>, 0x6E6E6E, 1280, 8.0, 5.0);
 addMaterialSimple("tungsten_steel", <liquid:tungsten_steel>, 0x6464A0, 2560, 8.0, 4.0);
 addMaterialSimple("cobalt_brass", <liquid:cobalt_brass>, 0xB4B4A0, 256, 8.0, 2.0);
-addMaterialSimple("garnet_red", <liquid:garnet_red>, 0xC85050, 156, 7.5, 3.0);
-addMaterialSimple("garnet_yellow", <liquid:garnet_yellow>, 0xC8C850, 156, 7.5, 3.0);
-addMaterialSimple("vinteum", <liquid:vinteum>, 0x64C8FF, 128, 12.0, 3.0);
+addMaterialSimple("garnet_red", <liquid:garnet_red>, 0xC85050, 156, 7.5, 3.0); // TODO: Fix liquid
+addMaterialSimple("garnet_yellow", <liquid:garnet_yellow>, 0xC8C850, 156, 7.5, 3.0); // TODO: Fix liquid
+addMaterialSimple("vinteum", <liquid:vinteum>, 0x64C8FF, 128, 12.0, 3.0); // TODO: Fix liquid
 addMaterialSimple("tungsten_carbide", <liquid:tungsten_carbide>, 0x330066, 1280, 12.0, 4.0);
-addMaterialSimple("vanadium_magnetite", <liquid:vanadium_magnetite>, 0x23233C, 1920, 7.0, 3.0);
+addMaterialSimple("vanadium_magnetite", <liquid:vanadium_magnetite>, 0x23233C, 1920, 7.0, 3.0); // TODO: Fix liquid
 addMaterialSimple("hssg", <liquid:hssg>, 0x999900, 4000, 10.0, 5.5);
 addMaterialSimple("hsse", <liquid:hsse>, 0x336600, 5120, 10.0, 8.0);
 addMaterialSimple("hsss", <liquid:hsss>, 0x336600, 3000, 15.0, 7.0);
