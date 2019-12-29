@@ -1,0 +1,11 @@
+mods.jei.JEI.hideCategory("bioreactor_accepted_items");
+mods.jei.JEI.hideCategory("protein_reactor_accepted_items");
+mods.jei.JEI.hideCategory("gregtech:electric_sieve");
+mods.jei.JEI.hideCategory("gregtech:forming_press");
+mods.jei.JEI.hideCategory("gregtech:plasma_arc_furnace");
+mods.jei.JEI.hideCategory("gregtech:fermenter");
+mods.jei.JEI.hideCategory("gregtech:coke_oven");
+mods.jei.JEI.hideCategory("ie.alloysmelter");
+mods.jei.JEI.hideCategory("ie.blastfurnace");
+mods.jei.JEI.hideCategory("ie.blastfurnace.fuel");
+mods.jei.JEI.hideCategory("tconstruct.smeltery");
