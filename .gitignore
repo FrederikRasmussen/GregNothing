@@ -17,6 +17,7 @@ resourcepacks/
 saves/
 usercache.json
 usernamecache.json
+backups/
 
 # Config: Specific config files with no intention of change
 config/AppliedEnergistics2/Facades.cfg
